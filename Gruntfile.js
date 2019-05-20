@@ -1,5 +1,9 @@
 var pkg = require('./package.json');
 
+
+//var seleniumServer = require('selenium-server');
+var path = require('path');
+var chromedriver = require('chromedriver');
 var saucelabsUserName = process.env.Saucelabs_USER_NAME;
 var saucelabsAccessKey = process.env.Saucelabs_ACCESS_KEY;
 var browserstackUserName = process.env.CUP_Browserstack_USER_NAME;
@@ -46,7 +50,8 @@ module.exports = function (grunt) {
                                 "args" : ["start-maximized"]
                             }},
                         cli_args : {
-                            'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+                         //   'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+                         'webdriver.chrome.driver': chromedriver.path
                         }},
                     firefox: {selenium_host : '127.0.0.1',
                         selenium_port : 5554,
@@ -100,7 +105,8 @@ module.exports = function (grunt) {
                                // "args" : ['start-maximized']                                
                             }},
                         cli_args : {
-                            'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+                          //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+                          'webdriver.chrome.driver': chromedriver.path
                         }},
                     smokeTestSaucelabs : {
                         selenium_host: 'ondemand.saucelabs.com',

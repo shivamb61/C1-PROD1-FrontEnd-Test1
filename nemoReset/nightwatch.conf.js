@@ -1,3 +1,7 @@
+
+//var seleniumServer = require('selenium-server');
+var path = require('path');
+var chromedriver = require('chromedriver');
 module.exports = {
 
     selenium : {
@@ -6,7 +10,8 @@ module.exports = {
         host : '127.0.0.1',
         port : 5554,
         cli_args : {
-            'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+          //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+          'webdriver.chrome.driver': chromedriver.path
         }
     },
 
