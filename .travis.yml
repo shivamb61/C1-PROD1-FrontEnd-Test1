@@ -26,5 +26,11 @@ notifications:
   email:
     recipients:
       - shivam.bansal@comprotechnologies.com
+	  - arun.nair@comprotechnologies.com
+	  - manish.mehta@comprotechnologies.com
+	  - piyush.mehta@comprotechnologies.com
+	  - v-rohit.kumar@comprotechnologies.com
+	  - v-shubham.shekhar@comprotechnologies.com
+	  - v-salman.malik@comprotechnologies.com
     on_success: always
     on_failure: always
