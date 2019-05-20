@@ -1,0 +1,819 @@
+11:27:46.206 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to node_modules/chromedriver/lib/chromedriver/chromedriver.exe
+11:27:46.258 INFO - Java: Oracle Corporation 25.181-b13
+11:27:46.258 INFO - OS: Windows 10 10.0 amd64
+11:27:46.266 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+11:27:46.317 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:27:46.317 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+11:27:46.324 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+11:27:46.325 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+11:27:46.325 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+11:27:46.415 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5554/wd/hub
+11:27:46.416 INFO - Selenium Server is up and running
+11:27:47.606 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[headless]}, platform=ANY}]])
+11:27:47.615 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[headless]}, platform=ANY}]
+Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 24555
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+11:27:50.028 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[headless]}, platform=ANY}]]
+11:27:50.037 INFO - Executing: [get: https://www.cambridgeone.org/])
+11:27:56.141 INFO - Done: [get: https://www.cambridgeone.org/]
+11:27:56.150 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:27:56.181 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:27:56.187 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]])
+11:27:56.206 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]]
+11:27:56.211 INFO - Executing: [find element: By.cssSelector: #onboarding-header-login-btn])
+11:27:56.225 INFO - Done: [find element: By.cssSelector: #onboarding-header-login-btn]
+11:27:56.228 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #onboarding-header-login-btn]])
+11:27:56.278 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #onboarding-header-login-btn]]
+11:27:56.282 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+11:27:56.296 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+11:27:56.300 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:27:56.313 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:27:56.820 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:27:56.837 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:27:57.342 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:27:57.365 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:27:57.368 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]]])
+11:27:57.383 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]]]
+11:27:57.386 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="username"]])
+11:27:57.399 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="username"]]
+11:27:57.403 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]], [c, u, p, p, r, o, d, 1, a, u, t, o, i, n, s, t, 1, @, m, a, i, l, s, a, c, ., c, o, m]])
+11:27:57.487 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]], [c, u, p, p, r, o, d, 1, a, u, t, o, i, n, s, t, 1, @, m, a, i, l, s, a, c, ., c, o, m]]
+11:27:57.490 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="password"]])
+11:27:57.505 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="password"]]
+11:27:57.508 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]])
+11:27:57.557 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]]
+11:27:57.560 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[type="submit"]])
+11:27:57.573 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[type="submit"]]
+11:27:57.576 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[type="submit"]]])
+11:27:58.080 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[type="submit"]]]
+11:27:58.085 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:27:58.109 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:27:58.614 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:27:58.633 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:27:59.138 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:27:59.155 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:27:59.660 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:28:03.019 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:28:03.523 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:28:03.540 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:28:04.045 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:28:04.060 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:28:04.566 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:28:04.583 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:28:05.088 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:28:05.105 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:28:05.609 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:28:05.625 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:28:05.629 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]])
+11:28:05.652 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]]
+11:28:05.655 INFO - Executing: [find element: By.cssSelector: [qid="tDashboard-7-00"]])
+11:28:05.670 INFO - Done: [find element: By.cssSelector: [qid="tDashboard-7-00"]]
+11:28:05.673 INFO - Executing: [click: 5 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]])
+11:28:08.960 INFO - Done: [click: 5 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]]
+11:28:08.963 INFO - Executing: [find elements: By.cssSelector: .progress-info:nth-of-type(2)])
+11:28:08.993 INFO - Done: [find elements: By.cssSelector: .progress-info:nth-of-type(2)]
+11:28:09.500 INFO - Executing: [find elements: By.cssSelector: .progress-info:nth-of-type(2)])
+11:28:09.517 INFO - Done: [find elements: By.cssSelector: .progress-info:nth-of-type(2)]
+11:28:10.021 INFO - Executing: [find elements: By.cssSelector: .progress-info:nth-of-type(2)])
+11:28:10.043 INFO - Done: [find elements: By.cssSelector: .progress-info:nth-of-type(2)]
+11:28:10.045 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .progress-info:nth-of-type(2)]])
+11:28:10.076 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .progress-info:nth-of-type(2)]]
+11:28:10.080 INFO - Executing: [find element: By.cssSelector: .learners-container .detail .email])
+11:28:10.093 INFO - Done: [find element: By.cssSelector: .learners-container .detail .email]
+11:28:10.095 INFO - Executing: [click: 7 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .learners-container .detail .email]])
+11:28:10.237 INFO - Done: [click: 7 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .learners-container .detail .email]]
+11:28:10.240 INFO - Executing: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]])
+11:28:10.257 INFO - Done: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]
+11:28:10.760 INFO - Executing: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]])
+11:28:10.771 INFO - Done: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]
+11:28:11.273 INFO - Executing: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]])
+11:28:11.285 INFO - Done: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]
+11:28:11.788 INFO - Executing: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]])
+11:28:11.800 INFO - Done: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]
+11:28:11.802 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]])
+11:28:11.817 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]]
+11:28:11.820 INFO - Executing: [find element: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]])
+11:28:11.835 INFO - Done: [find element: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]
+11:28:11.837 INFO - Executing: [get text: 8 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]])
+11:28:11.858 INFO - Done: [get text: 8 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]]
+11:28:11.860 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
+11:28:11.874 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
+11:28:11.876 INFO - Executing: [click: 9 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #dropdownMenuLink]])
+11:28:11.927 INFO - Done: [click: 9 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #dropdownMenuLink]]
+11:28:11.930 INFO - Executing: [find elements: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]])
+11:28:11.946 INFO - Done: [find elements: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]]
+11:28:11.948 INFO - Executing: [is displayed: 10 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]])
+11:28:11.964 INFO - Done: [is displayed: 10 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]]
+11:28:11.967 INFO - Executing: [find element: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]])
+11:28:11.982 INFO - Done: [find element: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]]
+11:28:11.984 INFO - Executing: [click: 10 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]])
+11:28:12.031 INFO - Done: [click: 10 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]]
+11:28:12.034 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:12.047 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:12.551 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:12.562 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:13.064 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:13.404 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:13.907 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:13.925 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:13.928 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]])
+11:28:13.946 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]]
+11:28:13.949 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+11:28:13.966 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+11:28:13.969 INFO - Executing: [find element: By.cssSelector: #onboarding-header-login-btn])
+11:28:13.983 INFO - Done: [find element: By.cssSelector: #onboarding-header-login-btn]
+11:28:13.985 INFO - Executing: [click: 12 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #onboarding-header-login-btn]])
+11:28:14.055 INFO - Done: [click: 12 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #onboarding-header-login-btn]]
+11:28:14.060 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:28:14.078 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:28:14.581 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:28:14.591 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:28:14.593 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]]])
+11:28:14.612 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]]]
+11:28:14.614 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="username"]])
+11:28:14.628 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="username"]]
+11:28:14.631 INFO - Executing: [send keys: 13 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]], [c, u, p, p, r, o, d, 1, a, u, t, o, s, t, d, 1, @, m, a, i, l, s, a, c, ., c, o, m]])
+11:28:14.733 INFO - Done: [send keys: 13 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]], [c, u, p, p, r, o, d, 1, a, u, t, o, s, t, d, 1, @, m, a, i, l, s, a, c, ., c, o, m]]
+11:28:14.735 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="password"]])
+11:28:14.750 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="password"]]
+11:28:14.753 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]])
+11:28:14.823 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]]
+11:28:14.826 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[type="submit"]])
+11:28:14.841 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[type="submit"]]
+11:28:14.843 INFO - Executing: [click: 15 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[type="submit"]]])
+11:28:15.327 INFO - Done: [click: 15 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[type="submit"]]]
+11:28:15.330 INFO - Executing: [find elements: By.cssSelector: div.welcome-msg])
+11:28:15.354 INFO - Done: [find elements: By.cssSelector: div.welcome-msg]
+11:28:15.858 INFO - Executing: [find elements: By.cssSelector: div.welcome-msg])
+11:28:15.876 INFO - Done: [find elements: By.cssSelector: div.welcome-msg]
+11:28:16.379 INFO - Executing: [find elements: By.cssSelector: div.welcome-msg])
+11:28:17.110 INFO - Done: [find elements: By.cssSelector: div.welcome-msg]
+11:28:17.614 INFO - Executing: [find elements: By.cssSelector: div.welcome-msg])
+11:28:17.624 INFO - Done: [find elements: By.cssSelector: div.welcome-msg]
+11:28:18.126 INFO - Executing: [find elements: By.cssSelector: div.welcome-msg])
+11:28:18.136 INFO - Done: [find elements: By.cssSelector: div.welcome-msg]
+11:28:18.640 INFO - Executing: [find elements: By.cssSelector: div.welcome-msg])
+11:28:18.658 INFO - Done: [find elements: By.cssSelector: div.welcome-msg]
+11:28:18.661 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: div.welcome-msg]])
+11:28:18.679 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: div.welcome-msg]]
+11:28:18.684 INFO - Executing: [find elements: By.cssSelector: .courses .practice-image])
+11:28:18.699 INFO - Done: [find elements: By.cssSelector: .courses .practice-image]
+11:28:18.701 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .courses .practice-image]])
+11:28:18.718 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .courses .practice-image]]
+11:28:18.720 INFO - Executing: [find element: By.cssSelector: .courses .practice-image])
+11:28:18.734 INFO - Done: [find element: By.cssSelector: .courses .practice-image]
+11:28:18.736 INFO - Executing: [click: 17 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .courses .practice-image]])
+11:28:24.247 INFO - Done: [click: 17 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .courses .practice-image]]
+11:28:24.250 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:24.264 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:24.768 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:24.784 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:25.286 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:25.298 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:25.801 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:26.397 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:26.399 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:26.412 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:26.915 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:26.934 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:27.437 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:27.453 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:27.956 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:27.972 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:28.474 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:28.489 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:28.992 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:29.007 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:29.509 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:29.524 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:30.028 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:30.078 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:30.579 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:30.595 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:31.098 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:31.114 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:31.616 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:31.625 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:32.128 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:32.144 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:32.647 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:32.663 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:33.166 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:33.180 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:33.684 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:33.699 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:34.203 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:34.219 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:34.722 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:34.738 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:35.241 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:35.257 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:35.760 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:35.776 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:36.279 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:36.294 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:36.797 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:37.085 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:37.588 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:37.603 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:37.607 INFO - Executing: [find elements: By.cssSelector: [qid='cHeader-9']])
+11:28:37.630 INFO - Done: [find elements: By.cssSelector: [qid='cHeader-9']]
+11:28:37.632 INFO - Executing: [is displayed: 19 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-9']]])
+11:28:37.648 INFO - Done: [is displayed: 19 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-9']]]
+11:28:37.651 INFO - Executing: [find element: By.cssSelector: [qid='cHeader-9']])
+11:28:37.664 INFO - Done: [find element: By.cssSelector: [qid='cHeader-9']]
+11:28:37.666 INFO - Executing: [click: 19 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-9']]])
+11:28:37.713 INFO - Done: [click: 19 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-9']]]
+11:28:37.715 INFO - Executing: [find elements: By.xpath: //*[@title="Vocabulary: Sports 2"]])
+11:28:37.736 INFO - Done: [find elements: By.xpath: //*[@title="Vocabulary: Sports 2"]]
+11:28:37.738 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@title="Vocabulary: Sports 2"]]])
+11:28:37.752 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@title="Vocabulary: Sports 2"]]]
+11:28:37.755 INFO - Executing: [find element: By.xpath: //*[@title="Vocabulary: Sports 2"]])
+11:28:37.768 INFO - Done: [find element: By.xpath: //*[@title="Vocabulary: Sports 2"]]
+11:28:37.771 INFO - Executing: [click: 20 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@title="Vocabulary: Sports 2"]]])
+11:28:37.836 INFO - Done: [click: 20 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@title="Vocabulary: Sports 2"]]]
+11:28:37.840 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:38.293 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:38.295 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:38.324 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:38.827 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:38.841 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:39.343 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:39.358 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:39.861 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:39.878 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:40.380 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:40.396 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:40.900 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:40.916 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:41.418 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:41.433 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:41.937 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:41.982 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:42.485 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:42.591 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:43.094 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:43.114 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:43.118 INFO - Executing: [switch to frame: 0])
+11:28:43.142 INFO - Done: [switch to frame: 0]
+11:28:43.148 INFO - Executing: [find elements: By.xpath: //*[@id='content-0']//input])
+11:28:43.172 INFO - Done: [find elements: By.xpath: //*[@id='content-0']//input]
+11:28:43.175 INFO - Executing: [is displayed: 22 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-0']//input]])
+11:28:43.192 INFO - Done: [is displayed: 22 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-0']//input]]
+11:28:43.194 INFO - Executing: [find element: By.xpath: //*[@id='content-0']//input])
+11:28:43.210 INFO - Done: [find element: By.xpath: //*[@id='content-0']//input]
+11:28:43.212 INFO - Executing: [send keys: 22 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-0']//input], [a, t, h, l, e, t, e]])
+11:28:43.328 INFO - Done: [send keys: 22 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-0']//input], [a, t, h, l, e, t, e]]
+11:28:43.331 INFO - Executing: [switch to frame: default])
+11:28:43.340 INFO - Done: [switch to frame: default]
+11:28:43.343 INFO - Executing: [find elements: By.cssSelector: .checkAnsBtn])
+11:28:43.373 INFO - Done: [find elements: By.cssSelector: .checkAnsBtn]
+11:28:43.375 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:43.425 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:43.427 INFO - Executing: [find element: By.cssSelector: .checkAnsBtn])
+11:28:43.525 INFO - Done: [find element: By.cssSelector: .checkAnsBtn]
+11:28:43.527 INFO - Executing: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:43.672 INFO - Done: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:43.675 INFO - Executing: [find elements: By.cssSelector: .nextQuesBtn])
+11:28:43.746 INFO - Done: [find elements: By.cssSelector: .nextQuesBtn]
+11:28:43.748 INFO - Executing: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:43.793 INFO - Done: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:43.796 INFO - Executing: [find element: By.cssSelector: .nextQuesBtn])
+11:28:43.809 INFO - Done: [find element: By.cssSelector: .nextQuesBtn]
+11:28:43.811 INFO - Executing: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:43.876 INFO - Done: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:43.879 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:43.913 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:43.915 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:43.926 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:43.928 INFO - Executing: [switch to frame: 0])
+11:28:43.959 INFO - Done: [switch to frame: 0]
+11:28:43.962 INFO - Executing: [find elements: By.xpath: //*[@id='content-1']//input])
+11:28:44.001 INFO - Done: [find elements: By.xpath: //*[@id='content-1']//input]
+11:28:44.003 INFO - Executing: [is displayed: 25 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-1']//input]])
+11:28:44.021 INFO - Done: [is displayed: 25 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-1']//input]]
+11:28:44.523 INFO - Executing: [is displayed: 25 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-1']//input]])
+11:28:44.537 INFO - Done: [is displayed: 25 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-1']//input]]
+11:28:44.540 INFO - Executing: [find element: By.xpath: //*[@id='content-1']//input])
+11:28:44.555 INFO - Done: [find element: By.xpath: //*[@id='content-1']//input]
+11:28:44.557 INFO - Executing: [send keys: 25 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-1']//input], [c, o, u, r, t]])
+11:28:44.669 INFO - Done: [send keys: 25 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-1']//input], [c, o, u, r, t]]
+11:28:44.671 INFO - Executing: [switch to frame: default])
+11:28:44.675 INFO - Done: [switch to frame: default]
+11:28:44.677 INFO - Executing: [find elements: By.cssSelector: .checkAnsBtn])
+11:28:44.687 INFO - Done: [find elements: By.cssSelector: .checkAnsBtn]
+11:28:44.697 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:44.726 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:44.729 INFO - Executing: [find element: By.cssSelector: .checkAnsBtn])
+11:28:44.821 INFO - Done: [find element: By.cssSelector: .checkAnsBtn]
+11:28:44.826 INFO - Executing: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:44.880 INFO - Done: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:44.883 INFO - Executing: [find elements: By.cssSelector: .nextQuesBtn])
+11:28:44.896 INFO - Done: [find elements: By.cssSelector: .nextQuesBtn]
+11:28:44.899 INFO - Executing: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:44.910 INFO - Done: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:44.912 INFO - Executing: [find element: By.cssSelector: .nextQuesBtn])
+11:28:44.923 INFO - Done: [find element: By.cssSelector: .nextQuesBtn]
+11:28:44.924 INFO - Executing: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:44.972 INFO - Done: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:44.974 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:45.110 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:45.112 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:45.131 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:45.133 INFO - Executing: [switch to frame: 0])
+11:28:45.142 INFO - Done: [switch to frame: 0]
+11:28:45.146 INFO - Executing: [find elements: By.xpath: //*[@id='content-2']//input])
+11:28:45.162 INFO - Done: [find elements: By.xpath: //*[@id='content-2']//input]
+11:28:45.164 INFO - Executing: [is displayed: 26 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-2']//input]])
+11:28:45.180 INFO - Done: [is displayed: 26 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-2']//input]]
+11:28:45.682 INFO - Executing: [is displayed: 26 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-2']//input]])
+11:28:45.692 INFO - Done: [is displayed: 26 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-2']//input]]
+11:28:45.694 INFO - Executing: [find element: By.xpath: //*[@id='content-2']//input])
+11:28:45.707 INFO - Done: [find element: By.xpath: //*[@id='content-2']//input]
+11:28:45.709 INFO - Executing: [send keys: 26 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-2']//input], [f, a, n]])
+11:28:45.799 INFO - Done: [send keys: 26 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-2']//input], [f, a, n]]
+11:28:45.803 INFO - Executing: [switch to frame: default])
+11:28:45.807 INFO - Done: [switch to frame: default]
+11:28:45.809 INFO - Executing: [find elements: By.cssSelector: .checkAnsBtn])
+11:28:45.818 INFO - Done: [find elements: By.cssSelector: .checkAnsBtn]
+11:28:45.820 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:45.829 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:45.831 INFO - Executing: [find element: By.cssSelector: .checkAnsBtn])
+11:28:45.840 INFO - Done: [find element: By.cssSelector: .checkAnsBtn]
+11:28:45.842 INFO - Executing: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:45.959 INFO - Done: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:45.962 INFO - Executing: [find elements: By.cssSelector: .nextQuesBtn])
+11:28:45.977 INFO - Done: [find elements: By.cssSelector: .nextQuesBtn]
+11:28:45.979 INFO - Executing: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:45.989 INFO - Done: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:45.991 INFO - Executing: [find element: By.cssSelector: .nextQuesBtn])
+11:28:46.001 INFO - Done: [find element: By.cssSelector: .nextQuesBtn]
+11:28:46.002 INFO - Executing: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:46.165 INFO - Done: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:46.168 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:46.203 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:46.206 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:46.218 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:46.222 INFO - Executing: [switch to frame: 0])
+11:28:46.229 INFO - Done: [switch to frame: 0]
+11:28:46.232 INFO - Executing: [find elements: By.xpath: //*[@id='content-3']//input])
+11:28:46.245 INFO - Done: [find elements: By.xpath: //*[@id='content-3']//input]
+11:28:46.247 INFO - Executing: [is displayed: 27 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-3']//input]])
+11:28:46.279 INFO - Done: [is displayed: 27 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-3']//input]]
+11:28:46.782 INFO - Executing: [is displayed: 27 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-3']//input]])
+11:28:46.800 INFO - Done: [is displayed: 27 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-3']//input]]
+11:28:46.804 INFO - Executing: [find element: By.xpath: //*[@id='content-3']//input])
+11:28:46.823 INFO - Done: [find element: By.xpath: //*[@id='content-3']//input]
+11:28:46.825 INFO - Executing: [send keys: 27 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-3']//input], [f, i, e, l, d]])
+11:28:46.924 INFO - Done: [send keys: 27 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-3']//input], [f, i, e, l, d]]
+11:28:46.927 INFO - Executing: [switch to frame: default])
+11:28:46.932 INFO - Done: [switch to frame: default]
+11:28:46.935 INFO - Executing: [find elements: By.cssSelector: .checkAnsBtn])
+11:28:46.944 INFO - Done: [find elements: By.cssSelector: .checkAnsBtn]
+11:28:46.946 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:46.956 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:46.958 INFO - Executing: [find element: By.cssSelector: .checkAnsBtn])
+11:28:46.969 INFO - Done: [find element: By.cssSelector: .checkAnsBtn]
+11:28:46.970 INFO - Executing: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:47.117 INFO - Done: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:47.121 INFO - Executing: [find elements: By.cssSelector: .nextQuesBtn])
+11:28:47.133 INFO - Done: [find elements: By.cssSelector: .nextQuesBtn]
+11:28:47.139 INFO - Executing: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:47.159 INFO - Done: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:47.161 INFO - Executing: [find element: By.cssSelector: .nextQuesBtn])
+11:28:47.172 INFO - Done: [find element: By.cssSelector: .nextQuesBtn]
+11:28:47.174 INFO - Executing: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:47.227 INFO - Done: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:47.229 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:47.294 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:47.296 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:47.321 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:47.323 INFO - Executing: [switch to frame: 0])
+11:28:47.359 INFO - Done: [switch to frame: 0]
+11:28:47.362 INFO - Executing: [find elements: By.xpath: //*[@id='content-4']//input])
+11:28:47.376 INFO - Done: [find elements: By.xpath: //*[@id='content-4']//input]
+11:28:47.378 INFO - Executing: [is displayed: 28 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-4']//input]])
+11:28:47.394 INFO - Done: [is displayed: 28 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-4']//input]]
+11:28:47.896 INFO - Executing: [is displayed: 28 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-4']//input]])
+11:28:47.907 INFO - Done: [is displayed: 28 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-4']//input]]
+11:28:47.909 INFO - Executing: [find element: By.xpath: //*[@id='content-4']//input])
+11:28:47.924 INFO - Done: [find element: By.xpath: //*[@id='content-4']//input]
+11:28:47.927 INFO - Executing: [send keys: 28 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-4']//input], [g, o, a, l]])
+11:28:48.024 INFO - Done: [send keys: 28 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-4']//input], [g, o, a, l]]
+11:28:48.027 INFO - Executing: [switch to frame: default])
+11:28:48.032 INFO - Done: [switch to frame: default]
+11:28:48.035 INFO - Executing: [find elements: By.cssSelector: .checkAnsBtn])
+11:28:48.044 INFO - Done: [find elements: By.cssSelector: .checkAnsBtn]
+11:28:48.046 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:48.056 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:48.058 INFO - Executing: [find element: By.cssSelector: .checkAnsBtn])
+11:28:48.077 INFO - Done: [find element: By.cssSelector: .checkAnsBtn]
+11:28:48.078 INFO - Executing: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:48.209 INFO - Done: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:48.212 INFO - Executing: [find elements: By.cssSelector: .nextQuesBtn])
+11:28:48.239 INFO - Done: [find elements: By.cssSelector: .nextQuesBtn]
+11:28:48.241 INFO - Executing: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:48.256 INFO - Done: [is displayed: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:48.260 INFO - Executing: [find element: By.cssSelector: .nextQuesBtn])
+11:28:48.271 INFO - Done: [find element: By.cssSelector: .nextQuesBtn]
+11:28:48.273 INFO - Executing: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]])
+11:28:48.376 INFO - Done: [click: 24 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .nextQuesBtn]]
+11:28:48.379 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:48.421 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:48.422 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:48.432 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:48.434 INFO - Executing: [switch to frame: 0])
+11:28:48.444 INFO - Done: [switch to frame: 0]
+11:28:48.447 INFO - Executing: [find elements: By.xpath: //*[@id='content-5']//input])
+11:28:48.462 INFO - Done: [find elements: By.xpath: //*[@id='content-5']//input]
+11:28:48.463 INFO - Executing: [is displayed: 29 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-5']//input]])
+11:28:48.491 INFO - Done: [is displayed: 29 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-5']//input]]
+11:28:48.994 INFO - Executing: [is displayed: 29 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-5']//input]])
+11:28:49.012 INFO - Done: [is displayed: 29 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-5']//input]]
+11:28:49.016 INFO - Executing: [find element: By.xpath: //*[@id='content-5']//input])
+11:28:49.040 INFO - Done: [find element: By.xpath: //*[@id='content-5']//input]
+11:28:49.042 INFO - Executing: [send keys: 29 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-5']//input], [g, y, m]])
+11:28:49.117 INFO - Done: [send keys: 29 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='content-5']//input], [g, y, m]]
+11:28:49.120 INFO - Executing: [switch to frame: default])
+11:28:49.128 INFO - Done: [switch to frame: default]
+11:28:49.131 INFO - Executing: [find elements: By.cssSelector: .checkAnsBtn])
+11:28:49.141 INFO - Done: [find elements: By.cssSelector: .checkAnsBtn]
+11:28:49.143 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:49.153 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:49.156 INFO - Executing: [find element: By.cssSelector: .checkAnsBtn])
+11:28:49.166 INFO - Done: [find element: By.cssSelector: .checkAnsBtn]
+11:28:49.168 INFO - Executing: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]])
+11:28:49.278 INFO - Done: [click: 23 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .checkAnsBtn]]
+11:28:49.280 INFO - Executing: [find elements: By.cssSelector: .submitBtn])
+11:28:49.303 INFO - Done: [find elements: By.cssSelector: .submitBtn]
+11:28:49.305 INFO - Executing: [is displayed: 30 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .submitBtn]])
+11:28:49.326 INFO - Done: [is displayed: 30 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .submitBtn]]
+11:28:49.328 INFO - Executing: [find element: By.cssSelector: .submitBtn])
+11:28:49.385 INFO - Done: [find element: By.cssSelector: .submitBtn]
+11:28:49.386 INFO - Executing: [click: 30 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .submitBtn]])
+11:28:49.447 INFO - Done: [click: 30 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .submitBtn]]
+11:28:49.449 INFO - Executing: [find elements: By.cssSelector: .button-visible .nextActivityBtn])
+11:28:49.502 INFO - Done: [find elements: By.cssSelector: .button-visible .nextActivityBtn]
+11:28:50.005 INFO - Executing: [find elements: By.cssSelector: .button-visible .nextActivityBtn])
+11:28:50.016 INFO - Done: [find elements: By.cssSelector: .button-visible .nextActivityBtn]
+11:28:50.019 INFO - Executing: [is displayed: 31 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .button-visible .nextActivityBtn]])
+11:28:50.034 INFO - Done: [is displayed: 31 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .button-visible .nextActivityBtn]]
+11:28:50.037 INFO - Executing: [find elements: By.cssSelector: #content-course-ext>iframe])
+11:28:50.046 INFO - Done: [find elements: By.cssSelector: #content-course-ext>iframe]
+11:28:50.048 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]])
+11:28:50.058 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-course-ext>iframe]]
+11:28:50.060 INFO - Executing: [switch to frame: 0])
+11:28:50.072 INFO - Done: [switch to frame: 0]
+11:28:50.076 INFO - Executing: [find elements: By.cssSelector: #content-6 .score-progress canvas])
+11:28:50.092 INFO - Done: [find elements: By.cssSelector: #content-6 .score-progress canvas]
+11:28:50.094 INFO - Executing: [is displayed: 32 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-6 .score-progress canvas]])
+11:28:50.111 INFO - Done: [is displayed: 32 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #content-6 .score-progress canvas]]
+11:28:50.113 INFO - Executing: [switch to frame: default])
+11:28:50.118 INFO - Done: [switch to frame: default]
+11:28:50.120 INFO - Executing: [find elements: By.cssSelector: [qid='cHeader-9']])
+11:28:50.134 INFO - Done: [find elements: By.cssSelector: [qid='cHeader-9']]
+11:28:50.136 INFO - Executing: [is displayed: 19 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-9']]])
+11:28:50.152 INFO - Done: [is displayed: 19 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-9']]]
+11:28:50.154 INFO - Executing: [find element: By.cssSelector: [qid='cHeader-9']])
+11:28:50.168 INFO - Done: [find element: By.cssSelector: [qid='cHeader-9']]
+11:28:50.169 INFO - Executing: [click: 19 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-9']]])
+11:28:50.213 INFO - Done: [click: 19 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-9']]]
+11:28:50.215 INFO - Executing: [find elements: By.xpath: //span[text()="Vocabulary: Sports 2"]/../..//span[contains(@class,"activity-score")]])
+11:28:50.237 INFO - Done: [find elements: By.xpath: //span[text()="Vocabulary: Sports 2"]/../..//span[contains(@class,"activity-score")]]
+11:28:50.240 INFO - Executing: [is displayed: 33 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //span[text()="Vocabulary: Sports 2"]/../..//span[contains(@class,"activity-score")]]])
+11:28:50.255 INFO - Done: [is displayed: 33 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //span[text()="Vocabulary: Sports 2"]/../..//span[contains(@class,"activity-score")]]]
+11:28:50.257 INFO - Executing: [find element: By.xpath: //span[text()="Vocabulary: Sports 2"]/../..//span[contains(@class,"activity-score")]])
+11:28:50.270 INFO - Done: [find element: By.xpath: //span[text()="Vocabulary: Sports 2"]/../..//span[contains(@class,"activity-score")]]
+11:28:50.272 INFO - Executing: [get text: 33 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //span[text()="Vocabulary: Sports 2"]/../..//span[contains(@class,"activity-score")]]])
+11:28:50.291 INFO - Done: [get text: 33 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //span[text()="Vocabulary: Sports 2"]/../..//span[contains(@class,"activity-score")]]]
+11:28:50.293 INFO - Executing: [find elements: By.xpath: //span[text()="Vocabulary: Sports 2"]/../..//i])
+11:28:50.306 INFO - Done: [find elements: By.xpath: //span[text()="Vocabulary: Sports 2"]/../..//i]
+11:28:50.307 INFO - Executing: [is displayed: 34 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //span[text()="Vocabulary: Sports 2"]/../..//i]])
+11:28:50.323 INFO - Done: [is displayed: 34 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //span[text()="Vocabulary: Sports 2"]/../..//i]]
+11:28:55.364 INFO - Executing: [take screenshot])
+11:28:55.638 INFO - Done: [take screenshot]
+11:28:55.651 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
+11:28:55.666 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
+11:28:55.669 INFO - Executing: [click: 35 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #dropdownMenuLink]])
+11:28:55.718 INFO - Done: [click: 35 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #dropdownMenuLink]]
+11:28:55.720 INFO - Executing: [find elements: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]])
+11:28:55.735 INFO - Done: [find elements: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]]
+11:28:55.736 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]])
+11:28:55.751 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]]
+11:28:55.753 INFO - Executing: [find element: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]])
+11:28:55.766 INFO - Done: [find element: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]]
+11:28:55.768 INFO - Executing: [click: 36 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]])
+11:28:55.826 INFO - Done: [click: 36 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]]
+11:28:55.828 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:55.857 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:56.360 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:56.371 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:56.874 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:56.889 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:57.391 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:57.414 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:57.917 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:57.933 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:58.436 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:58.744 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:59.248 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:28:59.265 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:28:59.268 INFO - Executing: [is displayed: 37 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]])
+11:28:59.291 INFO - Done: [is displayed: 37 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]]
+11:28:59.294 INFO - Executing: [find element: By.cssSelector: #onboarding-header-login-btn])
+11:28:59.307 INFO - Done: [find element: By.cssSelector: #onboarding-header-login-btn]
+11:28:59.308 INFO - Executing: [click: 38 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #onboarding-header-login-btn]])
+11:28:59.356 INFO - Done: [click: 38 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #onboarding-header-login-btn]]
+11:28:59.360 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+11:28:59.396 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+11:28:59.399 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:28:59.411 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:28:59.913 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:28:59.941 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:29:00.445 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:29:00.459 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:29:00.461 INFO - Executing: [is displayed: 39 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]]])
+11:29:00.478 INFO - Done: [is displayed: 39 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]]]
+11:29:00.480 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="username"]])
+11:29:00.493 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="username"]]
+11:29:00.496 INFO - Executing: [send keys: 39 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]], [c, u, p, p, r, o, d, 1, a, u, t, o, i, n, s, t, 1, @, m, a, i, l, s, a, c, ., c, o, m]])
+11:29:00.576 INFO - Done: [send keys: 39 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]], [c, u, p, p, r, o, d, 1, a, u, t, o, i, n, s, t, 1, @, m, a, i, l, s, a, c, ., c, o, m]]
+11:29:00.578 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="password"]])
+11:29:00.591 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="password"]]
+11:29:00.593 INFO - Executing: [send keys: 40 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]])
+11:29:00.642 INFO - Done: [send keys: 40 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]]
+11:29:00.644 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[type="submit"]])
+11:29:00.658 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[type="submit"]]
+11:29:00.660 INFO - Executing: [click: 41 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[type="submit"]]])
+11:29:01.037 INFO - Done: [click: 41 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[type="submit"]]]
+11:29:01.040 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:01.052 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:01.555 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:01.565 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:02.068 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:02.618 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:03.120 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:03.135 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:03.639 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:03.654 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:04.157 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:04.167 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:04.169 INFO - Executing: [is displayed: 42 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]])
+11:29:04.183 INFO - Done: [is displayed: 42 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]]
+11:29:04.185 INFO - Executing: [find element: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:04.197 INFO - Done: [find element: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:04.199 INFO - Executing: [click: 42 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]])
+11:29:05.268 INFO - Done: [click: 42 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]]
+11:29:05.271 INFO - Executing: [find elements: By.cssSelector: .progress-info:nth-of-type(2)])
+11:29:05.303 INFO - Done: [find elements: By.cssSelector: .progress-info:nth-of-type(2)]
+11:29:05.807 INFO - Executing: [find elements: By.cssSelector: .progress-info:nth-of-type(2)])
+11:29:05.822 INFO - Done: [find elements: By.cssSelector: .progress-info:nth-of-type(2)]
+11:29:06.326 INFO - Executing: [find elements: By.cssSelector: .progress-info:nth-of-type(2)])
+11:29:06.343 INFO - Done: [find elements: By.cssSelector: .progress-info:nth-of-type(2)]
+11:29:06.345 INFO - Executing: [is displayed: 43 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .progress-info:nth-of-type(2)]])
+11:29:06.361 INFO - Done: [is displayed: 43 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .progress-info:nth-of-type(2)]]
+11:29:06.363 INFO - Executing: [find element: By.cssSelector: .learners-container .detail .email])
+11:29:06.395 INFO - Done: [find element: By.cssSelector: .learners-container .detail .email]
+11:29:06.396 INFO - Executing: [click: 44 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .learners-container .detail .email]])
+11:29:06.451 INFO - Done: [click: 44 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .learners-container .detail .email]]
+11:29:06.453 INFO - Executing: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]])
+11:29:06.466 INFO - Done: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]
+11:29:06.969 INFO - Executing: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]])
+11:29:06.996 INFO - Done: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]
+11:29:07.500 INFO - Executing: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]])
+11:29:07.510 INFO - Done: [find elements: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]
+11:29:07.512 INFO - Executing: [is displayed: 45 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]])
+11:29:07.525 INFO - Done: [is displayed: 45 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]]
+11:29:07.528 INFO - Executing: [find element: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]])
+11:29:07.540 INFO - Done: [find element: By.xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]
+11:29:07.542 INFO - Executing: [get text: 45 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]])
+11:29:07.560 INFO - Done: [get text: 45 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[@id='lessonCollapse00']/div[2]//*[contains(@class,'analytics-data')][3]]]
+11:29:07.585 INFO - Executing: [take screenshot])
+11:29:07.833 INFO - Done: [take screenshot]
+11:29:07.843 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
+11:29:07.855 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
+11:29:07.857 INFO - Executing: [click: 46 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #dropdownMenuLink]])
+11:29:07.906 INFO - Done: [click: 46 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #dropdownMenuLink]]
+11:29:07.908 INFO - Executing: [find elements: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]])
+11:29:07.922 INFO - Done: [find elements: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]]
+11:29:07.923 INFO - Executing: [is displayed: 47 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]])
+11:29:07.938 INFO - Done: [is displayed: 47 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]]
+11:29:07.941 INFO - Executing: [find element: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]])
+11:29:07.953 INFO - Done: [find element: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]]
+11:29:07.954 INFO - Executing: [click: 47 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]])
+11:29:08.000 INFO - Done: [click: 47 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]]
+11:29:08.003 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:29:08.014 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:29:08.517 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:29:08.527 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:29:09.030 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:29:09.484 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:29:09.988 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:29:10.005 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:29:10.007 INFO - Executing: [is displayed: 48 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]])
+11:29:10.032 INFO - Done: [is displayed: 48 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]]
+11:29:10.035 INFO - Executing: [find element: By.cssSelector: #onboarding-header-login-btn])
+11:29:10.057 INFO - Done: [find element: By.cssSelector: #onboarding-header-login-btn]
+11:29:10.058 INFO - Executing: [click: 49 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #onboarding-header-login-btn]])
+11:29:10.104 INFO - Done: [click: 49 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #onboarding-header-login-btn]]
+11:29:10.106 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+11:29:10.142 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+11:29:10.145 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:29:10.157 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:29:10.659 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+11:29:10.669 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+11:29:10.671 INFO - Executing: [is displayed: 50 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]]])
+11:29:10.684 INFO - Done: [is displayed: 50 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]]]
+11:29:10.686 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="username"]])
+11:29:10.699 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="username"]]
+11:29:10.701 INFO - Executing: [send keys: 50 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]], [c, u, p, p, r, o, d, 1, a, u, t, o, i, n, s, t, 1, @, m, a, i, l, s, a, c, ., c, o, m]])
+11:29:10.781 INFO - Done: [send keys: 50 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="username"]], [c, u, p, p, r, o, d, 1, a, u, t, o, i, n, s, t, 1, @, m, a, i, l, s, a, c, ., c, o, m]]
+11:29:10.783 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="password"]])
+11:29:10.797 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="password"]]
+11:29:10.799 INFO - Executing: [send keys: 51 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]])
+11:29:10.848 INFO - Done: [send keys: 51 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]]
+11:29:10.850 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[type="submit"]])
+11:29:10.863 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[type="submit"]]
+11:29:10.865 INFO - Executing: [click: 52 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[type="submit"]]])
+11:29:11.296 INFO - Done: [click: 52 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #gigya-login-form input[type="submit"]]]
+11:29:11.298 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:11.307 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:11.812 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:11.828 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:12.331 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:12.654 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:13.157 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:13.172 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:13.675 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:13.684 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:14.188 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:14.317 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:14.319 INFO - Executing: [is displayed: 53 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]])
+11:29:14.355 INFO - Done: [is displayed: 53 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]]
+11:29:14.357 INFO - Executing: [refresh])
+11:29:14.414 INFO - Done: [refresh]
+11:29:14.417 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:15.078 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:15.581 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:15.593 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:16.098 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:16.165 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:16.167 INFO - Executing: [is displayed: 54 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]])
+11:29:16.195 INFO - Done: [is displayed: 54 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]]
+11:29:16.197 INFO - Executing: [find element: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:16.233 INFO - Done: [find element: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:16.235 INFO - Executing: [click: 54 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]])
+11:29:17.643 INFO - Done: [click: 54 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]]
+11:29:17.645 INFO - Executing: [find elements: By.cssSelector: [qid="cView-23"]])
+11:29:17.676 INFO - Done: [find elements: By.cssSelector: [qid="cView-23"]]
+11:29:18.181 INFO - Executing: [find elements: By.cssSelector: [qid="cView-23"]])
+11:29:18.196 INFO - Done: [find elements: By.cssSelector: [qid="cView-23"]]
+11:29:18.699 INFO - Executing: [find elements: By.cssSelector: [qid="cView-23"]])
+11:29:18.726 INFO - Done: [find elements: By.cssSelector: [qid="cView-23"]]
+11:29:18.728 INFO - Executing: [is displayed: 55 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-23"]]])
+11:29:18.750 INFO - Done: [is displayed: 55 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-23"]]]
+11:29:18.751 INFO - Executing: [refresh])
+11:29:18.798 INFO - Done: [refresh]
+11:29:18.800 INFO - Executing: [find elements: By.cssSelector: [qid="cView-23"]])
+11:29:19.389 INFO - Done: [find elements: By.cssSelector: [qid="cView-23"]]
+11:29:19.891 INFO - Executing: [find elements: By.cssSelector: [qid="cView-23"]])
+11:29:19.906 INFO - Done: [find elements: By.cssSelector: [qid="cView-23"]]
+11:29:20.410 INFO - Executing: [find elements: By.cssSelector: [qid="cView-23"]])
+11:29:20.428 INFO - Done: [find elements: By.cssSelector: [qid="cView-23"]]
+11:29:20.430 INFO - Executing: [is displayed: 56 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-23"]]])
+11:29:20.448 INFO - Done: [is displayed: 56 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-23"]]]
+11:29:20.450 INFO - Executing: [find element: By.cssSelector: [qid="cView-23"]])
+11:29:20.464 INFO - Done: [find element: By.cssSelector: [qid="cView-23"]]
+11:29:20.466 INFO - Executing: [click: 56 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-23"]]])
+11:29:20.532 INFO - Done: [click: 56 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-23"]]]
+11:29:20.534 INFO - Executing: [find elements: By.cssSelector: [qid="cView-28"]])
+11:29:20.548 INFO - Done: [find elements: By.cssSelector: [qid="cView-28"]]
+11:29:20.549 INFO - Executing: [is displayed: 57 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-28"]]])
+11:29:20.562 INFO - Done: [is displayed: 57 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-28"]]]
+11:29:21.065 INFO - Executing: [is displayed: 57 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-28"]]])
+11:29:21.083 INFO - Done: [is displayed: 57 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-28"]]]
+11:29:21.087 INFO - Executing: [find elements: By.cssSelector: [for="teacherAddModal0"]])
+11:29:21.110 INFO - Done: [find elements: By.cssSelector: [for="teacherAddModal0"]]
+11:29:21.612 INFO - Executing: [find elements: By.cssSelector: [for="teacherAddModal0"]])
+11:29:21.620 INFO - Done: [find elements: By.cssSelector: [for="teacherAddModal0"]]
+11:29:21.627 INFO - Executing: [is displayed: 58 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [for="teacherAddModal0"]]])
+11:29:21.640 INFO - Done: [is displayed: 58 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [for="teacherAddModal0"]]]
+11:29:21.642 INFO - Executing: [find element: By.cssSelector: [for="teacherAddModal0"]])
+11:29:21.654 INFO - Done: [find element: By.cssSelector: [for="teacherAddModal0"]]
+11:29:21.656 INFO - Executing: [mousemove: 58 true])
+11:29:21.673 INFO - Done: [mousemove: 58 true]
+11:29:21.675 INFO - Executing: [find element: By.cssSelector: [for="teacherAddModal0"]])
+11:29:21.683 INFO - Done: [find element: By.cssSelector: [for="teacherAddModal0"]]
+11:29:21.684 INFO - Executing: [click: 58 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [for="teacherAddModal0"]]])
+11:29:21.743 INFO - Done: [click: 58 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [for="teacherAddModal0"]]]
+11:29:21.746 INFO - Executing: [find element: By.cssSelector: [qid="cView-28"]])
+11:29:21.759 INFO - Done: [find element: By.cssSelector: [qid="cView-28"]]
+11:29:21.761 INFO - Executing: [click: 57 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-28"]]])
+11:29:21.823 INFO - Done: [click: 57 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-28"]]]
+11:29:21.827 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]])
+11:29:21.842 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]]
+11:29:22.345 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]])
+11:29:22.360 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]]
+11:29:22.863 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]])
+11:29:22.875 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]]
+11:29:23.377 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]])
+11:29:23.391 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]]
+11:29:23.893 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]])
+11:29:23.905 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]]
+11:29:24.408 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]])
+11:29:24.425 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]]
+11:29:24.928 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]])
+11:29:24.939 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]]
+11:29:25.441 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]])
+11:29:25.461 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]]
+11:29:25.964 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]])
+11:29:25.975 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1  Teacher successfully added")]]
+11:29:25.977 INFO - Executing: [is displayed: 59 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[contains(text(),"1  Teacher successfully added")]]])
+11:29:25.991 INFO - Done: [is displayed: 59 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[contains(text(),"1  Teacher successfully added")]]]
+11:29:27.994 INFO - Executing: [find elements: By.cssSelector: [qid='cHeader-1'] [src*='cup-logo']])
+11:29:28.018 INFO - Done: [find elements: By.cssSelector: [qid='cHeader-1'] [src*='cup-logo']]
+11:29:28.020 INFO - Executing: [is displayed: 60 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-1'] [src*='cup-logo']]])
+11:29:28.036 INFO - Done: [is displayed: 60 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-1'] [src*='cup-logo']]]
+11:29:28.038 INFO - Executing: [find element: By.cssSelector: [qid='cHeader-1'] [src*='cup-logo']])
+11:29:28.050 INFO - Done: [find element: By.cssSelector: [qid='cHeader-1'] [src*='cup-logo']]
+11:29:28.052 INFO - Executing: [click: 60 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-1'] [src*='cup-logo']]])
+11:29:28.731 INFO - Done: [click: 60 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid='cHeader-1'] [src*='cup-logo']]]
+11:29:28.733 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:28.765 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:29.267 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:29.282 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:29.786 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:29.801 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:30.304 INFO - Executing: [find elements: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:30.322 INFO - Done: [find elements: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:30.324 INFO - Executing: [is displayed: 61 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]])
+11:29:30.349 INFO - Done: [is displayed: 61 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]]
+11:29:30.353 INFO - Executing: [find element: By.cssSelector: [qid="tDashboard-7-00"]])
+11:29:30.375 INFO - Done: [find element: By.cssSelector: [qid="tDashboard-7-00"]]
+11:29:30.378 INFO - Executing: [click: 61 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]])
+11:29:31.084 INFO - Done: [click: 61 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="tDashboard-7-00"]]]
+11:29:31.088 INFO - Executing: [find elements: By.cssSelector: [for="teacher0"]])
+11:29:31.124 INFO - Done: [find elements: By.cssSelector: [for="teacher0"]]
+11:29:31.627 INFO - Executing: [find elements: By.cssSelector: [for="teacher0"]])
+11:29:31.643 INFO - Done: [find elements: By.cssSelector: [for="teacher0"]]
+11:29:32.146 INFO - Executing: [find elements: By.cssSelector: [for="teacher0"]])
+11:29:32.239 INFO - Done: [find elements: By.cssSelector: [for="teacher0"]]
+11:29:32.241 INFO - Executing: [find element: By.cssSelector: [for="teacher0"]])
+11:29:32.265 INFO - Done: [find element: By.cssSelector: [for="teacher0"]]
+11:29:32.267 INFO - Executing: [click: 62 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [for="teacher0"]]])
+11:29:32.382 INFO - Done: [click: 62 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [for="teacher0"]]]
+11:29:32.386 INFO - Executing: [find elements: By.cssSelector: [qid="cView-50"]])
+11:29:32.405 INFO - Done: [find elements: By.cssSelector: [qid="cView-50"]]
+11:29:32.406 INFO - Executing: [is displayed: 63 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-50"]]])
+11:29:32.420 INFO - Done: [is displayed: 63 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-50"]]]
+11:29:32.421 INFO - Executing: [find element: By.cssSelector: [qid="cView-50"]])
+11:29:32.434 INFO - Done: [find element: By.cssSelector: [qid="cView-50"]]
+11:29:32.436 INFO - Executing: [click: 63 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-50"]]])
+11:29:32.494 INFO - Done: [click: 63 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-50"]]]
+11:29:32.497 INFO - Executing: [find elements: By.cssSelector: .remove-msg:nth-of-type(1)])
+11:29:32.512 INFO - Done: [find elements: By.cssSelector: .remove-msg:nth-of-type(1)]
+11:29:32.514 INFO - Executing: [is displayed: 64 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .remove-msg:nth-of-type(1)]])
+11:29:32.527 INFO - Done: [is displayed: 64 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: .remove-msg:nth-of-type(1)]]
+11:29:32.530 INFO - Executing: [find elements: By.cssSelector: [qid="cView-30"]])
+11:29:32.542 INFO - Done: [find elements: By.cssSelector: [qid="cView-30"]]
+11:29:32.544 INFO - Executing: [is displayed: 65 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-30"]]])
+11:29:32.557 INFO - Done: [is displayed: 65 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-30"]]]
+11:29:32.560 INFO - Executing: [find element: By.cssSelector: [qid="cView-30"]])
+11:29:32.573 INFO - Done: [find element: By.cssSelector: [qid="cView-30"]]
+11:29:32.575 INFO - Executing: [click: 65 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-30"]]])
+11:29:32.623 INFO - Done: [click: 65 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [qid="cView-30"]]]
+11:29:32.625 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1 Teacher successfully removed")]])
+11:29:32.643 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1 Teacher successfully removed")]]
+11:29:33.147 INFO - Executing: [find elements: By.xpath: //*[contains(text(),"1 Teacher successfully removed")]])
+11:29:33.163 INFO - Done: [find elements: By.xpath: //*[contains(text(),"1 Teacher successfully removed")]]
+11:29:33.165 INFO - Executing: [is displayed: 66 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[contains(text(),"1 Teacher successfully removed")]]])
+11:29:33.179 INFO - Done: [is displayed: 66 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> xpath: //*[contains(text(),"1 Teacher successfully removed")]]]
+11:29:33.186 INFO - Executing: [take screenshot])
+11:29:33.438 INFO - Done: [take screenshot]
+11:29:33.452 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
+11:29:33.464 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
+11:29:33.466 INFO - Executing: [click: 67 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #dropdownMenuLink]])
+11:29:33.508 INFO - Done: [click: 67 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: #dropdownMenuLink]]
+11:29:33.510 INFO - Executing: [find elements: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]])
+11:29:33.523 INFO - Done: [find elements: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]]
+11:29:33.525 INFO - Executing: [is displayed: 68 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]])
+11:29:33.538 INFO - Done: [is displayed: 68 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]]
+11:29:33.540 INFO - Executing: [find element: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]])
+11:29:33.553 INFO - Done: [find element: By.cssSelector: [class*="dropdown-menu"] [class*="logout"]]
+11:29:33.555 INFO - Executing: [click: 68 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]])
+11:29:33.603 INFO - Done: [click: 68 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: [class*="dropdown-menu"] [class*="logout"]]]
+11:29:33.605 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:29:33.618 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:29:34.124 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:29:34.140 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:29:34.644 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:29:34.951 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:29:35.455 INFO - Executing: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]])
+11:29:35.472 INFO - Done: [find elements: By.cssSelector: p[class="home-actions"]>a[class*="btn-started"]]
+11:29:35.474 INFO - Executing: [is displayed: 69 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]])
+11:29:35.497 INFO - Done: [is displayed: 69 [[ChromeDriver: chrome on XP (0cfb051337b59f6f003ce84fb10c25b7)] -> css selector: p[class="home-actions"]>a[class*="btn-started"]]]
+11:29:35.501 INFO - Executing: [delete session: 9eb672ef-56df-4ff1-a51b-d4faac241c50])
+11:29:36.444 INFO - Done: [delete session: 9eb672ef-56df-4ff1-a51b-d4faac241c50]
