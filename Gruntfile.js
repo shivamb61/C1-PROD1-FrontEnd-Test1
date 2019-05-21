@@ -87,7 +87,7 @@ module.exports = function (grunt) {
                             "screen-resolution": '1920x1200'
                         }
                     },
-                    smokeTestLocal: {selenium_host : '127.0.0.1',
+                    smokeTest: {selenium_host : '127.0.0.1',
                         selenium_port : 5554,
                         end_session_on_fail: false,
                         src_folders : ['./nemoReset/specs/smokeTestProd.spec.js'], // Update the path based on your application
