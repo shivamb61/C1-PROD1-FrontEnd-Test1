@@ -96,7 +96,7 @@ module.exports = function (grunt) {
                             on_failure : false,
                             path : 'screenshots'
                         },
-                        desiredCapabilities : {       // specify browser name along with other capabilities
+                        desiredCapabilities : {  // specify browser name along with other capabilities
                             browserName : 'chrome',
                             javascriptEnabled : true,
                             acceptSslCerts : true,
