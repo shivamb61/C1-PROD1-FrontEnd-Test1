@@ -10,6 +10,7 @@ describe('Cambridge One APP', function () {
     before(function (browser, done) {
         test_data = browser.globals.test;               
         password = testData.nemoReset.teacher.password;
+        a_password='#compro@1254';
         emailCreator = testData.nemoReset.emailCreator;
         teacher = testData.nemoReset.teacherDashboard;
         studentDashboard = testData.nemoReset.studentDashboard;
@@ -39,7 +40,8 @@ describe('Cambridge One APP', function () {
         username_learner = smokeTestData.learner_username;        
         //Create unique email address
         //username_teacher = "teacher_" + Math.random().toString(36).substr(2, 5) + emailCreator.suffix;
-        username_teacher = smokeTestData.teacher_usermane;        
+        username_teacher = smokeTestData.teacher_usermane;  
+        username_admin = 'admin1_aberystwyth_prod1@comprodls.com';      
         className = "CLASS "+Math.random().toString(36).substr(2, 5);  
         percentage = testData.nemoReset.teacher.percentage;
         feedback = testData.nemoReset.teacher.feedback;      
@@ -88,7 +90,7 @@ describe('Cambridge One APP', function () {
         headerPageObj.clickUserProfileDropdown();
         headerPageObj.waitForLogoutToAppear();
         headerPageObj.clickLogout();
-        nemoLaunchPageObj.waitForGetStartedButtonToAppear();        
+        nemoLaunchPageObj.waitForGetStartedButtonToAppear();       
         done();
     });
     
@@ -388,7 +390,51 @@ describe('Cambridge One APP', function () {
         nemoTeacherDashboardPageObj.clickFinalRemove();
         //verify removed text
         nemoTeacherDashboardPageObj.verifyRemovedTeacher(vertext1);
-    });           
+    });  
+    it('Admin Login and access dashboard', function (browser) {
+        
+        nemoLaunchPageObj.clickLogin();
+        //Wait for login button
+        nemoLaunchPageObj.waitForLoginButtonToBePresent();
+
+        //Create object for login page
+        nemoLoginPageObj = browser.page['login.page']();
+        //Wait for login page
+        nemoLoginPageObj.waitForPageLoad();
+        //Login via Teacher
+        nemoLoginPageObj.login(username_admin,a_password);
+        //Create Teacher dashboard page object
+        nemoAdminDashboardPageObj = browser.page['nemoAdminDashboard.page']();
+        //Wait for Admin dashboard
+        nemoAdminDashboardPageObj.waitForTabs();
+        //count of tabs
+        browser.elements('css selector',".my-spaces .flex-wrap .flex-column",function(result){   //Need to change the selector for teacher/admin
+            if(result.value.length !=5)
+            {
+                browser.assert.fail('Tabs Count do not match');
+            }
+        });   
+    });     
+    it('Support-Admin Login and access dashboard', function (browser) {
+        browser.url('https://www.cambridgeone.org?p=@cambridge.org&t=saml');
+        browser.pause(10000);
+        browser.window_handles(function(result) {
+                // console.log(result.value);
+            browser.switchWindow(result.value[1]);   
+            nemoSupportAdminDashboardPageObj = browser.page['nemoSupportAdminDashboard.page']();
+            //Wait for okta login
+            nemoSupportAdminDashboardPageObj.waitForOktalogin();  
+                       
+        });
+        browser.window_handles(function(result) {
+            //console.log(result.value);
+            browser.switchWindow(result.value[0]);  
+            //Wait for search box
+            nemoSupportAdminDashboardPageObj.waitForSearchBox();      
+        });
+         
+    });     
+
 
     afterEach(function (browser, done) {
 

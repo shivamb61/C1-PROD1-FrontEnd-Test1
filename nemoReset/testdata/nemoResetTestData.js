@@ -51,6 +51,7 @@ test ={
         teacher: {
             //username: "priyatest22@yopmail.com",
             password: "Compro11",
+           // password_admin='#compro@1254',
             classname: "Automation Test Class1",
             percentage: '80%',
             feedback: 'good'
@@ -62,7 +63,8 @@ test ={
     smokeTest:{
         productCode: "BD8Z-E9DC-8MK7-DY44",
         teacher_usermane: 'cupprod1autoinst1@mailsac.com',
-        learner_username: 'cupprod1autostd1@mailsac.com',        
+        learner_username: 'cupprod1autostd1@mailsac.com',    
+       // admin_username:'admin1_aberystwyth_prod1@comprodls.com',    
         //pname:'Evolve Level 1',
         pname:'Evolve Level 1 (C1 Live)',                 
         textn:'hi',
