@@ -87,7 +87,7 @@ module.exports = function (grunt) {
                             "screen-resolution": '1920x1200'
                         }
                     },
-                    smokeTest: {selenium_host : '127.0.0.1',
+                    smokeTestHeadless: {selenium_host : '127.0.0.1',
                         selenium_port : 5554,
                         end_session_on_fail: false,
                         src_folders : ['./nemoReset/specs/smokeTestProd.spec.js'], // Update the path based on your application
@@ -103,6 +103,27 @@ module.exports = function (grunt) {
                             'chromeOptions' : {
                                  "args" : ['headless']
                                // "args" : ['start-maximized']                                
+                            }},
+                        cli_args : {
+                          //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+                          'webdriver.chrome.driver': chromedriver.path
+                        }},
+                        smokeTest: {selenium_host : '127.0.0.1',
+                        selenium_port : 5554,
+                        end_session_on_fail: false,
+                        src_folders : ['./nemoReset/specs/smokeTestProd.spec.js'], // Update the path based on your application
+                        screenshots : {
+                            enabled : true,
+                            on_failure : false,
+                            path : 'screenshots'
+                        },
+                        desiredCapabilities : {  // specify browser name along with other capabilities
+                            browserName : 'chrome',
+                            javascriptEnabled : true,
+                            acceptSslCerts : true,
+                            'chromeOptions' : {
+                                 //"args" : ['headless']
+                                "args" : ['start-maximized']                                
                             }},
                         cli_args : {
                           //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'

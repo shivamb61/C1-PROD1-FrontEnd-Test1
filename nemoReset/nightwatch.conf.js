@@ -30,7 +30,7 @@ module.exports = {
                 javascriptEnabled : true,
                 acceptSslCerts : true,
                   chromeOptions: {
-          args: [ 'headless']  }
+                    args: [ 'start-maximized']  }
             } ,
         test_runner : {
             type : 'mocha',
@@ -44,6 +44,34 @@ module.exports = {
             }
         }
     },
+    smokeTestHeadless : {
+        selenium_host : '127.0.0.1',
+        selenium_port : 5554,
+        end_session_on_fail: false,
+        screenshots : {
+            enabled : true,
+            on_failure : false,
+            path : 'screenshots'
+        },
+        desiredCapabilities : {       // specify browser name along with other capabilities
+            browserName : 'chrome',
+            javascriptEnabled : true,
+            acceptSslCerts : true,
+              chromeOptions: {
+      args: [ 'headless']  }
+        } ,
+    test_runner : {
+        type : 'mocha',
+        options : {
+            ui : 'bdd',
+            reporter : 'mochawesome',
+            reporterOptions: {
+                reportName: 'index',
+                reportDir: 'reports'
+            }
+        }
+    }
+},
     saucelabs : {
             selenium_host : 'ondemand.saucelabs.com',
             selenium_port : 80,
