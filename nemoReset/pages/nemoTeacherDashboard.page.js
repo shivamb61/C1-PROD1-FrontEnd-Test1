@@ -61,7 +61,7 @@ module.exports = {
             locateStrategy: 'xpath'
         },
         teacherClass:{
-            selector:'[qid="tDashboard-7-00"]'
+            selector:'[qid="tDashboard-17-00"]'
         },
         addTeacherLink:{
             selector:'[qid="cView-23"]'
