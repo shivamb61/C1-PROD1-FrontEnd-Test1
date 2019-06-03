@@ -334,15 +334,16 @@ describe('Cambridge One APP', function () {
         //Wait for Teacher dashboard
         
         nemoTeacherDashboardPageObj.waitForClassAppear();
-        //browser.pause(2000);
-        browser.refresh();
-        nemoTeacherDashboardPageObj.waitForClassAppear();
+        browser.pause(4000);
+      //  browser.refresh();
+      //  nemoTeacherDashboardPageObj.waitForClassAppear();
         //Go to class
         nemoTeacherDashboardPageObj.goToClass();
         //wait for add teacher link
         nemoTeacherDashboardPageObj.waitForAddTeacher();
-        browser.refresh();
-        nemoTeacherDashboardPageObj.waitForAddTeacher();
+        browser.pause(4000);
+      //  browser.refresh();
+      //  nemoTeacherDashboardPageObj.waitForAddTeacher();
         //Click add teacher
         nemoTeacherDashboardPageObj.clickAddTeacher();
         //wait for add button
