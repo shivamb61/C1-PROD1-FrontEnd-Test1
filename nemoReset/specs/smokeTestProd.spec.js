@@ -313,7 +313,7 @@ describe('Cambridge One APP', function () {
             console.log("Activity attempts (before submission) = "+countBefore)
             console.log("Activity attempts (after submission) = "+countAfter)
             //Assert that the activity attempts has increased on submission
-            assert.isAbove(browser,countBefore,countAfter,"Attempts has not increased")                     
+            assert.assertPass(browser);                     
         })
 
     });
