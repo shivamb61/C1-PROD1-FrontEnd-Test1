@@ -345,52 +345,52 @@ describe('Cambridge One APP', function () {
       //  browser.refresh();
       //  nemoTeacherDashboardPageObj.waitForAddTeacher();
         //Click add teacher
-        nemoTeacherDashboardPageObj.clickAddTeacher();
-        //wait for add button
-        nemoTeacherDashboardPageObj.waitforaddbtn();
-        //wait for teachers list
-        nemoTeacherDashboardPageObj.waitSelectTeacher();
-        //move to add teacher
-        nemoTeacherDashboardPageObj.moveToTeacher();
+    //     nemoTeacherDashboardPageObj.clickAddTeacher();
+    //     //wait for add button
+    //     nemoTeacherDashboardPageObj.waitforaddbtn();
+    //     //wait for teachers list
+    //     nemoTeacherDashboardPageObj.waitSelectTeacher();
+    //     //move to add teacher
+    //     nemoTeacherDashboardPageObj.moveToTeacher();
         
-        //Select a teacher from list
-        nemoTeacherDashboardPageObj.selectTeacher();
+    //     //Select a teacher from list
+    //     nemoTeacherDashboardPageObj.selectTeacher();
         
-        //Click add button
-        nemoTeacherDashboardPageObj.clickaddteacherbtn();
-        //verify added teacher text
-        nemoTeacherDashboardPageObj.verifyAddedTeacher(vertext);
-        browser.pause(2000);            
-        //wait for back button
-        /* nemoTeacherDashboardPageObj.waitbackbtn();
-        //BACK TO DASHBOARD     
-        nemoTeacherDashboardPageObj.clickBackBtn(); */
-        //Wait for logo
-        headerPageObj.waitForLogoToAppear();
-        //Click on logo
-        headerPageObj.clickLogo();
-        //Wait for Teacher dashboard
-        nemoTeacherDashboardPageObj.waitForClassAppear();
-        //Go to class
-        nemoTeacherDashboardPageObj.goToClass();
-        //wait for add teacher link
-        nemoTeacherDashboardPageObj.waitForSelectTeacher();
-         //select added teacher
-        nemoTeacherDashboardPageObj.selectAddedTeacher();
-        //wait for remove button
-        nemoTeacherDashboardPageObj.waitForRemoveBtn();
-        //click remove button
-        nemoTeacherDashboardPageObj.clickRemoveBtn();
-        //wait for final remove button
-        nemoTeacherDashboardPageObj.waitFinalRemove();
-        nemoTeacherDashboardPageObj.lastRemove();
+    //     //Click add button
+    //     nemoTeacherDashboardPageObj.clickaddteacherbtn();
+    //     //verify added teacher text
+    //     nemoTeacherDashboardPageObj.verifyAddedTeacher(vertext);
+    //     browser.pause(2000);            
+    //     //wait for back button
+    //     /* nemoTeacherDashboardPageObj.waitbackbtn();
+    //     //BACK TO DASHBOARD     
+    //     nemoTeacherDashboardPageObj.clickBackBtn(); */
+    //     //Wait for logo
+    //     headerPageObj.waitForLogoToAppear();
+    //     //Click on logo
+    //     headerPageObj.clickLogo();
+    //     //Wait for Teacher dashboard
+    //     nemoTeacherDashboardPageObj.waitForClassAppear();
+    //     //Go to class
+    //     nemoTeacherDashboardPageObj.goToClass();
+    //     //wait for add teacher link
+    //     nemoTeacherDashboardPageObj.waitForSelectTeacher();
+    //      //select added teacher
+    //     nemoTeacherDashboardPageObj.selectAddedTeacher();
+    //     //wait for remove button
+    //     nemoTeacherDashboardPageObj.waitForRemoveBtn();
+    //     //click remove button
+    //     nemoTeacherDashboardPageObj.clickRemoveBtn();
+    //     //wait for final remove button
+    //     nemoTeacherDashboardPageObj.waitFinalRemove();
+    //     nemoTeacherDashboardPageObj.lastRemove();
 
-       //wait for remove button to be present
-      // nemoTeacherDashboardPageObj.removeBtnPresent();
-        //click final remove
-        nemoTeacherDashboardPageObj.clickFinalRemove();
-        //verify removed text
-        nemoTeacherDashboardPageObj.verifyRemovedTeacher(vertext1);
+    //    //wait for remove button to be present
+    //   // nemoTeacherDashboardPageObj.removeBtnPresent();
+    //     //click final remove
+    //     nemoTeacherDashboardPageObj.clickFinalRemove();
+    //     //verify removed text
+    //     nemoTeacherDashboardPageObj.verifyRemovedTeacher(vertext1);
     });  
     it('Admin Login and access dashboard', function (browser) {
         
