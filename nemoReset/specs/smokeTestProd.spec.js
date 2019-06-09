@@ -416,7 +416,7 @@ describe('Cambridge One APP', function () {
             }
         });   
     });     
-    it('Support-Admin Login and access dashboard', function (browser) {
+    xit('Support-Admin Login and access dashboard', function (browser) {
         browser.url('https://www.cambridgeone.org?p=@cambridge.org&t=saml');
         browser.pause(10000);
         browser.window_handles(function(result) {
