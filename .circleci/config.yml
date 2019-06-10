@@ -9,7 +9,7 @@ jobs:
       # specify the version you desire here
 
       # - image: circleci/openjdk:9.0.4-jdk
-      # - image: node:8.11.3
+      - image: node:8.11.3
       - image: loyaltyone/docker-alpine-java-node 
 
 
@@ -27,8 +27,8 @@ jobs:
       - run: java -version
       - run: node --version
       - run: npm install
-      # - run: npm install -g grunt
-      # - run: npm install -g grunt-cli
+      - run: npm install -g grunt
+      - run: npm install -g grunt-cli
 
 
       # run tests!
