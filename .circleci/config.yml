@@ -9,11 +9,8 @@ jobs:
       # specify the version you desire here
 
       # - image: circleci/openjdk:9.0.4-jdk
-      - image: node:8.11.3
-      - image: loyaltyone/docker-alpine-java-node 
-
-
-
+      # - image: node:8.11.3
+      - image: timbru31/java-node
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
