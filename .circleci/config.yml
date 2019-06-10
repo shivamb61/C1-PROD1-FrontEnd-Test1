@@ -14,15 +14,14 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/C1-PROD1-FrontEnd-Test1
+    working_directory: ~/project
 
     steps:
       - checkout
 
-      - attach_workspace:
-          at: ~/C1-PROD1-FrontEnd-Test1
-
       - run: npm install
 
       # run tests!
-      - run: grunt test --testParam="smokeTest"
+      - run: 
+           name: "test command"
+           command: grunt test --testParam="smokeTest"
