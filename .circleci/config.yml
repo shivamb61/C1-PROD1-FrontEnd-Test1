@@ -21,5 +21,6 @@ jobs:
 
       - run: npm install
 
+      - run: npm install -g grunt-cli
       # run tests!
       - run: grunt test --testParam="smokeTest"
