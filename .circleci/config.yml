@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:8.11.3
+      - image: node:8.11.3
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -19,9 +19,9 @@ jobs:
     steps:
       - checkout
 
-      - run: npm install
+      - run: echo comprojune
 
       # run tests!
-      - run: 
-           name: "test command"
-           command: grunt test --testParam="smokeTest"
+      # - run: 
+      #      name: "test command"
+      #      command: grunt test --testParam="smokeTest"
