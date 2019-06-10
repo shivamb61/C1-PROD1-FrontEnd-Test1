@@ -22,8 +22,10 @@ jobs:
       - run: echo comprojune
       - run: npm install
       - run: echo comprojune2
+      - run: npm install -g grunt
+      - run: npm install -g grunt-cli
 
       # run tests!
-      # - run: 
-      #      name: "test command"
-      #      command: grunt test --testParam="smokeTest"
+      - run: 
+           name: "test command"
+           command: grunt test --testParam="smokeTest"
