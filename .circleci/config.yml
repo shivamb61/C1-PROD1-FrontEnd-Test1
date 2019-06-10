@@ -20,6 +20,8 @@ jobs:
       - checkout
 
       - run: echo comprojune
+      - run: npm install
+      - run: echo comprojune2
 
       # run tests!
       # - run: 
