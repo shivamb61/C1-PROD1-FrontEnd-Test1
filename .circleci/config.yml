@@ -7,7 +7,8 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: node:8.11.3
+      # - image: node:8.11.3
+      - image: circleci/node:jessie-browsers
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -18,9 +19,6 @@ jobs:
 
     steps:
       - checkout
-      - run: echo "deb http://http.debian.net/debian jessie-backports main" | sudo tee --append /etc/apt/sources.list
-      - run: RUN sudo apt-get update
-      - run: RUN sudo apt-get install -t jessie-backports openjdk-8-jdk
       - run: npm install
       - run: npm install -g grunt
       - run: npm install -g grunt-cli
