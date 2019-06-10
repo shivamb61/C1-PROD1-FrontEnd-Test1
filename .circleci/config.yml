@@ -8,7 +8,7 @@ jobs:
     docker:
       # specify the version you desire here
       - image: node:8.11.3
-      - image: node:jessie-browsers
+      - image: circleci/node:jessie-browsers
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
