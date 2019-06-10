@@ -19,6 +19,9 @@ jobs:
     steps:
       - checkout
 
+      - attach_workspace:
+          at: ~/C1-PROD1-FrontEnd-Test1
+
       - run: npm install
 
       # run tests!
