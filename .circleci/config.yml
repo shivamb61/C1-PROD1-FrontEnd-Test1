@@ -7,8 +7,8 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: node:8.11.3
-      - image: circleci/node:jessie-browsers
+      - image: node:8.11.3s
+      - image: selenium/standalone-chrome:3.4.0
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
