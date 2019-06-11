@@ -11,6 +11,8 @@ jobs:
       # - image: circleci/openjdk:9.0.4-jdk
       # - image: node:8.11.3
       - image: timbru31/java-node
+      - image: selenium/standalone-chrome
+
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
