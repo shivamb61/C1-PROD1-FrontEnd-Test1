@@ -11,6 +11,7 @@ jobs:
       # - image: circleci/openjdk:9.0.4-jdk
       # - image: node:8.11.3
       - image: timbru31/java-node
+      - image: selenium/standalone-chrome:3.1.0
 
 
       # Specify service dependencies here if necessary
@@ -32,4 +33,4 @@ jobs:
       # run tests!
       - run: 
            name: "test command"
-           command: grunt test --testParam="smokeTestHeadless"
+           command: grunt test --testParam="smokeTest"
