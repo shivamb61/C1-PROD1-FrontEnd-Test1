@@ -102,6 +102,26 @@ describe('Cambridge One APP', function () {
         nemoLoginPageObj = browser.page['login.page']();
         //Wait for login page
         nemoLoginPageObj.waitForPageLoad();
+        nemoLoginPageObj.login('cqastudent10@yopmail.com',password);
+        studentDashboard = browser.page['studentDashboard.page']();
+        studentDashboard.waitForProductAppear();
+        //browser.url('https://www.cambridgeone.org/learning-path/teacher/org_mqa-sierra-prod1/product/f02c62ee-461c-11e9-a22c-0242ac110003/item/1552539073657%2F1552539113501%2F1552541626759');
+        studentDashboard.practiceextraopen();
+        nemoClassLearningPathwayPageObj= browser.page['classLearningPathway.page']();
+        studentDashboard.waitForFrame();
+        browser.pause(20000);
+        nemoClassLearningPathwayPageObj.goback();
+        studentDashboard.waitForProductAppear();
+    });  
+    xit('Verify that the learning path app is working', function(browser) {
+        //Wait for login button
+        nemoLaunchPageObj.waitForLoginButtonToBePresent();
+        //Click login button
+        nemoLaunchPageObj.clickLogin();
+        //Create object for login page
+        nemoLoginPageObj = browser.page['login.page']();
+        //Wait for login page
+        nemoLoginPageObj.waitForPageLoad();
         nemoLoginPageObj.login('cqateacher10@yopmail.com',password);
         nemoTeacherDashboardPageObj = browser.page['nemoTeacherDashboard.page']();
         nemoTeacherDashboardPageObj.waitForProductAppear();
@@ -222,7 +242,7 @@ describe('Cambridge One APP', function () {
 
     afterEach(function (browser, done) {
 
-        //take screenshot on every test completion
+      //  take screenshot on every test completion
         screenshots.takeScreenshot(browser);
         done();
         //Logout

@@ -37,8 +37,15 @@ module.exports = {
        },
        classaddbtn:{
            selector:'div:nth-child(2) > a:nth-child(2)'
+       },
+       cqapracticeextra:{
+        // selector:'//*[contains(text(),"Practice Extra")]',
+        // locateStrategy: 'xpath'
+        selector:".practice-image"
+       },
+       frameselec:{
+           selector:'.question-div .text-editor'
        }
-
  },
     commands: [
         {
@@ -98,6 +105,17 @@ module.exports = {
             },
             clickLearn:function(){
                 action.click(this,'@learnbtn');
+            },
+            waitForProductAppear: function(){
+                this.api.useCss();
+                action.waitForElementVisible(this,this.elements.cqapracticeextra.selector,50000);
+            },
+            practiceextraopen: function(){
+                action.click(this,'@cqapracticeextra');
+            },
+            waitForFrame: function(){
+                this.api.useCss();
+                action.waitForElementVisible(this,this.elements.frameselec.selector,50000);         
             }
         }
 
