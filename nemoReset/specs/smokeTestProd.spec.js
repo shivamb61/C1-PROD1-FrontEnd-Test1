@@ -91,11 +91,9 @@ describe('Cambridge One APP', function () {
         headerPageObj.waitForLogoutToAppear();
         headerPageObj.clickLogout();
         nemoLaunchPageObj.waitForGetStartedButtonToAppear();       
-        done();
+         done();
     });
-    
-    it('Verify that the student can attempt and submit activities.', function (browser) {
-        
+    it('Verify that the learning path app is working', function(browser) {
         //Wait for login button
         nemoLaunchPageObj.waitForLoginButtonToBePresent();
         //Click login button
@@ -104,183 +102,17 @@ describe('Cambridge One APP', function () {
         nemoLoginPageObj = browser.page['login.page']();
         //Wait for login page
         nemoLoginPageObj.waitForPageLoad();
-        //Login via Student
-        nemoLoginPageObj.login(username_learner,password);
-        //Create student dashboard page object
-        nemoStudentDashboardPageObj = browser.page['studentDashboard.page']();
-        //wait for student dashboard
-        nemoStudentDashboardPageObj.waitForPageLoad();
-        //Wait for class load
-        nemoStudentDashboardPageObj.waitForClassLoad();
-        //Go to class        
-        nemoStudentDashboardPageObj.goToClass();    
-        //Create object for Learning Pathway
+        nemoLoginPageObj.login('cqateacher10@yopmail.com',password);
+        nemoTeacherDashboardPageObj = browser.page['nemoTeacherDashboard.page']();
+        nemoTeacherDashboardPageObj.waitForProductAppear();
+        //browser.url('https://www.cambridgeone.org/learning-path/teacher/org_mqa-sierra-prod1/product/f02c62ee-461c-11e9-a22c-0242ac110003/item/1552539073657%2F1552539113501%2F1552541626759');
+        nemoTeacherDashboardPageObj.practiceextraopen();
         nemoClassLearningPathwayPageObj= browser.page['classLearningPathway.page']();
-        //Wait for activity to launch
-        nemoClassLearningPathwayPageObj.waitForFrame(); 
-        //Wait for TOC dropdown to appear
-        nemoClassLearningPathwayPageObj.waitForTocDropdownToAppear();
-        //Open toc dropdown
-        nemoClassLearningPathwayPageObj.clickTocDropdown();
-        //Wait for scorable activity in the learning path
-        nemoClassLearningPathwayPageObj.waitForActivityInLP(scorablename);
-        //Launch scorable
-        nemoClassLearningPathwayPageObj.openScorable(scorablename);  
-        //Wait for activity to launch              
         nemoClassLearningPathwayPageObj.waitForFrame();   
-        //Enter frame     
-        browser.frame(0,function()
-        {            
-            //Wait for 1st input text box to appear
-            nemoClassLearningPathwayPageObj.waitForInput(0);     
-            //Enter 1st answer       
-            nemoClassLearningPathwayPageObj.enterinput(0,prodActivity.answer[0]);
-        });
-        //Get out of the frame
-        browser.frame(null);
-        //Wait for check button to appear
-        nemoClassLearningPathwayPageObj.waitcheck();
-        //Click check button
-        nemoClassLearningPathwayPageObj.clickcheck();
-        //Wait for next question button to appear
-        nemoClassLearningPathwayPageObj.waitnext();
-        //Click on next question button
-        nemoClassLearningPathwayPageObj.clicknext();
-
-        //Wait for activity to launch              
-        nemoClassLearningPathwayPageObj.waitForFrame();   
-        //Enter frame     
-        browser.frame(0,function()
-        {
-            //Wait for 2nd input text box to appear
-            nemoClassLearningPathwayPageObj.waitForInput(1);    
-            //Enter 2nd answer        
-            nemoClassLearningPathwayPageObj.enterinput(1,prodActivity.answer[1]);
-        });
-        //Get out of the frame
-        browser.frame(null);
-        //Wait for check button to appear
-        nemoClassLearningPathwayPageObj.waitcheck();
-        //Click check button
-        nemoClassLearningPathwayPageObj.clickcheck();
-        //Wait for next question button to appear
-        nemoClassLearningPathwayPageObj.waitnext();
-        //Click on next question button
-        nemoClassLearningPathwayPageObj.clicknext();
-
-        //Wait for activity to launch              
-        nemoClassLearningPathwayPageObj.waitForFrame();   
-        //Enter frame     
-        browser.frame(0,function()
-        {
-            //Wait for 3rd input text box to appear
-            nemoClassLearningPathwayPageObj.waitForInput(2);   
-            //Enter 3rd answer         
-            nemoClassLearningPathwayPageObj.enterinput(2,prodActivity.answer[2]);
-        });
-        //Get out of the frame
-        browser.frame(null);
-        //Wait for check button to appear
-        nemoClassLearningPathwayPageObj.waitcheck();
-        //Click check button
-        nemoClassLearningPathwayPageObj.clickcheck();
-        //Wait for next question button to appear
-        nemoClassLearningPathwayPageObj.waitnext();
-        //Click on next question button
-        nemoClassLearningPathwayPageObj.clicknext();
-        
-        //Wait for activity to launch              
-        nemoClassLearningPathwayPageObj.waitForFrame();   
-        //Enter frame     
-        browser.frame(0,function()
-        {
-            //Wait for 4th input text box to appear
-            nemoClassLearningPathwayPageObj.waitForInput(3); 
-            //Enter 4th answer           
-            nemoClassLearningPathwayPageObj.enterinput(3,prodActivity.answer[3]);
-        });
-        //Get out of the frame
-        browser.frame(null);
-        //Wait for check button to appear
-        nemoClassLearningPathwayPageObj.waitcheck();
-        //Click check button
-        nemoClassLearningPathwayPageObj.clickcheck();
-        //Wait for next question button to appear
-        nemoClassLearningPathwayPageObj.waitnext();
-        //Click on next question button
-        nemoClassLearningPathwayPageObj.clicknext();
-
-        //Wait for activity to launch              
-        nemoClassLearningPathwayPageObj.waitForFrame();   
-        //Enter frame     
-        browser.frame(0,function()
-        {
-            //Wait for 5th input text box to appear
-            nemoClassLearningPathwayPageObj.waitForInput(4);  
-            //Enter 5th answer          
-            nemoClassLearningPathwayPageObj.enterinput(4,prodActivity.answer[4]);
-        });
-        //Get out of the frame
-        browser.frame(null);
-        //Wait for check button to appear
-        nemoClassLearningPathwayPageObj.waitcheck();
-        //Click check button
-        nemoClassLearningPathwayPageObj.clickcheck();
-        //Wait for next question button to appear
-        nemoClassLearningPathwayPageObj.waitnext();
-        //Click on next question button
-        nemoClassLearningPathwayPageObj.clicknext();
-
-        //Wait for activity to launch              
-        nemoClassLearningPathwayPageObj.waitForFrame();   
-        //Enter frame     
-        browser.frame(0,function()
-        {
-            //Wait for 6th input text box to appear
-            nemoClassLearningPathwayPageObj.waitForInput(5);  
-            //Enter 6th answer          
-            nemoClassLearningPathwayPageObj.enterinput(5,prodActivity.answer[5]);
-        });
-        //Get out of the frame
-        browser.frame(null);
-        //Wait for check button to appear
-        nemoClassLearningPathwayPageObj.waitcheck();
-        //Click check button
-        nemoClassLearningPathwayPageObj.clickcheck();      
-
-        //Wait for submit activity button to appear
-        nemoClassLearningPathwayPageObj.waitsubmit();
-        //Click on submit activity button
-        nemoClassLearningPathwayPageObj.clicksubmit();
-        //Wait for next activity button to appear
-        nemoClassLearningPathwayPageObj.waitnextact();
-        //Wait for activity to launch              
-        nemoClassLearningPathwayPageObj.waitForFrame();   
-        //Enter frame     
-        browser.frame(0,function()
-        {
-            //Wait for activity completed screen to appear
-            nemoClassLearningPathwayPageObj.waitForActivityCompletedScreen();
-        });
-        //Get out of the frame
-        browser.frame(null);        
-        //Wait for TOC dropdown to appear
-        nemoClassLearningPathwayPageObj.waitForTocDropdownToAppear();
-        //Open toc dropdown
-        nemoClassLearningPathwayPageObj.clickTocDropdown();        
-        //Wait for score to appear in the learning path
-        nemoClassLearningPathwayPageObj.waitscore(scorablename);
-        //Get score of the activity
-        nemoClassLearningPathwayPageObj.checkscore(function(result)
-        {
-            //Verify activity score
-            browser.verify.equal(result,scorableScore.marks,"Actual result is not as expected");
-        },scorablename)
-        //Wait for star to appear alongside activity in the learning path
-        nemoClassLearningPathwayPageObj.waitstar(scorablename);
-        browser.pause(5000);
-        
-    });       
+        browser.pause(20000);
+        nemoClassLearningPathwayPageObj.goback();
+        nemoTeacherDashboardPageObj.waitForProductAppear();
+    });      
     it('Verify the student progress under class analytics via teacher login', function (browser) {
 
         nemoLaunchPageObj.clickLogin();
@@ -342,55 +174,6 @@ describe('Cambridge One APP', function () {
         //wait for add teacher link
         nemoTeacherDashboardPageObj.waitForAddTeacher();
         browser.pause(4000);
-      //  browser.refresh();
-      //  nemoTeacherDashboardPageObj.waitForAddTeacher();
-        //Click add teacher
-    //     nemoTeacherDashboardPageObj.clickAddTeacher();
-    //     //wait for add button
-    //     nemoTeacherDashboardPageObj.waitforaddbtn();
-    //     //wait for teachers list
-    //     nemoTeacherDashboardPageObj.waitSelectTeacher();
-    //     //move to add teacher
-    //     nemoTeacherDashboardPageObj.moveToTeacher();
-        
-    //     //Select a teacher from list
-    //     nemoTeacherDashboardPageObj.selectTeacher();
-        
-    //     //Click add button
-    //     nemoTeacherDashboardPageObj.clickaddteacherbtn();
-    //     //verify added teacher text
-    //     nemoTeacherDashboardPageObj.verifyAddedTeacher(vertext);
-    //     browser.pause(2000);            
-    //     //wait for back button
-    //     /* nemoTeacherDashboardPageObj.waitbackbtn();
-    //     //BACK TO DASHBOARD     
-    //     nemoTeacherDashboardPageObj.clickBackBtn(); */
-    //     //Wait for logo
-    //     headerPageObj.waitForLogoToAppear();
-    //     //Click on logo
-    //     headerPageObj.clickLogo();
-    //     //Wait for Teacher dashboard
-    //     nemoTeacherDashboardPageObj.waitForClassAppear();
-    //     //Go to class
-    //     nemoTeacherDashboardPageObj.goToClass();
-    //     //wait for add teacher link
-    //     nemoTeacherDashboardPageObj.waitForSelectTeacher();
-    //      //select added teacher
-    //     nemoTeacherDashboardPageObj.selectAddedTeacher();
-    //     //wait for remove button
-    //     nemoTeacherDashboardPageObj.waitForRemoveBtn();
-    //     //click remove button
-    //     nemoTeacherDashboardPageObj.clickRemoveBtn();
-    //     //wait for final remove button
-    //     nemoTeacherDashboardPageObj.waitFinalRemove();
-    //     nemoTeacherDashboardPageObj.lastRemove();
-
-    //    //wait for remove button to be present
-    //   // nemoTeacherDashboardPageObj.removeBtnPresent();
-    //     //click final remove
-    //     nemoTeacherDashboardPageObj.clickFinalRemove();
-    //     //verify removed text
-    //     nemoTeacherDashboardPageObj.verifyRemovedTeacher(vertext1);
     });  
     it('Admin Login and access dashboard', function (browser) {
         

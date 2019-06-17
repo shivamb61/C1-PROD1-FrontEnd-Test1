@@ -128,6 +128,15 @@ module.exports = {
         selector:"//*[@id='content-{INPUT}']//input",      
         locateStrategy:'xpath'
     },
+    inputnew:{
+        selector: "#content-0 input"      
+    },
+    inputnew1:{
+        selector: "#content-1 input"
+    },
+    inputnew2:{
+        selector: "#content-2 input"
+    },
     tocItem: {
         selector: '//*[contains(@title,"{TOCITEM}")]',
         locateStrategy:'xpath'
@@ -141,11 +150,17 @@ module.exports = {
     },
     activityCompletedImage: {
         selector: "#content-6 .score-progress canvas"
+    },
+    gobacksele: {
+        selector: "[qid='cHeader-8']"
+    },
+    bignext: {
+        selector: ".submitBtn"
     }
-
  },
     commands: [
         {
+
             waitForActivityInLP: function(scorablename){
 
                 var select3 = format(this.elements.scorable.selector,{SCORABLEACT:scorablename});
@@ -153,6 +168,10 @@ module.exports = {
                 action.waitForElementVisible(this,select3,50000);
 
               //  action.waitForElementVisible(this,'@header',25000);
+            },
+            goback: function(){
+                this.api.useCss();
+                action.click(this,this.elements.gobacksele.selector);
             },
             openPS: function(psskill){
                 action.click(this,'@unitsix');
@@ -271,6 +290,36 @@ module.exports = {
                 this.api.useXpath();
                 action.waitForElementVisible(this,select,50000);
             },
+            waitForInputnew: function(){               
+                this.api.useCss();
+                action.waitForElementVisible(this,this.elements.inputnew.selector,50000);               
+            },
+            enterinputnew: function(input,inputText){
+                //var select = format(this.elements.input.selector,{INPUT:input});
+                //this.api.useXpath();
+                this.api.useCss();
+                action.setValue(this,this.elements.inputnew.selector,inputText);
+            },
+            waitForInputnew1: function(){               
+                this.api.useCss();
+                action.waitForElementVisible(this,this.elements.inputnew1.selector,50000);               
+            },
+            enterinputnew1: function(input,inputText){
+                //var select = format(this.elements.input.selector,{INPUT:input});
+                //this.api.useXpath();
+                this.api.useCss();
+                action.setValue(this,this.elements.inputnew1.selector,inputText);
+            },
+            waitForInputnew2: function(){               
+                this.api.useCss();
+                action.waitForElementVisible(this,this.elements.inputnew2.selector,50000);               
+            },
+            enterinputnew2: function(input,inputText){
+                //var select = format(this.elements.input.selector,{INPUT:input});
+                //this.api.useXpath();
+                this.api.useCss();
+                action.setValue(this,this.elements.inputnew2.selector,inputText);
+            },
             clickcheck: function(){
                 action.click(this,'@checkbutton');
             },
@@ -358,6 +407,13 @@ module.exports = {
             waitForActivityCompletedScreen: function(){
                 this.api.useCss();
                 action.waitForElementVisible(this,this.elements.activityCompletedImage.selector,10000);
+            },
+            waitbignext: function(){
+                action.waitForElementVisible(this,'@bignext',50000);
+            },
+            clicknextbig: function(){
+                this.api.useCss();
+                action.click(this,this.elements.bignext.selector);          
             }
         }
     ]

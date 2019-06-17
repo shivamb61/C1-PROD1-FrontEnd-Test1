@@ -9,7 +9,8 @@ module.exports = {
             selector:'.plus-icon>a'
         },
         userDropdown: {
-            selector: '#dropdownMenuLink'
+            //selector: '#dropdownMenuLink'
+           selector: '#element_S3_8990_EV_OPA2_U10_L05_video02a_602729'
         },
         logout: {
             selector: '[class*="userProfile"] [class*="logout"]'
@@ -62,6 +63,13 @@ module.exports = {
         },
         teacherClass:{
             selector:'[qid="tDashboard-17-00"]'
+        },
+        pracexto:{
+            selector:'[qid="tDashboard-000"]'
+        },
+        teacherProduct: {
+            selector:'//p[contains(text(),"auto comproqa testproduct123")]',
+            locateStrategy:'xpath'
         },
         addTeacherLink:{
             selector:'[qid="cView-23"]'
@@ -129,6 +137,11 @@ module.exports = {
         practiceextra:{
             selector:'[qid="cView-62"]'
         },
+        practiceextra2:{
+            selector:'//*[contains(text(),"Practice Extra")]',
+            locateStrategy:'xpath'
+          //  selector:'a.media.mb-4:nth-of-type(1)'
+        },
         classaudio:{
             selector:'[qid="cView-63"]'
         },
@@ -137,6 +150,9 @@ module.exports = {
         },
         studentEmail:{
             selector: '.learners-container .detail .email'
+        },
+        learningmaterials:{
+            selector:'.digital-components h2'
         }
     },
     commands: [
@@ -282,6 +298,12 @@ module.exports = {
             },
             waitForClassAppear:function(){
               actions.waitForElementVisible(this,'@teacherClass',50000);
+            },
+            waitForProductAppear:function() {
+                actions.waitForElementVisible(this,'@teacherProduct',50000);
+            },
+            openProduct:function() {
+                actions.click(this,'@teacherProduct');
             },
             waitForAddTeacher:function(){
              actions.waitForElementVisible(this,'@addTeacherLink',50000);
@@ -433,6 +455,14 @@ module.exports = {
                 this.api.useCss();
                 actions.waitForElementVisible(this,this.elements.practiceextra.selector,50000);
             },
+            waitForPracticeExtraOfAutoComproQa:function() {
+              //  this.api.useCss();
+                actions.waitForElementVisible(this,this.elements.practiceextra2.selector,50000);
+            },
+            openProductAutoComproQa: function() {
+               // this.api.useCss();
+                actions.click(this,this.elements.practiceextra2.selector);
+            },
             waitForClassAudio:function(){
                 this.api.useCss();
                 actions.waitForElementVisible(this,this.elements.classaudio.selector,50000);
@@ -444,6 +474,13 @@ module.exports = {
             openStudentDetails: function(){
                 this.api.useCss();
                 actions.click(this,this.elements.studentEmail.selector);
+            },
+            waitProfileDropDown: function(){
+                this.api.useCss();
+                actions.waitForElementVisible(this,this.elements.userDropdown.selector,60000);
+            },
+            practiceextraopen: function(){
+                actions.click(this,'@pracexto');
             }
         }
     ]
