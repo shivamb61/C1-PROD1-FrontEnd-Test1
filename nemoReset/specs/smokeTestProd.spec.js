@@ -62,38 +62,16 @@ describe('Cambridge One APP', function () {
         nemoLoginPageObj = browser.page['login.page']();
         //Wait for login page
         nemoLoginPageObj.waitForPageLoad();
-        //Login via Teacher
-        nemoLoginPageObj.login(username_teacher,password);
-        //Create Teacher dashboard page object
+
         nemoTeacherDashboardPageObj = browser.page['nemoTeacherDashboard.page']();
-        //Wait for Teacher dashboard
-        nemoTeacherDashboardPageObj.waitForClassAppear();
-        //Go to class
-        nemoTeacherDashboardPageObj.goToClass();
-        //wait for student analytic
-        nemoTeacherDashboardPageObj.waitForAnalytic();
-        //enter student details page
-        nemoTeacherDashboardPageObj.openStudentDetails();
-        //Create page object for student details page
+
         studentDetailsPageObj = browser.page['studentDetails.page']();
-        //Wait for activity attempts to appear
-        studentDetailsPageObj.waitForActivityAttempts();
-        //Get activity attempts before submission
-        studentDetailsPageObj.getActivityAttempts(function(result)
-        {            
-            //Store before submission attempts in a variable
-            countBefore = result;            
-        })
-        //Create page object for header
+
         headerPageObj = browser.page['header.page']();
-        //Logout
-        headerPageObj.clickUserProfileDropdown();
-        headerPageObj.waitForLogoutToAppear();
-        headerPageObj.clickLogout();
-        nemoLaunchPageObj.waitForGetStartedButtonToAppear();       
+      
          done();
     });
-    it('Verify that the learning path app is working', function(browser) {
+    it('Verify that the learning path app and class app are working', function(browser) {
         //Wait for login button
         nemoLaunchPageObj.waitForLoginButtonToBePresent();
         //Click login button
@@ -112,89 +90,10 @@ describe('Cambridge One APP', function () {
         browser.pause(20000);
         nemoClassLearningPathwayPageObj.goback();
         studentDashboard.waitForProductAppear();
-    });  
-    xit('Verify that the learning path app is working', function(browser) {
-        //Wait for login button
-        nemoLaunchPageObj.waitForLoginButtonToBePresent();
-        //Click login button
-        nemoLaunchPageObj.clickLogin();
-        //Create object for login page
-        nemoLoginPageObj = browser.page['login.page']();
-        //Wait for login page
-        nemoLoginPageObj.waitForPageLoad();
-        nemoLoginPageObj.login('cqateacher10@yopmail.com',password);
-        nemoTeacherDashboardPageObj = browser.page['nemoTeacherDashboard.page']();
-        nemoTeacherDashboardPageObj.waitForProductAppear();
-        //browser.url('https://www.cambridgeone.org/learning-path/teacher/org_mqa-sierra-prod1/product/f02c62ee-461c-11e9-a22c-0242ac110003/item/1552539073657%2F1552539113501%2F1552541626759');
-        nemoTeacherDashboardPageObj.practiceextraopen();
-        nemoClassLearningPathwayPageObj= browser.page['classLearningPathway.page']();
-        nemoClassLearningPathwayPageObj.waitForFrame();   
-        browser.pause(20000);
-        nemoClassLearningPathwayPageObj.goback();
-        nemoTeacherDashboardPageObj.waitForProductAppear();
-    });      
-    it('Verify the student progress under class analytics via teacher login', function (browser) {
+        studentDashboard.goToClass2();
+        studentDashboard.waitForAnalytic();
 
-        nemoLaunchPageObj.clickLogin();
-        //Wait for login button
-        nemoLaunchPageObj.waitForLoginButtonToBePresent();
-        //Create object for login page
-        nemoLoginPageObj = browser.page['login.page']();
-        //Wait for login page
-        nemoLoginPageObj.waitForPageLoad();
-        //Login via Teacher
-        nemoLoginPageObj.login(username_teacher,password);
-        //Create Teacher dashboard page object
-        nemoTeacherDashboardPageObj = browser.page['nemoTeacherDashboard.page']();
-        //Wait for Teacher dashboard
-        nemoTeacherDashboardPageObj.waitForClassAppear();
-        //Go to class
-        nemoTeacherDashboardPageObj.goToClass();
-        //wait for student analytic
-        nemoTeacherDashboardPageObj.waitForAnalytic();
-        //enter student details page
-        nemoTeacherDashboardPageObj.openStudentDetails();
-        //Create page object for student details page
-        studentDetailsPageObj = browser.page['studentDetails.page']();
-        //Wait for activity attempts to appear
-        studentDetailsPageObj.waitForActivityAttempts();
-        //Get activity attempts
-        studentDetailsPageObj.getActivityAttempts(function(result)
-        {            
-            countAfter = result;
-            console.log("Activity attempts (before submission) = "+countBefore)
-            console.log("Activity attempts (after submission) = "+countAfter)
-            //Assert that the activity attempts has increased on submission
-            assert.assertPass(browser);                     
-        })
-
-    });
-    it('Add and remove teacher from a class', function (browser) {
-        
-        nemoLaunchPageObj.clickLogin();
-        //Wait for login button
-        nemoLaunchPageObj.waitForLoginButtonToBePresent();
-
-        //Create object for login page
-        nemoLoginPageObj = browser.page['login.page']();
-        //Wait for login page
-        nemoLoginPageObj.waitForPageLoad();
-        //Login via Teacher
-        nemoLoginPageObj.login(username_teacher,password);
-        //Create Teacher dashboard page object
-        nemoTeacherDashboardPageObj = browser.page['nemoTeacherDashboard.page']();
-        //Wait for Teacher dashboard
-        
-        nemoTeacherDashboardPageObj.waitForClassAppear();
-        browser.pause(4000);
-      //  browser.refresh();
-      //  nemoTeacherDashboardPageObj.waitForClassAppear();
-        //Go to class
-        nemoTeacherDashboardPageObj.goToClass();
-        //wait for add teacher link
-        nemoTeacherDashboardPageObj.waitForAddTeacher();
-        browser.pause(4000);
-    });  
+    });   
     it('Admin Login and access dashboard', function (browser) {
         
         nemoLaunchPageObj.clickLogin();

@@ -45,6 +45,12 @@ module.exports = {
        },
        frameselec:{
            selector:'.question-div .text-editor'
+       },
+       class2:{
+           selector: ".courses .product-image"
+       },
+       analytics:{
+           selector:".analytic-box-container .analytic-content"
        }
  },
     commands: [
@@ -116,6 +122,14 @@ module.exports = {
             waitForFrame: function(){
                 this.api.useCss();
                 action.waitForElementVisible(this,this.elements.frameselec.selector,50000);         
+            },
+            goToClass2: function(){
+                this.api.useCss();
+                action.click(this,this.elements.class2.selector);                
+            },
+            waitForAnalytic: function(){
+                this.api.useCss();
+                action.waitForElementVisible(this,this.elements.analytics.selector,50000);           
             }
         }
 
