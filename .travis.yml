@@ -25,7 +25,7 @@ script:
 notifications:
   email:
     recipients:
-      - shivam.bansal@comprotechnologies.com
+    - shivam.bansal@comprotechnologies.com
 	  - arun.nair@comprotechnologies.com
 	  - manish.mehta@comprotechnologies.com
 	  - piyush.mehta@comprotechnologies.com

@@ -19,7 +19,7 @@ describe('Cambridge One APP', function () {
         nemoLaunchPageObj.navigate();
         //Wait for the nemo launch page to appear
         //nemoLaunchPageObj.waitForGetStartedButtonToAppear();
-        nemoLaunchPageObj.waitForLoginButtonToBePresent();  // changed to match alpha test
+        nemoLaunchPageObj.waitForLoginButtonToBePresent();
         nemoLaunchPageObj.clickLogin();
         //Wait for login button
         //nemoLaunchPageObj.waitForLoginButtonToBePresent();
@@ -32,26 +32,26 @@ describe('Cambridge One APP', function () {
     });
     it('Verify that the learning path app and class app are working', function(browser) {
         //Wait for login button
-        // nemoLaunchPageObj.waitForLoginButtonToBePresent();
-        // //Click login button
-        // nemoLaunchPageObj.clickLogin();
+       // nemoLaunchPageObj.waitForLoginButtonToBePresent();
+        //Click login button
+      //  nemoLaunchPageObj.clickLogin();
         //Create object for login page
         nemoLoginPageObj = browser.page['login.page']();
         //Wait for login page
-        //nemoLoginPageObj.waitForPageLoad();
-        nemoLoginPageObj.login('cqastudent10@yopmail.com',password);
+       // nemoLoginPageObj.waitForPageLoad();
+        nemoLoginPageObj.login('health.check@yopmail.com','Compro11');
         studentDashboard = browser.page['studentDashboard.page']();
         studentDashboard.waitForProductAppear();
         studentDashboard.practiceextraopen();
         nemoClassLearningPathwayPageObj= browser.page['classLearningPathway.page']();
-        studentDashboard.waitForFrame();
+        nemoClassLearningPathwayPageObj.waitForFrame();// this is different than prod test
         browser.pause(20000);
         nemoClassLearningPathwayPageObj.goback();
         studentDashboard.waitForProductAppear();
         studentDashboard.goToClass2();
         studentDashboard.waitForAnalytic();
     });   
-    it('Admin Login and access dashboard', function (browser) {  
+    xit('Admin Login and access dashboard', function (browser) {  
         nemoLaunchPageObj.clickLogin();
        // nemoLaunchPageObj.waitForLoginButtonToBePresent();
         nemoLoginPageObj = browser.page['login.page']();
@@ -67,7 +67,7 @@ describe('Cambridge One APP', function () {
             }
         });   
     });     
-    it('Support-Admin Login and access dashboard', function (browser) {
+    xit('Support-Admin Login and access dashboard', function (browser) {
         browser.url('https://www.cambridgeone.org?p=@cambridge.org&t=saml');
         browser.pause(10000);
         browser.window_handles(function(result) {

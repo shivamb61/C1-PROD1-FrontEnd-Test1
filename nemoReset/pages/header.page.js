@@ -6,7 +6,8 @@ module.exports = {
             selector: '#dropdownMenuLink'
         },
         logout: {
-            selector: '[class*="dropdown-menu"] [class*="logout"]'
+            // selector: '[class*="dropdown-menu"] [class*="logout"]'
+            selector: '.logout button'
         },
         logo: {
             selector: "[qid='cHeader-1'] [src*='cup-logo']"
