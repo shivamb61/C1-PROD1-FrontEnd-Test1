@@ -1,299 +1,446 @@
-11:41:26.564 INFO - Launching a standalone Selenium Server
+15:42:16.810 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to F:\cambridge-one-personnel\node_modules\chromedriver\lib\chromedriver\chromedriver.exe
-11:41:26.615 INFO - Java: Oracle Corporation 25.181-b13
-11:41:26.616 INFO - OS: Windows 10 10.0 amd64
-11:41:26.624 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
-11:41:26.673 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-11:41:26.673 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-11:41:26.682 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+15:42:16.861 INFO - Java: Oracle Corporation 25.181-b13
+15:42:16.861 INFO - OS: Windows 10 10.0 amd64
+15:42:16.869 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+15:42:16.917 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:42:16.917 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+15:42:16.927 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-11:41:26.683 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-11:41:26.683 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-11:41:26.776 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5554/wd/hub
-11:41:26.776 INFO - Selenium Server is up and running
-11:41:27.884 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]])
-11:41:27.893 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]
-Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 36176
+15:42:16.927 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+15:42:16.927 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+15:42:17.020 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5554/wd/hub
+15:42:17.020 INFO - Selenium Server is up and running
+15:42:18.131 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]])
+15:42:18.140 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]
+Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 28703
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-11:41:30.801 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]]
-11:41:30.811 INFO - Executing: [get: https://www.cambridgeone.org/])
-11:41:32.774 INFO - Done: [get: https://www.cambridgeone.org/]
-11:41:32.781 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:41:32.798 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:41:33.304 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:41:33.500 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:41:33.508 INFO - Executing: [find element: By.cssSelector: #onboarding-header-login-btn])
-11:41:33.542 INFO - Done: [find element: By.cssSelector: #onboarding-header-login-btn]
-11:41:33.548 INFO - Executing: [click: 0 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #onboarding-header-login-btn]])
-11:41:33.600 INFO - Done: [click: 0 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #onboarding-header-login-btn]]
-11:41:33.606 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
-11:41:33.624 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
-11:41:34.127 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
-11:41:34.142 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
-11:41:34.646 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
-11:41:34.662 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
-11:41:35.166 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
-11:41:35.177 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
-11:41:35.180 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="username"]]])
-11:41:35.195 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="username"]]]
-11:41:35.199 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="username"]])
-11:41:35.215 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="username"]]
-11:41:35.218 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="username"]], [c, q, a, s, t, u, d, e, n, t, 1, 0, @, y, o, p, m, a, i, l, ., c, o, m]])
-11:41:35.311 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="username"]], [c, q, a, s, t, u, d, e, n, t, 1, 0, @, y, o, p, m, a, i, l, ., c, o, m]]
-11:41:35.315 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="password"]])
-11:41:35.330 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="password"]]
-11:41:35.334 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]])
-11:41:35.396 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]]
-11:41:35.400 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[type="submit"]])
-11:41:35.414 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[type="submit"]]
-11:41:35.417 INFO - Executing: [click: 3 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[type="submit"]]])
-11:41:35.543 INFO - Done: [click: 3 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[type="submit"]]]
-11:41:35.546 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:41:35.569 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:41:36.075 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:41:36.138 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:41:36.643 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:41:38.955 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:41:39.460 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:41:39.471 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:41:39.975 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:41:39.985 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:41:40.487 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:41:40.498 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:41:41.001 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:41:41.009 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:41:41.511 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:41:41.521 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:41:41.523 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .practice-image]])
-11:41:41.539 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .practice-image]]
-11:41:41.541 INFO - Executing: [find element: By.cssSelector: .practice-image])
-11:41:41.554 INFO - Done: [find element: By.cssSelector: .practice-image]
-11:41:41.556 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .practice-image]])
-11:41:43.743 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .practice-image]]
-11:41:43.747 INFO - Executing: [find elements: By.cssSelector: .question-div .text-editor])
-11:41:43.763 INFO - Done: [find elements: By.cssSelector: .question-div .text-editor]
-11:41:44.269 INFO - Executing: [find elements: By.cssSelector: .question-div .text-editor])
-11:41:44.279 INFO - Done: [find elements: By.cssSelector: .question-div .text-editor]
-11:41:44.783 INFO - Executing: [find elements: By.cssSelector: .question-div .text-editor])
-11:41:44.799 INFO - Done: [find elements: By.cssSelector: .question-div .text-editor]
-11:41:45.302 INFO - Executing: [find elements: By.cssSelector: .question-div .text-editor])
-11:41:45.326 INFO - Done: [find elements: By.cssSelector: .question-div .text-editor]
-11:41:45.831 INFO - Executing: [find elements: By.cssSelector: .question-div .text-editor])
-11:41:45.849 INFO - Done: [find elements: By.cssSelector: .question-div .text-editor]
-11:41:45.852 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .question-div .text-editor]])
-11:41:45.872 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .question-div .text-editor]]
-11:42:05.870 INFO - Executing: [find element: By.cssSelector: [qid='cHeader-8']])
-11:42:05.886 INFO - Done: [find element: By.cssSelector: [qid='cHeader-8']]
-11:42:05.888 INFO - Executing: [click: 6 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid='cHeader-8']]])
-11:42:07.128 INFO - Done: [click: 6 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid='cHeader-8']]]
-11:42:07.131 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:42:07.147 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:42:07.652 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:42:07.668 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:42:08.174 INFO - Executing: [find elements: By.cssSelector: .practice-image])
-11:42:08.193 INFO - Done: [find elements: By.cssSelector: .practice-image]
-11:42:08.196 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .practice-image]])
-11:42:08.216 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .practice-image]]
-11:42:08.219 INFO - Executing: [find element: By.cssSelector: .courses .product-image])
-11:42:08.233 INFO - Done: [find element: By.cssSelector: .courses .product-image]
-11:42:08.235 INFO - Executing: [click: 8 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .courses .product-image]])
-11:42:10.985 INFO - Done: [click: 8 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .courses .product-image]]
-11:42:10.989 INFO - Executing: [find elements: By.cssSelector: .analytic-box-container .analytic-content])
-11:42:11.083 INFO - Done: [find elements: By.cssSelector: .analytic-box-container .analytic-content]
-11:42:11.586 INFO - Executing: [find elements: By.cssSelector: .analytic-box-container .analytic-content])
-11:42:11.605 INFO - Done: [find elements: By.cssSelector: .analytic-box-container .analytic-content]
-11:42:12.109 INFO - Executing: [find elements: By.cssSelector: .analytic-box-container .analytic-content])
-11:42:12.128 INFO - Done: [find elements: By.cssSelector: .analytic-box-container .analytic-content]
-11:42:12.132 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .analytic-box-container .analytic-content]])
-11:42:12.151 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .analytic-box-container .analytic-content]]
-11:42:12.174 INFO - Executing: [take screenshot])
-11:42:12.504 INFO - Done: [take screenshot]
-11:42:12.524 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
-11:42:12.538 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
-11:42:12.542 INFO - Executing: [click: 14 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #dropdownMenuLink]])
-11:42:12.650 INFO - Done: [click: 14 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #dropdownMenuLink]]
-11:42:12.657 INFO - Executing: [find elements: By.cssSelector: .logout button])
-11:42:12.673 INFO - Done: [find elements: By.cssSelector: .logout button]
-11:42:12.675 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]])
-11:42:12.689 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]]
-11:42:12.692 INFO - Executing: [find element: By.cssSelector: .logout button])
-11:42:12.706 INFO - Done: [find element: By.cssSelector: .logout button]
-11:42:12.707 INFO - Executing: [click: 15 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]])
-11:42:12.767 INFO - Done: [click: 15 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]]
-11:42:12.769 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:12.785 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:13.289 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:13.308 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:13.812 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:14.283 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:14.787 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:14.806 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:14.810 INFO - Executing: [find element: By.cssSelector: #onboarding-header-login-btn])
-11:42:14.835 INFO - Done: [find element: By.cssSelector: #onboarding-header-login-btn]
-11:42:14.839 INFO - Executing: [click: 16 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #onboarding-header-login-btn]])
-11:42:14.904 INFO - Done: [click: 16 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #onboarding-header-login-btn]]
-11:42:14.908 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
-11:42:14.924 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
-11:42:15.427 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
-11:42:15.444 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
-11:42:15.948 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
-11:42:15.964 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
-11:42:16.468 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
-11:42:16.520 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
-11:42:16.522 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="username"]]])
-11:42:16.541 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="username"]]]
-11:42:16.546 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="username"]])
-11:42:16.563 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="username"]]
-11:42:16.566 INFO - Executing: [send keys: 17 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="username"]], [a, d, m, i, n, 1, _, a, b, e, r, y, s, t, w, y, t, h, _, p, r, o, d, 1, @, c, o, m, p, r, o, d, l, s, ., c, o, m]])
-11:42:16.704 INFO - Done: [send keys: 17 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="username"]], [a, d, m, i, n, 1, _, a, b, e, r, y, s, t, w, y, t, h, _, p, r, o, d, 1, @, c, o, m, p, r, o, d, l, s, ., c, o, m]]
-11:42:16.706 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="password"]])
-11:42:16.723 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="password"]]
-11:42:16.725 INFO - Executing: [send keys: 18 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="password"]], [#, c, o, m, p, r, o, @, 1, 2, 5, 4]])
-11:42:16.800 INFO - Done: [send keys: 18 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[name="password"]], [#, c, o, m, p, r, o, @, 1, 2, 5, 4]]
-11:42:16.803 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[type="submit"]])
-11:42:16.816 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[type="submit"]]
-11:42:16.818 INFO - Executing: [click: 19 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[type="submit"]]])
-11:42:16.927 INFO - Done: [click: 19 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #gigya-login-form input[type="submit"]]]
-11:42:16.930 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
-11:42:16.946 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
-11:42:17.450 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
-11:42:17.467 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
-11:42:17.972 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
-11:42:17.989 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
-11:42:18.492 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
-11:42:18.515 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
-11:42:19.017 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
-11:42:19.802 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
-11:42:20.308 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
-11:42:20.325 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
-11:42:20.827 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
-11:42:20.842 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
-11:42:21.347 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
-11:42:21.392 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
-11:42:21.394 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .my-spaces .flex-wrap]])
-11:42:21.409 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .my-spaces .flex-wrap]]
-11:42:21.412 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap .flex-column])
-11:42:21.426 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap .flex-column]
-11:42:21.434 INFO - Executing: [take screenshot])
-11:42:21.787 INFO - Done: [take screenshot]
-11:42:21.802 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
-11:42:21.815 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
-11:42:21.817 INFO - Executing: [click: 26 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #dropdownMenuLink]])
-11:42:21.866 INFO - Done: [click: 26 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #dropdownMenuLink]]
-11:42:21.870 INFO - Executing: [find elements: By.cssSelector: .logout button])
-11:42:21.883 INFO - Done: [find elements: By.cssSelector: .logout button]
-11:42:21.885 INFO - Executing: [is displayed: 27 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]])
-11:42:21.900 INFO - Done: [is displayed: 27 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]]
-11:42:21.903 INFO - Executing: [find element: By.cssSelector: .logout button])
-11:42:21.913 INFO - Done: [find element: By.cssSelector: .logout button]
-11:42:21.914 INFO - Executing: [click: 27 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]])
-11:42:21.958 INFO - Done: [click: 27 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]]
-11:42:21.960 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:21.974 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:22.477 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:22.488 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:22.991 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:23.374 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:23.878 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:23.897 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:23.900 INFO - Executing: [get: https://www.cambridgeone.org?p=@cambridge.org&t=saml])
-11:42:24.517 INFO - Done: [get: https://www.cambridgeone.org?p=@cambridge.org&t=saml]
-11:42:34.518 INFO - Executing: [get window handles])
-11:42:34.526 INFO - Done: [get window handles]
-11:42:34.541 INFO - Executing: [switch to window: CDwindow-A73E8AAC0E30BEAB90108D1962722387])
-11:42:34.551 INFO - Done: [switch to window: CDwindow-A73E8AAC0E30BEAB90108D1962722387]
-11:42:34.555 INFO - Executing: [find elements: By.cssSelector: #okta-signin-username])
-11:42:35.613 INFO - Done: [find elements: By.cssSelector: #okta-signin-username]
-11:42:35.616 INFO - Executing: [is displayed: 29 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-username]])
-11:42:35.633 INFO - Done: [is displayed: 29 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-username]]
-11:42:35.636 INFO - Executing: [find element: By.cssSelector: #okta-signin-username])
-11:42:35.649 INFO - Done: [find element: By.cssSelector: #okta-signin-username]
-11:42:35.651 INFO - Executing: [send keys: 29 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-username], [a, d, a, n, i]])
-11:42:35.696 INFO - Done: [send keys: 29 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-username], [a, d, a, n, i]]
-11:42:35.698 INFO - Executing: [find element: By.cssSelector: #okta-signin-password])
-11:42:35.722 INFO - Done: [find element: By.cssSelector: #okta-signin-password]
-11:42:35.725 INFO - Executing: [send keys: 30 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-password], [U, d, a, i, p, u, r, 5, 1, 2]])
-11:42:36.531 INFO - Done: [send keys: 30 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-password], [U, d, a, i, p, u, r, 5, 1, 2]]
-11:42:36.534 INFO - Executing: [find elements: By.cssSelector: #okta-signin-submit])
-11:42:36.558 INFO - Done: [find elements: By.cssSelector: #okta-signin-submit]
-11:42:36.560 INFO - Executing: [is displayed: 31 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-submit]])
-11:42:36.576 INFO - Done: [is displayed: 31 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-submit]]
-11:42:36.578 INFO - Executing: [find element: By.cssSelector: #okta-signin-submit])
-11:42:36.593 INFO - Done: [find element: By.cssSelector: #okta-signin-submit]
-11:42:36.595 INFO - Executing: [click: 31 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-submit]])
-11:42:37.078 INFO - Done: [click: 31 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #okta-signin-submit]]
-11:42:37.080 INFO - Executing: [find elements: By.cssSelector: #input64])
-11:42:37.103 INFO - Done: [find elements: By.cssSelector: #input64]
-11:42:37.607 INFO - Executing: [find elements: By.cssSelector: #input64])
-11:42:37.620 INFO - Done: [find elements: By.cssSelector: #input64]
-11:42:38.124 INFO - Executing: [find elements: By.cssSelector: #input64])
-11:42:38.140 INFO - Done: [find elements: By.cssSelector: #input64]
-11:42:38.643 INFO - Executing: [find elements: By.cssSelector: #input64])
-11:42:38.654 INFO - Done: [find elements: By.cssSelector: #input64]
-11:42:38.657 INFO - Executing: [is displayed: 32 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #input64]])
-11:42:38.675 INFO - Done: [is displayed: 32 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #input64]]
-11:42:38.678 INFO - Executing: [find element: By.cssSelector: #input64])
-11:42:38.694 INFO - Done: [find element: By.cssSelector: #input64]
-11:42:38.697 INFO - Executing: [send keys: 32 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #input64], [u, d, a, i, p, u, r]])
-11:42:38.762 INFO - Done: [send keys: 32 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #input64], [u, d, a, i, p, u, r]]
-11:42:38.764 INFO - Executing: [find elements: By.cssSelector: input[value="Verify"]])
-11:42:38.779 INFO - Done: [find elements: By.cssSelector: input[value="Verify"]]
-11:42:38.781 INFO - Executing: [is displayed: 33 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: input[value="Verify"]]])
-11:42:38.799 INFO - Done: [is displayed: 33 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: input[value="Verify"]]]
-11:42:38.803 INFO - Executing: [find element: By.cssSelector: input[value="Verify"]])
-11:42:38.823 INFO - Done: [find element: By.cssSelector: input[value="Verify"]]
-11:42:38.825 INFO - Executing: [click: 33 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: input[value="Verify"]]])
-11:42:38.867 INFO - Done: [click: 33 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: input[value="Verify"]]]
-11:42:48.866 INFO - Executing: [get window handles])
-11:42:48.873 INFO - Done: [get window handles]
-11:42:48.880 INFO - Executing: [switch to window: CDwindow-A80623E5D147CEA14ADDD2047CD1E007])
-11:42:48.887 INFO - Done: [switch to window: CDwindow-A80623E5D147CEA14ADDD2047CD1E007]
-11:42:48.890 INFO - Executing: [find elements: By.cssSelector: [qid="sad-2"]])
-11:42:48.916 INFO - Done: [find elements: By.cssSelector: [qid="sad-2"]]
-11:42:48.918 INFO - Executing: [is displayed: 34 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid="sad-2"]]])
-11:42:48.935 INFO - Done: [is displayed: 34 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid="sad-2"]]]
-11:42:48.937 INFO - Executing: [find element: By.cssSelector: [qid="sad-2"]])
-11:42:48.952 INFO - Done: [find element: By.cssSelector: [qid="sad-2"]]
-11:42:48.955 INFO - Executing: [send keys: 34 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid="sad-2"]], [a]])
-11:42:49.012 INFO - Done: [send keys: 34 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid="sad-2"]], [a]]
-11:42:49.016 INFO - Executing: [find elements: By.cssSelector: [qid="sad-3"]])
-11:42:49.031 INFO - Done: [find elements: By.cssSelector: [qid="sad-3"]]
-11:42:49.033 INFO - Executing: [is displayed: 35 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid="sad-3"]]])
-11:42:49.047 INFO - Done: [is displayed: 35 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid="sad-3"]]]
-11:42:49.049 INFO - Executing: [find element: By.cssSelector: [qid="sad-3"]])
-11:42:49.062 INFO - Done: [find element: By.cssSelector: [qid="sad-3"]]
-11:42:49.064 INFO - Executing: [click: 35 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid="sad-3"]]])
-11:42:49.115 INFO - Done: [click: 35 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: [qid="sad-3"]]]
-11:42:49.118 INFO - Executing: [find elements: By.cssSelector: .admin-menu ul])
-11:42:49.139 INFO - Done: [find elements: By.cssSelector: .admin-menu ul]
-11:42:49.644 INFO - Executing: [find elements: By.cssSelector: .admin-menu ul])
-11:42:49.662 INFO - Done: [find elements: By.cssSelector: .admin-menu ul]
-11:42:49.666 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .admin-menu ul]])
-11:42:49.688 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .admin-menu ul]]
-11:42:49.696 INFO - Executing: [take screenshot])
-11:42:50.027 INFO - Done: [take screenshot]
-11:42:50.068 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
-11:42:50.083 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
-11:42:50.085 INFO - Executing: [click: 37 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #dropdownMenuLink]])
-11:42:50.134 INFO - Done: [click: 37 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: #dropdownMenuLink]]
-11:42:50.140 INFO - Executing: [find elements: By.cssSelector: .logout button])
-11:42:50.156 INFO - Done: [find elements: By.cssSelector: .logout button]
-11:42:50.157 INFO - Executing: [is displayed: 38 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]])
-11:42:50.173 INFO - Done: [is displayed: 38 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]]
-11:42:50.177 INFO - Executing: [find element: By.cssSelector: .logout button])
-11:42:50.189 INFO - Done: [find element: By.cssSelector: .logout button]
-11:42:50.192 INFO - Executing: [click: 38 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]])
-11:42:50.256 INFO - Done: [click: 38 [[ChromeDriver: chrome on XP (3abec6b14a6ca3c79c7eea982e58956f)] -> css selector: .logout button]]
-11:42:50.259 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:50.275 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:50.780 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:50.796 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:51.302 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:51.375 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:51.878 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:52.074 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:52.578 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
-11:42:52.598 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
-11:42:52.603 INFO - Executing: [delete session: 0fe57154-85fe-4a4d-8398-3e7cc8d00229])
-11:42:53.561 INFO - Done: [delete session: 0fe57154-85fe-4a4d-8398-3e7cc8d00229]
+15:42:20.817 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]]
+15:42:20.827 INFO - Executing: [get: https://www.cambridgeone.org/])
+15:42:23.512 INFO - Done: [get: https://www.cambridgeone.org/]
+15:42:23.520 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:42:23.551 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:42:23.556 INFO - Executing: [find element: By.cssSelector: #onboarding-header-login-btn])
+15:42:23.572 INFO - Done: [find element: By.cssSelector: #onboarding-header-login-btn]
+15:42:23.574 INFO - Executing: [click: 0 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #onboarding-header-login-btn]])
+15:42:23.636 INFO - Done: [click: 0 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #onboarding-header-login-btn]]
+15:42:23.641 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:42:23.674 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:42:24.178 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:42:24.241 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:42:24.745 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:42:24.756 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:42:25.259 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:42:25.275 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:42:25.278 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]]])
+15:42:25.294 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]]]
+15:42:25.298 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="username"]])
+15:42:25.311 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="username"]]
+15:42:25.315 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]], [c, q, a, s, t, u, d, e, n, t, 1, 0, @, y, o, p, m, a, i, l, ., c, o, m]])
+15:42:25.413 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]], [c, q, a, s, t, u, d, e, n, t, 1, 0, @, y, o, p, m, a, i, l, ., c, o, m]]
+15:42:25.417 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="password"]])
+15:42:25.434 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="password"]]
+15:42:25.437 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]])
+15:42:25.500 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="password"]], [C, o, m, p, r, o, 1, 1]]
+15:42:25.503 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[type="submit"]])
+15:42:25.517 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[type="submit"]]
+15:42:25.519 INFO - Executing: [click: 3 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[type="submit"]]])
+15:42:25.639 INFO - Done: [click: 3 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[type="submit"]]]
+15:42:25.643 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:42:25.661 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:42:26.166 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:42:26.177 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:42:26.682 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:42:26.695 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:42:27.199 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:42:29.228 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:42:29.735 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:42:29.754 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:42:30.258 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:42:30.269 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:42:30.773 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:42:30.792 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:42:31.296 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:42:31.341 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:42:31.344 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .practice-image]])
+15:42:31.380 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .practice-image]]
+15:42:31.383 INFO - Executing: [find element: By.cssSelector: .practice-image])
+15:42:31.406 INFO - Done: [find element: By.cssSelector: .practice-image]
+15:42:31.409 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .practice-image]])
+15:42:37.806 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .practice-image]]
+15:42:37.810 INFO - Executing: [find elements: By.cssSelector: .question-div .text-editor])
+15:42:37.827 INFO - Done: [find elements: By.cssSelector: .question-div .text-editor]
+15:42:38.332 INFO - Executing: [find elements: By.cssSelector: .question-div .text-editor])
+15:42:38.349 INFO - Done: [find elements: By.cssSelector: .question-div .text-editor]
+15:42:38.853 INFO - Executing: [find elements: By.cssSelector: .question-div .text-editor])
+15:42:38.903 INFO - Done: [find elements: By.cssSelector: .question-div .text-editor]
+15:42:39.412 INFO - Executing: [find elements: By.cssSelector: .question-div .text-editor])
+15:42:39.429 INFO - Done: [find elements: By.cssSelector: .question-div .text-editor]
+15:42:39.432 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .question-div .text-editor]])
+15:42:39.450 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .question-div .text-editor]]
+15:42:59.456 INFO - Executing: [find element: By.cssSelector: [qid='cHeader-8']])
+15:42:59.483 INFO - Done: [find element: By.cssSelector: [qid='cHeader-8']]
+15:42:59.487 INFO - Executing: [click: 6 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid='cHeader-8']]])
+15:43:01.591 INFO - Done: [click: 6 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid='cHeader-8']]]
+15:43:01.594 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:43:01.646 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:43:02.150 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:43:02.168 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:43:02.673 INFO - Executing: [find elements: By.cssSelector: .practice-image])
+15:43:02.691 INFO - Done: [find elements: By.cssSelector: .practice-image]
+15:43:02.694 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .practice-image]])
+15:43:02.720 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .practice-image]]
+15:43:02.725 INFO - Executing: [find element: By.cssSelector: .courses .product-image])
+15:43:02.744 INFO - Done: [find element: By.cssSelector: .courses .product-image]
+15:43:02.746 INFO - Executing: [click: 8 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .courses .product-image]])
+15:43:06.914 INFO - Done: [click: 8 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .courses .product-image]]
+15:43:06.918 INFO - Executing: [find elements: By.cssSelector: .analytic-box-container .analytic-content])
+15:43:06.996 INFO - Done: [find elements: By.cssSelector: .analytic-box-container .analytic-content]
+15:43:07.500 INFO - Executing: [find elements: By.cssSelector: .analytic-box-container .analytic-content])
+15:43:07.517 INFO - Done: [find elements: By.cssSelector: .analytic-box-container .analytic-content]
+15:43:08.022 INFO - Executing: [find elements: By.cssSelector: .analytic-box-container .analytic-content])
+15:43:08.054 INFO - Done: [find elements: By.cssSelector: .analytic-box-container .analytic-content]
+15:43:08.059 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .analytic-box-container .analytic-content]])
+15:43:08.096 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .analytic-box-container .analytic-content]]
+15:43:08.124 INFO - Executing: [take screenshot])
+15:43:08.453 INFO - Done: [take screenshot]
+15:43:08.474 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
+15:43:08.489 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
+15:43:08.493 INFO - Executing: [click: 14 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #dropdownMenuLink]])
+15:43:08.548 INFO - Done: [click: 14 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #dropdownMenuLink]]
+15:43:08.553 INFO - Executing: [find elements: By.cssSelector: .logout button])
+15:43:08.571 INFO - Done: [find elements: By.cssSelector: .logout button]
+15:43:08.574 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]])
+15:43:08.591 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]]
+15:43:08.594 INFO - Executing: [find element: By.cssSelector: .logout button])
+15:43:08.608 INFO - Done: [find element: By.cssSelector: .logout button]
+15:43:08.610 INFO - Executing: [click: 15 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]])
+15:43:08.676 INFO - Done: [click: 15 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]]
+15:43:08.679 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:08.697 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:09.201 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:09.219 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:09.724 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:10.243 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:10.747 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:10.768 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:10.773 INFO - Executing: [find element: By.cssSelector: #onboarding-header-login-btn])
+15:43:10.797 INFO - Done: [find element: By.cssSelector: #onboarding-header-login-btn]
+15:43:10.800 INFO - Executing: [click: 16 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #onboarding-header-login-btn]])
+15:43:10.857 INFO - Done: [click: 16 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #onboarding-header-login-btn]]
+15:43:10.863 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:43:10.883 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:43:11.387 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:43:11.404 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:43:11.908 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:43:11.925 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:43:11.928 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]]])
+15:43:11.950 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]]]
+15:43:11.953 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="username"]])
+15:43:11.968 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="username"]]
+15:43:11.971 INFO - Executing: [send keys: 17 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]], [a, d, m, i, n, 1, _, a, b, e, r, y, s, t, w, y, t, h, _, p, r, o, d, 1, @, c, o, m, p, r, o, d, l, s, ., c, o, m]])
+15:43:12.103 INFO - Done: [send keys: 17 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]], [a, d, m, i, n, 1, _, a, b, e, r, y, s, t, w, y, t, h, _, p, r, o, d, 1, @, c, o, m, p, r, o, d, l, s, ., c, o, m]]
+15:43:12.106 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[name="password"]])
+15:43:12.121 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[name="password"]]
+15:43:12.123 INFO - Executing: [send keys: 18 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="password"]], [#, c, o, m, p, r, o, @, 1, 2, 5, 4]])
+15:43:12.193 INFO - Done: [send keys: 18 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="password"]], [#, c, o, m, p, r, o, @, 1, 2, 5, 4]]
+15:43:12.197 INFO - Executing: [find element: By.cssSelector: #gigya-login-form input[type="submit"]])
+15:43:12.211 INFO - Done: [find element: By.cssSelector: #gigya-login-form input[type="submit"]]
+15:43:12.213 INFO - Executing: [click: 19 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[type="submit"]]])
+15:43:12.317 INFO - Done: [click: 19 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[type="submit"]]]
+15:43:12.321 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
+15:43:12.351 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
+15:43:12.855 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
+15:43:12.871 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
+15:43:13.375 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
+15:43:13.394 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
+15:43:13.899 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
+15:43:16.642 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
+15:43:17.148 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
+15:43:17.168 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
+15:43:17.671 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
+15:43:17.683 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
+15:43:18.185 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap])
+15:43:18.197 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap]
+15:43:18.199 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .my-spaces .flex-wrap]])
+15:43:18.213 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .my-spaces .flex-wrap]]
+15:43:18.215 INFO - Executing: [find elements: By.cssSelector: .my-spaces .flex-wrap .flex-column])
+15:43:18.229 INFO - Done: [find elements: By.cssSelector: .my-spaces .flex-wrap .flex-column]
+15:43:18.236 INFO - Executing: [take screenshot])
+15:43:18.571 INFO - Done: [take screenshot]
+15:43:18.586 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
+15:43:18.595 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
+15:43:18.597 INFO - Executing: [click: 26 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #dropdownMenuLink]])
+15:43:18.645 INFO - Done: [click: 26 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #dropdownMenuLink]]
+15:43:18.648 INFO - Executing: [find elements: By.cssSelector: .logout button])
+15:43:18.659 INFO - Done: [find elements: By.cssSelector: .logout button]
+15:43:18.661 INFO - Executing: [is displayed: 27 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]])
+15:43:18.677 INFO - Done: [is displayed: 27 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]]
+15:43:18.681 INFO - Executing: [find element: By.cssSelector: .logout button])
+15:43:18.692 INFO - Done: [find element: By.cssSelector: .logout button]
+15:43:18.694 INFO - Executing: [click: 27 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]])
+15:43:18.756 INFO - Done: [click: 27 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]]
+15:43:18.758 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:18.781 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:19.284 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:19.295 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:19.797 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:20.270 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:20.774 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:20.785 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:20.787 INFO - Executing: [get: https://www.cambridgeone.org?p=@cambridge.org&t=saml])
+15:43:21.372 INFO - Done: [get: https://www.cambridgeone.org?p=@cambridge.org&t=saml]
+15:43:31.375 INFO - Executing: [get window handles])
+15:43:31.383 INFO - Done: [get window handles]
+15:43:31.398 INFO - Executing: [switch to window: CDwindow-347627C63E1F675279BADFB7D405984A])
+15:43:31.408 INFO - Done: [switch to window: CDwindow-347627C63E1F675279BADFB7D405984A]
+15:43:31.412 INFO - Executing: [find elements: By.cssSelector: #okta-signin-username])
+15:43:32.477 INFO - Done: [find elements: By.cssSelector: #okta-signin-username]
+15:43:32.482 INFO - Executing: [is displayed: 29 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-username]])
+15:43:32.499 INFO - Done: [is displayed: 29 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-username]]
+15:43:32.501 INFO - Executing: [find element: By.cssSelector: #okta-signin-username])
+15:43:32.514 INFO - Done: [find element: By.cssSelector: #okta-signin-username]
+15:43:32.517 INFO - Executing: [send keys: 29 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-username], [a, d, a, n, i]])
+15:43:32.563 INFO - Done: [send keys: 29 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-username], [a, d, a, n, i]]
+15:43:32.567 INFO - Executing: [find element: By.cssSelector: #okta-signin-password])
+15:43:32.581 INFO - Done: [find element: By.cssSelector: #okta-signin-password]
+15:43:32.584 INFO - Executing: [send keys: 30 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-password], [U, d, a, i, p, u, r, 5, 1, 2]])
+15:43:33.632 INFO - Done: [send keys: 30 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-password], [U, d, a, i, p, u, r, 5, 1, 2]]
+15:43:33.635 INFO - Executing: [find elements: By.cssSelector: #okta-signin-submit])
+15:43:33.660 INFO - Done: [find elements: By.cssSelector: #okta-signin-submit]
+15:43:33.661 INFO - Executing: [is displayed: 31 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-submit]])
+15:43:33.675 INFO - Done: [is displayed: 31 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-submit]]
+15:43:33.684 INFO - Executing: [find element: By.cssSelector: #okta-signin-submit])
+15:43:33.696 INFO - Done: [find element: By.cssSelector: #okta-signin-submit]
+15:43:33.698 INFO - Executing: [click: 31 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-submit]])
+15:43:34.292 INFO - Done: [click: 31 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #okta-signin-submit]]
+15:43:34.295 INFO - Executing: [find elements: By.cssSelector: #input64])
+15:43:34.318 INFO - Done: [find elements: By.cssSelector: #input64]
+15:43:34.821 INFO - Executing: [find elements: By.cssSelector: #input64])
+15:43:34.833 INFO - Done: [find elements: By.cssSelector: #input64]
+15:43:35.336 INFO - Executing: [find elements: By.cssSelector: #input64])
+15:43:35.352 INFO - Done: [find elements: By.cssSelector: #input64]
+15:43:35.855 INFO - Executing: [find elements: By.cssSelector: #input64])
+15:43:35.867 INFO - Done: [find elements: By.cssSelector: #input64]
+15:43:35.869 INFO - Executing: [is displayed: 32 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #input64]])
+15:43:35.885 INFO - Done: [is displayed: 32 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #input64]]
+15:43:35.887 INFO - Executing: [find element: By.cssSelector: #input64])
+15:43:35.900 INFO - Done: [find element: By.cssSelector: #input64]
+15:43:35.903 INFO - Executing: [send keys: 32 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #input64], [u, d, a, i, p, u, r]])
+15:43:35.959 INFO - Done: [send keys: 32 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #input64], [u, d, a, i, p, u, r]]
+15:43:35.962 INFO - Executing: [find elements: By.cssSelector: input[value="Verify"]])
+15:43:35.978 INFO - Done: [find elements: By.cssSelector: input[value="Verify"]]
+15:43:35.980 INFO - Executing: [is displayed: 33 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[value="Verify"]]])
+15:43:35.996 INFO - Done: [is displayed: 33 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[value="Verify"]]]
+15:43:35.999 INFO - Executing: [find element: By.cssSelector: input[value="Verify"]])
+15:43:36.014 INFO - Done: [find element: By.cssSelector: input[value="Verify"]]
+15:43:36.017 INFO - Executing: [click: 33 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[value="Verify"]]])
+15:43:36.066 INFO - Done: [click: 33 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[value="Verify"]]]
+15:43:46.069 INFO - Executing: [get window handles])
+15:43:46.076 INFO - Done: [get window handles]
+15:43:46.083 INFO - Executing: [switch to window: CDwindow-5953AF8F0FF883331B8E88B9E960ADF7])
+15:43:46.090 INFO - Done: [switch to window: CDwindow-5953AF8F0FF883331B8E88B9E960ADF7]
+15:43:46.094 INFO - Executing: [find elements: By.cssSelector: [qid="sad-2"]])
+15:43:46.130 INFO - Done: [find elements: By.cssSelector: [qid="sad-2"]]
+15:43:46.132 INFO - Executing: [is displayed: 34 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid="sad-2"]]])
+15:43:46.152 INFO - Done: [is displayed: 34 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid="sad-2"]]]
+15:43:46.155 INFO - Executing: [find element: By.cssSelector: [qid="sad-2"]])
+15:43:46.169 INFO - Done: [find element: By.cssSelector: [qid="sad-2"]]
+15:43:46.171 INFO - Executing: [send keys: 34 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid="sad-2"]], [a]])
+15:43:46.216 INFO - Done: [send keys: 34 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid="sad-2"]], [a]]
+15:43:46.218 INFO - Executing: [find elements: By.cssSelector: [qid="sad-3"]])
+15:43:46.237 INFO - Done: [find elements: By.cssSelector: [qid="sad-3"]]
+15:43:46.238 INFO - Executing: [is displayed: 35 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid="sad-3"]]])
+15:43:46.253 INFO - Done: [is displayed: 35 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid="sad-3"]]]
+15:43:46.255 INFO - Executing: [find element: By.cssSelector: [qid="sad-3"]])
+15:43:46.268 INFO - Done: [find element: By.cssSelector: [qid="sad-3"]]
+15:43:46.270 INFO - Executing: [click: 35 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid="sad-3"]]])
+15:43:46.331 INFO - Done: [click: 35 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: [qid="sad-3"]]]
+15:43:46.336 INFO - Executing: [find elements: By.cssSelector: .admin-menu ul])
+15:43:46.360 INFO - Done: [find elements: By.cssSelector: .admin-menu ul]
+15:43:46.864 INFO - Executing: [find elements: By.cssSelector: .admin-menu ul])
+15:43:46.880 INFO - Done: [find elements: By.cssSelector: .admin-menu ul]
+15:43:46.883 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .admin-menu ul]])
+15:43:46.908 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .admin-menu ul]]
+15:43:46.926 INFO - Executing: [take screenshot])
+15:43:47.262 INFO - Done: [take screenshot]
+15:43:47.303 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
+15:43:47.318 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
+15:43:47.322 INFO - Executing: [click: 37 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #dropdownMenuLink]])
+15:43:47.369 INFO - Done: [click: 37 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #dropdownMenuLink]]
+15:43:47.375 INFO - Executing: [find elements: By.cssSelector: .logout button])
+15:43:47.392 INFO - Done: [find elements: By.cssSelector: .logout button]
+15:43:47.395 INFO - Executing: [is displayed: 38 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]])
+15:43:47.411 INFO - Done: [is displayed: 38 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]]
+15:43:47.413 INFO - Executing: [find element: By.cssSelector: .logout button])
+15:43:47.428 INFO - Done: [find element: By.cssSelector: .logout button]
+15:43:47.430 INFO - Executing: [click: 38 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]])
+15:43:47.504 INFO - Done: [click: 38 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]]
+15:43:47.509 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:47.528 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:48.032 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:48.042 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:48.546 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:48.986 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:49.489 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:43:49.514 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:43:49.517 INFO - Executing: [find element: By.cssSelector: #onboarding-header-login-btn])
+15:43:49.537 INFO - Done: [find element: By.cssSelector: #onboarding-header-login-btn]
+15:43:49.539 INFO - Executing: [click: 39 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #onboarding-header-login-btn]])
+15:43:49.593 INFO - Done: [click: 39 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #onboarding-header-login-btn]]
+15:43:49.597 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:43:49.647 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:43:50.150 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:43:50.166 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:43:50.669 INFO - Executing: [find elements: By.cssSelector: #gigya-login-form input[name="username"]])
+15:43:50.687 INFO - Done: [find elements: By.cssSelector: #gigya-login-form input[name="username"]]
+15:43:50.690 INFO - Executing: [is displayed: 40 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]]])
+15:43:50.710 INFO - Done: [is displayed: 40 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #gigya-login-form input[name="username"]]]
+15:43:50.712 INFO - Executing: [find elements: By.cssSelector: .gigya-login-providers-list .gigya-login-provider:nth-of-type(2) .tabbing-button])
+15:43:50.725 INFO - Done: [find elements: By.cssSelector: .gigya-login-providers-list .gigya-login-provider:nth-of-type(2) .tabbing-button]
+15:43:50.726 INFO - Executing: [is displayed: 41 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .gigya-login-providers-list .gigya-login-provider:nth-of-type(2) .tabbing-button]])
+15:43:50.741 INFO - Done: [is displayed: 41 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .gigya-login-providers-list .gigya-login-provider:nth-of-type(2) .tabbing-button]]
+15:43:50.743 INFO - Executing: [find element: By.cssSelector: .gigya-login-providers-list .gigya-login-provider:nth-of-type(2) .tabbing-button])
+15:43:50.756 INFO - Done: [find element: By.cssSelector: .gigya-login-providers-list .gigya-login-provider:nth-of-type(2) .tabbing-button]
+15:43:50.757 INFO - Executing: [click: 41 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .gigya-login-providers-list .gigya-login-provider:nth-of-type(2) .tabbing-button]])
+15:43:50.848 INFO - Done: [click: 41 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .gigya-login-providers-list .gigya-login-provider:nth-of-type(2) .tabbing-button]]
+15:43:50.851 INFO - Executing: [get window handles])
+15:43:50.864 INFO - Done: [get window handles]
+15:43:50.872 INFO - Executing: [switch to window: CDwindow-A4DF07AE7B547D345E40C644C1F59F51])
+15:43:50.883 INFO - Done: [switch to window: CDwindow-A4DF07AE7B547D345E40C644C1F59F51]
+15:43:50.886 INFO - Executing: [find elements: By.cssSelector: #identifierId])
+15:43:52.981 INFO - Done: [find elements: By.cssSelector: #identifierId]
+15:43:52.982 INFO - Executing: [is displayed: 42 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #identifierId]])
+15:43:53.004 INFO - Done: [is displayed: 42 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #identifierId]]
+15:43:53.006 INFO - Executing: [find element: By.cssSelector: #identifierId])
+15:43:53.020 INFO - Done: [find element: By.cssSelector: #identifierId]
+15:43:53.022 INFO - Executing: [send keys: 42 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #identifierId], [c, u, p, p, r, o, d, 1, @, g, m, a, i, l, ., c, o, m]])
+15:43:53.153 INFO - Done: [send keys: 42 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #identifierId], [c, u, p, p, r, o, d, 1, @, g, m, a, i, l, ., c, o, m]]
+15:43:53.155 INFO - Executing: [find element: By.cssSelector: #identifierNext])
+15:43:53.168 INFO - Done: [find element: By.cssSelector: #identifierNext]
+15:43:53.170 INFO - Executing: [click: 43 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #identifierNext]])
+15:43:53.257 INFO - Done: [click: 43 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #identifierNext]]
+15:43:53.259 INFO - Executing: [find elements: By.cssSelector: input[type="password"]])
+15:43:53.277 INFO - Done: [find elements: By.cssSelector: input[type="password"]]
+15:43:53.279 INFO - Executing: [is displayed: 44 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[type="password"]]])
+15:43:53.292 INFO - Done: [is displayed: 44 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[type="password"]]]
+15:43:53.794 INFO - Executing: [is displayed: 44 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[type="password"]]])
+15:43:53.804 INFO - Done: [is displayed: 44 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[type="password"]]]
+15:43:54.307 INFO - Executing: [is displayed: 44 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[type="password"]]])
+15:43:54.748 WARN - Exception thrown
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Shivam', ip: '192.168.1.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51009}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir=C:\Users\SHIVAM~1.COM\AppData\Local\Temp\scoped_dir4812_30746}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fe5fdb9bf4520589a38b65b2a6cdd2d5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:368)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:389)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.isDisplayed(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:32)
+	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:43:54.750 WARN - Exception: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Shivam', ip: '192.168.1.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51009}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir=C:\Users\SHIVAM~1.COM\AppData\Local\Temp\scoped_dir4812_30746}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fe5fdb9bf4520589a38b65b2a6cdd2d5
+15:43:54.878 INFO - Executing: [find elements: By.cssSelector: input[type="password"]])
+15:43:54.888 INFO - Done: [find elements: By.cssSelector: input[type="password"]]
+15:43:54.890 INFO - Executing: [is displayed: 45 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[type="password"]]])
+15:43:54.904 INFO - Done: [is displayed: 45 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[type="password"]]]
+15:43:54.907 INFO - Executing: [find element: By.cssSelector: input[type="password"]])
+15:43:54.919 INFO - Done: [find element: By.cssSelector: input[type="password"]]
+15:43:54.921 INFO - Executing: [send keys: 45 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[type="password"]], [C, o, m, p, r, o, 1, 1]])
+15:43:54.986 INFO - Done: [send keys: 45 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: input[type="password"]], [C, o, m, p, r, o, 1, 1]]
+15:43:54.988 INFO - Executing: [find element: By.cssSelector: #passwordNext])
+15:43:55.001 INFO - Done: [find element: By.cssSelector: #passwordNext]
+15:43:55.004 INFO - Executing: [click: 46 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #passwordNext]])
+15:43:55.095 INFO - Done: [click: 46 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #passwordNext]]
+15:43:55.098 INFO - Executing: [get window handles])
+15:43:55.103 INFO - Done: [get window handles]
+15:43:55.108 INFO - Executing: [switch to window: CDwindow-5953AF8F0FF883331B8E88B9E960ADF7])
+15:43:55.121 INFO - Done: [switch to window: CDwindow-5953AF8F0FF883331B8E88B9E960ADF7]
+15:43:55.125 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:55.144 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:43:55.648 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:55.664 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:43:56.169 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:56.184 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:43:56.689 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:56.704 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:43:57.207 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:57.223 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:43:57.727 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:57.744 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:43:58.246 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:58.255 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:43:58.759 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:58.774 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:43:59.277 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:59.292 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:43:59.796 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:43:59.832 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:44:00.334 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:44:01.216 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:44:01.719 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:44:01.735 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:44:02.238 INFO - Executing: [find elements: By.cssSelector: .start-learning-container .welcome ])
+15:44:02.248 INFO - Done: [find elements: By.cssSelector: .start-learning-container .welcome ]
+15:44:02.251 INFO - Executing: [is displayed: 47 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .start-learning-container .welcome ]])
+15:44:02.311 INFO - Done: [is displayed: 47 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .start-learning-container .welcome ]]
+15:44:02.319 INFO - Executing: [take screenshot])
+15:44:02.665 INFO - Done: [take screenshot]
+15:44:02.678 INFO - Executing: [find element: By.cssSelector: #dropdownMenuLink])
+15:44:02.688 INFO - Done: [find element: By.cssSelector: #dropdownMenuLink]
+15:44:02.689 INFO - Executing: [click: 48 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #dropdownMenuLink]])
+15:44:02.746 INFO - Done: [click: 48 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: #dropdownMenuLink]]
+15:44:02.749 INFO - Executing: [find elements: By.cssSelector: .logout button])
+15:44:02.758 INFO - Done: [find elements: By.cssSelector: .logout button]
+15:44:02.760 INFO - Executing: [is displayed: 49 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]])
+15:44:02.774 INFO - Done: [is displayed: 49 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]]
+15:44:02.777 INFO - Executing: [find element: By.cssSelector: .logout button])
+15:44:02.786 INFO - Done: [find element: By.cssSelector: .logout button]
+15:44:02.787 INFO - Executing: [click: 49 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]])
+15:44:02.848 INFO - Done: [click: 49 [[ChromeDriver: chrome on XP (fe5fdb9bf4520589a38b65b2a6cdd2d5)] -> css selector: .logout button]]
+15:44:02.852 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:44:02.871 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:44:03.373 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:44:03.383 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:44:03.887 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:44:04.315 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:44:04.819 INFO - Executing: [find elements: By.cssSelector: #onboarding-header-login-btn])
+15:44:04.837 INFO - Done: [find elements: By.cssSelector: #onboarding-header-login-btn]
+15:44:04.842 INFO - Executing: [delete session: 934d3322-91d5-4f8b-82df-65b87f26f676])
+15:44:05.890 INFO - Done: [delete session: 934d3322-91d5-4f8b-82df-65b87f26f676]

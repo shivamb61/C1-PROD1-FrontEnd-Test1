@@ -10,6 +10,18 @@ var loginCommands = {
         action.setValue(this,'@username',username);
         action.setValue(this,'@password',password);
         action.click(this,'@submitButton');
+    },
+    LoginWithGoogleOption: function() {
+        action.waitForElementVisible(this,this.elements.googleOption.selector,50000);
+        action.click(this,'@googleOption');
+    },
+    loginWithGoogleCredentials: function(email, pass) {
+        action.waitForElementVisible(this,this.elements.googleUsername.selector,50000);
+        action.setValue(this,'@googleUsername',email);
+        action.click(this,'@googleNext');
+        action.waitForElementVisible(this,this.elements.googlePass.selector,50000);
+        action.setValue(this,'@googlePass',pass);
+        action.click(this,'@googleNext2');
     }
 };
 
@@ -30,6 +42,21 @@ module.exports = {
         },
         submitButton: {
             selector: '#gigya-login-form input[type="submit"]' // Update the selector value based on your application
+        },
+        googleOption: {
+            selector: ".gigya-login-providers-list .gigya-login-provider:nth-of-type(2) .tabbing-button"
+        },
+        googleUsername: {
+            selector: "#identifierId"
+        },
+        googleNext: {
+            selector: "#identifierNext"
+        },
+        googlePass: {
+            selector: 'input[type="password"]'
+        },
+        googleNext2: {
+            selector: "#passwordNext"
         }
     }
 };

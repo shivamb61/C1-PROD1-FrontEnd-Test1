@@ -11,6 +11,9 @@ module.exports = {
         },
         logo: {
             selector: "[qid='cHeader-1'] [src*='cup-logo']"
+        },
+        welcome: {
+            selector: ".start-learning-container .welcome "
         }
     },
     commands: [
@@ -34,6 +37,10 @@ module.exports = {
             clickLogo: function(){
                 this.api.useCss();
                 actions.click(this,this.elements.logo.selector);
+            },
+            waitForWelcomeMsg: function(){
+                this.api.useCss();
+                actions.waitForElementVisible(this,this.elements.welcome.selector,100000);       
             }
         }
     ]

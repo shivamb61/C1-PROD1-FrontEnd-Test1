@@ -1,5 +1,4 @@
 var screenshots = require('./../lib/screenshots');
-var assert = require('../lib/assertionLibrary.js');
 var testData = require('../testdata/nemoResetTestData.js');
 
 describe('Cambridge One APP', function () {
@@ -82,6 +81,24 @@ describe('Cambridge One APP', function () {
             nemoSupportAdminDashboardPageObj.waitForSearchBox();      
         });        
     });     
+    it('Login with google account', function (browser) {  
+        nemoLaunchPageObj.clickLogin();
+       // nemoLaunchPageObj.waitForLoginButtonToBePresent();
+        nemoLoginPageObj = browser.page['login.page']();
+        nemoLoginPageObj.waitForPageLoad();
+        nemoLoginPageObj.LoginWithGoogleOption();
+        //switch window
+        browser.window_handles(function(result) { 
+            browser.switchWindow(result.value[1]);
+            nemoLoginPageObj.loginWithGoogleCredentials("cupprod1@gmail.com","Compro11");    
+        });    
+        //switch back to original window
+        browser.window_handles(function(result) {
+            headerPageObj = browser.page['header.page']();
+            browser.switchWindow(result.value[0]);  
+            headerPageObj.waitForWelcomeMsg(); 
+        }); 
+    });   
 
 
     afterEach(function (browser, done) {
