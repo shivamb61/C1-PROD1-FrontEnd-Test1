@@ -29,6 +29,7 @@ describe('Cambridge One APP', function () {
         headerPageObj = browser.page['header.page']();
          done();
     });
+
     it('Verify that the learning path app and class app are working', function(browser) {
         //Wait for login button
         // nemoLaunchPageObj.waitForLoginButtonToBePresent();
@@ -50,6 +51,7 @@ describe('Cambridge One APP', function () {
         studentDashboard.goToClass2();
         studentDashboard.waitForAnalytic();
     });   
+
     it('Admin Login and access dashboard', function (browser) {  
         nemoLaunchPageObj.clickLogin();
        // nemoLaunchPageObj.waitForLoginButtonToBePresent();
@@ -65,7 +67,8 @@ describe('Cambridge One APP', function () {
                 browser.assert.fail('Tabs Count do not match');
             }
         });   
-    });     
+    }); 
+
     it('Support-Admin Login and access dashboard', function (browser) {
         browser.url('https://www.cambridgeone.org?p=@cambridge.org&t=saml');
         browser.pause(10000);
@@ -80,7 +83,8 @@ describe('Cambridge One APP', function () {
             //Wait for search box
             nemoSupportAdminDashboardPageObj.waitForSearchBox();      
         });        
-    });     
+    }); 
+
     it('Login with google account', function (browser) {  
         nemoLaunchPageObj.clickLogin();
        // nemoLaunchPageObj.waitForLoginButtonToBePresent();
@@ -112,8 +116,8 @@ describe('Cambridge One APP', function () {
         headerPageObj.clickLogout();
         nemoLaunchPageObj.waitForLoginButtonToBePresent();
         done();
-       
     });
+    
     after(function (browser, done) {
         //close browser
         if (browser.sessionId) {
