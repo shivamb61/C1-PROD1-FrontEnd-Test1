@@ -85,7 +85,7 @@ describe('Cambridge One APP', function () {
         });        
     }); 
 
-    it('Login with google account', function (browser) {  
+    xit('Login with google account', function (browser) {  
         nemoLaunchPageObj.clickLogin();
        // nemoLaunchPageObj.waitForLoginButtonToBePresent();
         nemoLoginPageObj = browser.page['login.page']();
@@ -117,7 +117,7 @@ describe('Cambridge One APP', function () {
         nemoLaunchPageObj.waitForLoginButtonToBePresent();
         done();
     });
-    
+
     after(function (browser, done) {
         //close browser
         if (browser.sessionId) {
