@@ -30,44 +30,41 @@ describe('Cambridge One APP', function () {
          done();
     });
 
-    it('Verify that the learning path app and class app are working', function(browser) {
-        //Wait for login button
-        // nemoLaunchPageObj.waitForLoginButtonToBePresent();
-        // //Click login button
-        // nemoLaunchPageObj.clickLogin();
-        //Create object for login page
-        nemoLoginPageObj = browser.page['login.page']();
-        //Wait for login page
-        //nemoLoginPageObj.waitForPageLoad();
-        nemoLoginPageObj.login('cqastudent10@yopmail.com',password);
-        studentDashboard = browser.page['studentDashboard.page']();
-        studentDashboard.waitForProductAppear();
-        studentDashboard.practiceextraopen();
-        nemoClassLearningPathwayPageObj= browser.page['classLearningPathway.page']();
-        studentDashboard.waitForFrame();
-        browser.pause(20000);
-        nemoClassLearningPathwayPageObj.goback();
-        studentDashboard.waitForProductAppear();
-        studentDashboard.goToClass2();
-        studentDashboard.waitForAnalytic();
-    });   
+    it('Support-Admin Login and access dashboard', function (browser) {
+        browser.url('https://www.cambridgeone.org?p=@cambridge.org&t=saml');
+        browser.pause(10000);
+        browser.window_handles(function(result) {
+            browser.switchWindow(result.value[1]);   
+            nemoSupportAdminDashboardPageObj = browser.page['nemoSupportAdminDashboard.page']();
+            //Wait for okta login
+            nemoSupportAdminDashboardPageObj.waitForOktalogin();       
+        });
+        browser.window_handles(function(result) {
+            browser.switchWindow(result.value[0]);  
+            //Wait for search box
+            nemoSupportAdminDashboardPageObj.waitForSearchBox();      
+        });        
+    }); 
 
-    it('Admin Login and access dashboard', function (browser) {  
+    xit('Login with google account', function (browser) {  
         nemoLaunchPageObj.clickLogin();
        // nemoLaunchPageObj.waitForLoginButtonToBePresent();
         nemoLoginPageObj = browser.page['login.page']();
         nemoLoginPageObj.waitForPageLoad();
-        nemoLoginPageObj.login(username_admin,a_password);
-        nemoAdminDashboardPageObj = browser.page['nemoAdminDashboard.page']();
-        nemoAdminDashboardPageObj.waitForTabs();
-        //count of tabs
-        browser.elements('css selector',".my-spaces .flex-wrap .flex-column",function(result){   //Need to change the selector for teacher/admin
-            if(result.value.length !=5)
-            {
-                browser.assert.fail('Tabs Count do not match');
-            }
-        });   
+        nemoLoginPageObj.LoginWithGoogleOption();
+        //switch window
+        browser.window_handles(function(result) { 
+            browser.switchWindow(result.value[1]);
+            nemoLoginPageObj.loginWithGoogleCredentials("cupprod1@gmail.com","Compro11");    
+        });    
+        //switch back to original window
+        browser.window_handles(function(result) {
+            headerPageObj = browser.page['header.page']();
+            browser.switchWindow(result.value[0]);  
+            headerPageObj.waitForWelcomeMsg(); 
+        }); 
     });   
+
 
     afterEach(function (browser, done) {
       //  take screenshot on every test completion
