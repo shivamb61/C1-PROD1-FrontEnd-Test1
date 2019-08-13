@@ -13,7 +13,8 @@ module.exports = {
             selector:'#okta-signin-submit'
         },
         s_question:{
-            selector:'#input66'
+          //  selector:'#input66'
+          selector: '.password-with-toggle'
         },
         verify_btn:{
             selector:'input[value="Verify"]'
