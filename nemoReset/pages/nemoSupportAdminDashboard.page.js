@@ -14,8 +14,8 @@ module.exports = {
         },
         s_question:{
           //  selector:'#input66'
-          //selector: '.password-with-toggle'
-          selector: '[name="answer"]'
+          selector: '.password-with-toggle'
+          //selector: '[name="answer"]'
         },
         verify_btn:{
             selector:'input[value="Verify"]'
