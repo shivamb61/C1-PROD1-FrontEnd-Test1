@@ -14,8 +14,8 @@ module.exports = {
         },
         s_question:{
           //  selector:'#input66'
-          selector: '.password-with-toggle'
-          //selector: '[name="answer"]'
+          //selector: '.password-with-toggle'
+          selector: '[name="answer"]'
         },
         verify_btn:{
             selector:'input[value="Verify"]'
@@ -36,7 +36,7 @@ module.exports = {
                 this.api.useCss();
                 actions.waitForElementVisible(this,this.elements.login_input.selector,50000);
                 actions.setValue(this,this.elements.login_input.selector,'adani');
-                actions.setValue(this,this.elements.login_password.selector,'Udaipur512');
+                actions.setValue(this,this.elements.login_password.selector,'Delhi!10049');
                 actions.waitForElementVisible(this,this.elements.signin_submit.selector,50000);
                 actions.click(this,this.elements.signin_submit.selector);
                 actions.waitForElementVisible(this,this.elements.s_question.selector,50000);
