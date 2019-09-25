@@ -18,7 +18,7 @@ module.exports = {
     test_settings : {
         default : {
             selenium_host : '127.0.0.1',
-            selenium_port : 5554,
+            selenium_port : 4444,
             end_session_on_fail: false,
             screenshots : {
                 enabled : true,
