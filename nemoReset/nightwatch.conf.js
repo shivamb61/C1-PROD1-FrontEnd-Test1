@@ -8,7 +8,7 @@ module.exports = {
         start_process : true,
         log_path :'' ,
         host : '127.0.0.1',
-        port : 4444,
+        port : 5554,
         cli_args : {
           //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
           'webdriver.chrome.driver': chromedriver.path
@@ -18,7 +18,7 @@ module.exports = {
     test_settings : {
         default : {
             selenium_host : '127.0.0.1',
-            selenium_port : 4444,
+            selenium_port : 5554,
             end_session_on_fail: false,
             screenshots : {
                 enabled : true,
