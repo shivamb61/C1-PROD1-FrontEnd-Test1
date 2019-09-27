@@ -10,7 +10,7 @@ jobs:
 
       # - image: circleci/openjdk:9.0.4-jdk
       # - image: node:8.11.3
-      - image: timbru31/java-node
+      - image: atlassianlabs/docker-node-jdk-chrome-firefox
 
 
       # Specify service dependencies here if necessary
