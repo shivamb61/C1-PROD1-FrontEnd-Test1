@@ -31,7 +31,7 @@ module.exports = {
         }
     },
     commands: [
-        {
+        { 
             waitForOktalogin:function(){
                 this.api.useCss();
                 actions.waitForElementVisible(this,this.elements.login_input.selector,50000);
