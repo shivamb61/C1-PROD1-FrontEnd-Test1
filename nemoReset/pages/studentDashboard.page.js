@@ -44,7 +44,8 @@ module.exports = {
         selector:".practice-image"
        },
        frameselec:{
-           selector:'.question-div .text-editor'
+          // selector:'.question-div .text-editor'
+           selector: "#studentAnswer-productiveSkill-input"
        },
        class2:{
            selector: ".courses .product-image"
