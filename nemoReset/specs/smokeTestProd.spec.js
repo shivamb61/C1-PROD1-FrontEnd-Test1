@@ -7,9 +7,9 @@ describe('Cambridge One APP', function () {
 
     before(function (browser, done) {              
         password = testData.nemoReset.teacher.password;
-        a_password='#compro@1254';
+        a_password='Compro11';
         studentDashboard = testData.nemoReset.studentDashboard;                        
-        username_admin = 'admin1_aberystwyth_prod1@comprodls.com';            
+        username_admin = 'aberystwyth_admin1@yopmail.com';            
 	    studentOnboardingPageObj = browser.page['studentOnboarding.page']();
         done();
         //Create object of nemo launch page
