@@ -2,7 +2,7 @@
 var config = require('../config/nemoProd');
 
 config.test ={    
-    launchUrl: 'https://www.cambridgeone.org/'
+    launchUrl: 'https://release.cambridgeone.org/'
 };
 
 module.exports = config;
