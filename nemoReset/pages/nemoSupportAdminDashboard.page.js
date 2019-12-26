@@ -36,7 +36,7 @@ module.exports = {
                 this.api.useCss();
                 actions.waitForElementVisible(this,this.elements.login_input.selector,50000);
                 actions.setValue(this,this.elements.login_input.selector,'mmehta');
-                actions.setValue(this,this.elements.login_password.selector,'2LSCudaypark#');
+                actions.setValue(this,this.elements.login_password.selector,'4LSCudaypark#2');
                 actions.waitForElementVisible(this,this.elements.signin_submit.selector,50000);
                 actions.click(this,this.elements.signin_submit.selector);
                 actions.waitForElementVisible(this,this.elements.s_question.selector,50000);
