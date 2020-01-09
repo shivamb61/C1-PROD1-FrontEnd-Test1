@@ -21,7 +21,7 @@ module.exports = {
             selector:'input[value="Verify"]'
         },
         search:{
-            selector:'[qid="sad-2"]'
+            selector:'[qid="sad-1"]'
         },
         searchbtn:{
             selector:'[qid="sad-3"]'
