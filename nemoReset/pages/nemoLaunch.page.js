@@ -34,7 +34,7 @@ module.exports = {
             },
             clickLogin: function(){
                 this.api.useCss();
-                actions.click(this,this.elements.logIn.selector)
+                actions.click(this,this.elements.logIn.selector);
             }
         }
     ]
