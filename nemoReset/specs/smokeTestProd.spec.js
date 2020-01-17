@@ -18,6 +18,7 @@ describe('Cambridge One APP', function () {
         nemoLaunchPageObj.navigate();
         //Wait for the nemo launch page to appear
         //nemoLaunchPageObj.waitForGetStartedButtonToAppear();
+        browser.pause(3000);
         nemoLaunchPageObj.waitForLoginButtonToBePresent();  // changed to match alpha test
         nemoLaunchPageObj.clickLogin();
         //Wait for login button
@@ -56,6 +57,7 @@ describe('Cambridge One APP', function () {
         nemoLaunchPageObj.clickLogin();
        // nemoLaunchPageObj.waitForLoginButtonToBePresent();
         nemoLoginPageObj = browser.page['login.page']();
+        browser.pause(3000);
         nemoLoginPageObj.waitForPageLoad();
         nemoLoginPageObj.login(username_admin,a_password);
         nemoAdminDashboardPageObj = browser.page['nemoAdminDashboard.page']();
