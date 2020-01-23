@@ -150,6 +150,27 @@ module.exports = function (grunt) {
                           //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
                           'webdriver.chrome.driver': chromedriver.path
                         }},
+                        institution: {selenium_host : '127.0.0.1',
+                        selenium_port : 5554,
+                        end_session_on_fail: false,
+                        src_folders : ['./nemoReset/specs/institution.spec.js'], // Update the path based on your application
+                        screenshots : {
+                            enabled : true,
+                            on_failure : false,
+                            path : 'screenshots'
+                        },
+                        desiredCapabilities : {  // specify browser name along with other capabilities
+                            browserName : 'chrome',
+                            javascriptEnabled : true,
+                            acceptSslCerts : true,
+                            'chromeOptions' : {
+                                 //"args" : ['headless']
+                                "args" : ['start-maximized']                                
+                            }},
+                        cli_args : {
+                          //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+                          'webdriver.chrome.driver': chromedriver.path
+                        }},
                     smokeTestSaucelabs : {
                         selenium_host: 'ondemand.saucelabs.com',
                         selenium_port: '80',

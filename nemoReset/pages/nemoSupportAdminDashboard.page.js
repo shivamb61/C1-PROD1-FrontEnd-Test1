@@ -13,15 +13,13 @@ module.exports = {
             selector:'#okta-signin-submit'
         },
         s_question:{
-          //  selector:'#input66'
-          //selector: '.password-with-toggle'
           selector: '[name="answer"]'
         },
         verify_btn:{
             selector:'input[value="Verify"]'
         },
         search:{
-            selector:'[qid="sad-2"]'
+            selector:'[qid="sad-1"]'
         },
         searchbtn:{
             selector:'[qid="sad-3"]'
@@ -52,6 +50,24 @@ module.exports = {
                 actions.waitForElementVisible(this,this.elements.searchbtn.selector,50000);
                 actions.click(this,this.elements.searchbtn.selector);
                 actions.waitForElementVisible(this,this.elements.adminmenu.selector,50000);
+            },
+            waitForSearchBoxAndGetAllInstitutes:function(){
+                this.api.useCss();
+                actions.waitForElementVisible(this,this.elements.search.selector,50000);
+                actions.setValue(this,this.elements.search.selector,' ');
+                actions.waitForElementVisible(this,this.elements.searchbtn.selector,50000);
+                actions.click(this,this.elements.searchbtn.selector);
+                actions.waitForElementVisible(this,this.elements.adminmenu.selector,50000);                  
+            },
+            printInstDetails:function(num,cb) {
+                this.api.useCss();
+                actions.getElementText(this,`.list-container .list-items:nth-of-type(${num}) .row .col-12:nth-of-type(1) .detail`,function(value) {
+                    console.log(value);
+                    cb();
+                });               
+            },
+            getDetails:function(num, cb) {
+                printInstDetails(num,cb);
             }
         }
     ]
