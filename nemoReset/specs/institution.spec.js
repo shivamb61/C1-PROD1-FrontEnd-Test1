@@ -12,27 +12,16 @@ describe('Cambridge One APP', function () {
         username_admin = 'admin1_aberystwyth_prod1@comprodls.com';            
 	    studentOnboardingPageObj = browser.page['studentOnboarding.page']();
         done();
-        //Create object of nemo launch page
         nemoLaunchPageObj = browser.page['nemoLaunch.page']();
-        //Launch nemo url
         nemoLaunchPageObj.navigate();
-        //Wait for the nemo launch page to appear
-        //nemoLaunchPageObj.waitForGetStartedButtonToAppear();
-        // nemoLaunchPageObj.waitForLoginButtonToBePresent();  // changed to match alpha test
-        // nemoLaunchPageObj.clickLogin();
-        // //Wait for login button
-        // //nemoLaunchPageObj.waitForLoginButtonToBePresent();
-        // //Create object for login page
-        // nemoLoginPageObj = browser.page['login.page']();
-        // //Wait for login page
-        // nemoLoginPageObj.waitForPageLoad();
         headerPageObj = browser.page['header.page']();
          done();
     });
 
     it('Support-Admin Login and Creates Excel File Of Institutes And Registered Users', function (browser) {
-        browser.url('http://hotfix.cambridgeone.org?p=@cambridge.org&t=saml');
-        browser.pause(10000);
+       browser.url('https://cambridgeone.org?p=@cambridge.org&t=saml');
+       browser.pause(10000);
+       var count;
         browser.window_handles(function(result) {
             browser.switchWindow(result.value[1]);   
             nemoSupportAdminDashboardPageObj = browser.page['nemoSupportAdminDashboard.page']();
@@ -43,17 +32,13 @@ describe('Cambridge One APP', function () {
             browser.switchWindow(result.value[0]);  
             //Wait for search box
             nemoSupportAdminDashboardPageObj.waitForSearchBoxAndGetAllInstitutes();
-        //     var limit=73;
-        //     var instStarter = function(num) {
-        //         nemoSupportAdminDashboardPageObj.getDetails(num,function() {
-        //             if(num+1 <= limit) {
-        //                   instStarter(num+1);
-        //             }
-        //         });
-        //     }
-        //     instStarter(2);
-        // });
-        //browser.pause(100000);      
+            count=nemoSupportAdminDashboardPageObj.getSchoolCount(function(resi) {
+                count=resi;
+                count=parseInt(count.match(/\d+/));
+                console.log(count);
+                nemoSupportAdminDashboardPageObj.getDetails(browser,count);
+            });
+        });
     });    
 
     after(function (browser, done) {

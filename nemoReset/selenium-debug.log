@@ -1,79 +1,274 @@
-18:48:11.386 INFO - Launching a standalone Selenium Server
+18:30:39.959 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to F:\cambridge-one-personnel\node_modules\chromedriver\lib\chromedriver\chromedriver.exe
-18:48:11.437 INFO - Java: Oracle Corporation 25.181-b13
-18:48:11.437 INFO - OS: Windows 10 10.0 amd64
-18:48:11.445 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
-18:48:11.494 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-18:48:11.494 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-18:48:11.500 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+18:30:40.011 INFO - Java: Oracle Corporation 25.181-b13
+18:30:40.011 INFO - OS: Windows 10 10.0 amd64
+18:30:40.020 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+18:30:40.070 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:30:40.070 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+18:30:40.077 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-18:48:11.501 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-18:48:11.501 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-18:48:11.594 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5554/wd/hub
-18:48:11.594 INFO - Selenium Server is up and running
-18:48:12.673 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]])
-18:48:12.682 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 30358
+18:30:40.077 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+18:30:40.077 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+18:30:40.176 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5554/wd/hub
+18:30:40.176 INFO - Selenium Server is up and running
+18:30:41.168 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]])
+18:30:41.178 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 8043
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-18:48:15.720 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]]
-18:48:15.730 INFO - Executing: [get: https://release.cambridgeone.org/])
-18:48:20.137 INFO - Done: [get: https://release.cambridgeone.org/]
-18:48:20.145 INFO - Executing: [get: http://hotfix.cambridgeone.org?p=@cambridge.org&t=saml])
-18:48:25.586 INFO - Done: [get: http://hotfix.cambridgeone.org?p=@cambridge.org&t=saml]
-18:48:35.594 INFO - Executing: [get window handles])
-18:48:35.603 INFO - Done: [get window handles]
-18:48:35.620 INFO - Executing: [switch to window: CDwindow-2E13B531E0C5264E41E525B6799DC673])
-18:48:35.628 INFO - Done: [switch to window: CDwindow-2E13B531E0C5264E41E525B6799DC673]
-18:48:35.633 INFO - Executing: [find elements: By.cssSelector: #okta-signin-username])
-18:48:36.676 INFO - Done: [find elements: By.cssSelector: #okta-signin-username]
-18:48:36.679 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-username]])
-18:48:36.696 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-username]]
-18:48:36.700 INFO - Executing: [find element: By.cssSelector: #okta-signin-username])
-18:48:36.715 INFO - Done: [find element: By.cssSelector: #okta-signin-username]
-18:48:36.718 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-username], [m, m, e, h, t, a]])
-18:48:36.750 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-username], [m, m, e, h, t, a]]
-18:48:36.753 INFO - Executing: [find element: By.cssSelector: #okta-signin-password])
-18:48:36.768 INFO - Done: [find element: By.cssSelector: #okta-signin-password]
-18:48:36.772 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-password], [4, L, S, C, u, d, a, y, p, a, r, k, #, 2]])
-18:48:36.855 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-password], [4, L, S, C, u, d, a, y, p, a, r, k, #, 2]]
-18:48:36.858 INFO - Executing: [find elements: By.cssSelector: #okta-signin-submit])
-18:48:36.872 INFO - Done: [find elements: By.cssSelector: #okta-signin-submit]
-18:48:36.875 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-submit]])
-18:48:36.889 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-submit]]
-18:48:36.892 INFO - Executing: [find element: By.cssSelector: #okta-signin-submit])
-18:48:36.908 INFO - Done: [find element: By.cssSelector: #okta-signin-submit]
-18:48:36.911 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-submit]])
-18:48:36.961 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: #okta-signin-submit]]
-18:48:36.965 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
-18:48:36.978 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
-18:48:37.484 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
-18:48:37.500 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
-18:48:38.006 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
-18:48:38.021 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
-18:48:38.526 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
-18:48:38.542 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
-18:48:39.046 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
-18:48:39.064 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
-18:48:39.569 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
-18:48:39.585 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
-18:48:40.090 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
-18:48:40.109 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
-18:48:40.112 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: [name="answer"]]])
-18:48:40.132 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: [name="answer"]]]
-18:48:40.135 INFO - Executing: [find element: By.cssSelector: [name="answer"]])
-18:48:40.150 INFO - Done: [find element: By.cssSelector: [name="answer"]]
-18:48:40.153 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: [name="answer"]], [b, h, i, w, a, n, i]])
-18:48:40.190 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: [name="answer"]], [b, h, i, w, a, n, i]]
-18:48:40.193 INFO - Executing: [find elements: By.cssSelector: input[value="Verify"]])
-18:48:40.208 INFO - Done: [find elements: By.cssSelector: input[value="Verify"]]
-18:48:40.211 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: input[value="Verify"]]])
-18:48:40.224 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: input[value="Verify"]]]
-18:48:40.227 INFO - Executing: [find element: By.cssSelector: input[value="Verify"]])
-18:48:40.241 INFO - Done: [find element: By.cssSelector: input[value="Verify"]]
-18:48:40.243 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: input[value="Verify"]]])
-18:48:40.295 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (3e1d15adfceefbd76664b6e2b0cc642a)] -> css selector: input[value="Verify"]]]
-18:48:50.297 INFO - Executing: [get window handles])
-18:48:50.303 INFO - Done: [get window handles]
-18:48:50.310 INFO - Executing: [delete session: fecd4e05-8c7b-4547-beb6-b43ea5e1299b])
-18:48:51.967 INFO - Done: [delete session: fecd4e05-8c7b-4547-beb6-b43ea5e1299b]
+18:30:43.722 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]]
+18:30:43.733 INFO - Executing: [get: https://cambridgeone.org/])
+18:30:49.072 INFO - Done: [get: https://cambridgeone.org/]
+18:30:49.079 INFO - Executing: [get: https://cambridgeone.org?p=@cambridge.org&t=saml])
+18:30:50.509 INFO - Done: [get: https://cambridgeone.org?p=@cambridge.org&t=saml]
+18:31:00.519 INFO - Executing: [get window handles])
+18:31:00.529 INFO - Done: [get window handles]
+18:31:00.546 INFO - Executing: [switch to window: CDwindow-BB5E58DD5C67D9260CD92300D76B67AA])
+18:31:00.553 INFO - Done: [switch to window: CDwindow-BB5E58DD5C67D9260CD92300D76B67AA]
+18:31:00.559 INFO - Executing: [find elements: By.cssSelector: #okta-signin-username])
+18:31:01.612 INFO - Done: [find elements: By.cssSelector: #okta-signin-username]
+18:31:01.617 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-username]])
+18:31:01.634 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-username]]
+18:31:01.639 INFO - Executing: [find element: By.cssSelector: #okta-signin-username])
+18:31:01.653 INFO - Done: [find element: By.cssSelector: #okta-signin-username]
+18:31:01.657 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-username], [m, m, e, h, t, a]])
+18:31:01.690 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-username], [m, m, e, h, t, a]]
+18:31:01.693 INFO - Executing: [find element: By.cssSelector: #okta-signin-password])
+18:31:01.708 INFO - Done: [find element: By.cssSelector: #okta-signin-password]
+18:31:01.711 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-password], [4, L, S, C, u, d, a, y, p, a, r, k, #, 2]])
+18:31:01.794 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-password], [4, L, S, C, u, d, a, y, p, a, r, k, #, 2]]
+18:31:01.797 INFO - Executing: [find elements: By.cssSelector: #okta-signin-submit])
+18:31:01.811 INFO - Done: [find elements: By.cssSelector: #okta-signin-submit]
+18:31:01.815 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-submit]])
+18:31:01.830 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-submit]]
+18:31:01.833 INFO - Executing: [find element: By.cssSelector: #okta-signin-submit])
+18:31:01.848 INFO - Done: [find element: By.cssSelector: #okta-signin-submit]
+18:31:01.850 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-submit]])
+18:31:01.912 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: #okta-signin-submit]]
+18:31:01.915 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
+18:31:01.930 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
+18:31:02.436 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
+18:31:02.454 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
+18:31:02.963 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
+18:31:03.013 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
+18:31:03.517 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
+18:31:03.533 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
+18:31:04.037 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
+18:31:04.054 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
+18:31:04.558 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
+18:31:04.574 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
+18:31:05.080 INFO - Executing: [find elements: By.cssSelector: [name="answer"]])
+18:31:05.095 INFO - Done: [find elements: By.cssSelector: [name="answer"]]
+18:31:05.098 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [name="answer"]]])
+18:31:05.120 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [name="answer"]]]
+18:31:05.126 INFO - Executing: [find element: By.cssSelector: [name="answer"]])
+18:31:05.144 INFO - Done: [find element: By.cssSelector: [name="answer"]]
+18:31:05.148 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [name="answer"]], [b, h, i, w, a, n, i]])
+18:31:05.204 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [name="answer"]], [b, h, i, w, a, n, i]]
+18:31:05.207 INFO - Executing: [find elements: By.cssSelector: input[value="Verify"]])
+18:31:05.222 INFO - Done: [find elements: By.cssSelector: input[value="Verify"]]
+18:31:05.225 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: input[value="Verify"]]])
+18:31:05.241 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: input[value="Verify"]]]
+18:31:05.244 INFO - Executing: [find element: By.cssSelector: input[value="Verify"]])
+18:31:05.259 INFO - Done: [find element: By.cssSelector: input[value="Verify"]]
+18:31:05.261 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: input[value="Verify"]]])
+18:31:05.320 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: input[value="Verify"]]]
+18:31:15.323 INFO - Executing: [get window handles])
+18:31:15.330 INFO - Done: [get window handles]
+18:31:15.338 INFO - Executing: [switch to window: CDwindow-11C9C6C0AC9F75EC2F000D088189B5AA])
+18:31:15.345 INFO - Done: [switch to window: CDwindow-11C9C6C0AC9F75EC2F000D088189B5AA]
+18:31:15.349 INFO - Executing: [find elements: By.cssSelector: [qid="sad-1"]])
+18:31:15.378 INFO - Done: [find elements: By.cssSelector: [qid="sad-1"]]
+18:31:15.380 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [qid="sad-1"]]])
+18:31:15.396 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [qid="sad-1"]]]
+18:31:15.398 INFO - Executing: [find element: By.cssSelector: [qid="sad-1"]])
+18:31:15.411 INFO - Done: [find element: By.cssSelector: [qid="sad-1"]]
+18:31:15.414 INFO - Executing: [send keys: 5 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [qid="sad-1"]], [ ]])
+18:31:15.493 INFO - Done: [send keys: 5 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [qid="sad-1"]], [ ]]
+18:31:15.496 INFO - Executing: [find elements: By.cssSelector: [qid="sad-3"]])
+18:31:15.510 INFO - Done: [find elements: By.cssSelector: [qid="sad-3"]]
+18:31:15.513 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [qid="sad-3"]]])
+18:31:15.527 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [qid="sad-3"]]]
+18:31:15.530 INFO - Executing: [find element: By.cssSelector: [qid="sad-3"]])
+18:31:15.543 INFO - Done: [find element: By.cssSelector: [qid="sad-3"]]
+18:31:15.545 INFO - Executing: [click: 6 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [qid="sad-3"]]])
+18:31:15.641 INFO - Done: [click: 6 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: [qid="sad-3"]]]
+18:31:15.644 INFO - Executing: [find elements: By.cssSelector: .admin-menu ul])
+18:31:15.665 INFO - Done: [find elements: By.cssSelector: .admin-menu ul]
+18:31:16.170 INFO - Executing: [find elements: By.cssSelector: .admin-menu ul])
+18:31:16.183 INFO - Done: [find elements: By.cssSelector: .admin-menu ul]
+18:31:16.687 INFO - Executing: [find elements: By.cssSelector: .admin-menu ul])
+18:31:16.706 INFO - Done: [find elements: By.cssSelector: .admin-menu ul]
+18:31:16.710 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .admin-menu ul]])
+18:31:16.725 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .admin-menu ul]]
+18:31:16.728 INFO - Executing: [find elements: By.cssSelector: .header h2])
+18:31:16.741 INFO - Done: [find elements: By.cssSelector: .header h2]
+18:31:16.743 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .header h2]])
+18:31:16.757 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .header h2]]
+18:31:16.760 INFO - Executing: [find element: By.cssSelector: .header h2])
+18:31:16.774 INFO - Done: [find element: By.cssSelector: .header h2]
+18:31:16.777 INFO - Executing: [get text: 8 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .header h2]])
+18:31:16.794 INFO - Done: [get text: 8 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .header h2]]
+18:31:16.869 INFO - Executing: [find elements: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail])
+18:31:16.882 INFO - Done: [find elements: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail]
+18:31:16.884 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail]])
+18:31:16.897 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail]]
+18:31:16.900 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail])
+18:31:16.912 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail]
+18:31:16.914 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail]])
+18:31:16.930 INFO - Done: [get text: 9 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail]]
+18:31:16.933 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(2) .detail])
+18:31:16.946 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(2) .detail]
+18:31:16.948 INFO - Executing: [get text: 10 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(2) .detail]])
+18:31:16.964 INFO - Done: [get text: 10 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(2) .detail]]
+18:31:16.967 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(3) .detail])
+18:31:16.980 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(3) .detail]
+18:31:16.983 INFO - Executing: [get text: 11 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(3) .detail]])
+18:31:17.000 INFO - Done: [get text: 11 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(3) .detail]]
+18:31:17.002 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(4) .detail])
+18:31:17.016 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(4) .detail]
+18:31:17.018 INFO - Executing: [get text: 12 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(4) .detail]])
+18:31:17.035 INFO - Done: [get text: 12 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(4) .detail]]
+18:31:17.038 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail])
+18:31:17.048 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail]
+18:31:17.050 INFO - Executing: [click: 9 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail]])
+18:31:17.121 INFO - Done: [click: 9 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(2) .row .col-12:nth-of-type(1) .detail]]
+18:31:27.125 INFO - Executing: [get window handles])
+18:31:27.133 INFO - Done: [get window handles]
+18:31:27.138 INFO - Executing: [switch to window: CDwindow-BBDFB189F35435FAEEF65AFE375AEA3F])
+18:31:27.146 INFO - Done: [switch to window: CDwindow-BBDFB189F35435FAEEF65AFE375AEA3F]
+18:31:27.150 INFO - Executing: [find elements: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)])
+18:31:28.189 INFO - Done: [find elements: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]
+18:31:28.192 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]])
+18:31:28.217 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]]
+18:31:28.222 INFO - Executing: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)])
+18:31:28.240 INFO - Done: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]
+18:31:28.242 INFO - Executing: [get text: 13 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]])
+18:31:28.258 INFO - Done: [get text: 13 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]]
+18:31:28.260 INFO - Executing: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)])
+18:31:28.273 INFO - Done: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)]
+18:31:28.274 INFO - Executing: [get text: 14 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)]])
+18:31:28.290 INFO - Done: [get text: 14 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)]]
+18:31:28.293 INFO - Executing: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)])
+18:31:28.307 INFO - Done: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)]
+18:31:28.308 INFO - Executing: [get text: 15 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)]])
+18:31:28.325 INFO - Done: [get text: 15 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)]]
+18:31:28.328 INFO - Executing: [switch to window: CDwindow-11C9C6C0AC9F75EC2F000D088189B5AA])
+18:31:28.342 INFO - Done: [switch to window: CDwindow-11C9C6C0AC9F75EC2F000D088189B5AA]
+18:31:28.345 INFO - Executing: [find elements: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail])
+18:31:28.370 INFO - Done: [find elements: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail]
+18:31:28.373 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail]])
+18:31:28.391 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail]]
+18:31:28.393 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail])
+18:31:28.408 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail]
+18:31:28.409 INFO - Executing: [get text: 16 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail]])
+18:31:28.425 INFO - Done: [get text: 16 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail]]
+18:31:28.427 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(2) .detail])
+18:31:28.441 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(2) .detail]
+18:31:28.442 INFO - Executing: [get text: 17 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(2) .detail]])
+18:31:28.459 INFO - Done: [get text: 17 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(2) .detail]]
+18:31:28.462 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(3) .detail])
+18:31:28.474 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(3) .detail]
+18:31:28.476 INFO - Executing: [get text: 18 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(3) .detail]])
+18:31:28.493 INFO - Done: [get text: 18 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(3) .detail]]
+18:31:28.495 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(4) .detail])
+18:31:28.507 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(4) .detail]
+18:31:28.509 INFO - Executing: [get text: 19 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(4) .detail]])
+18:31:28.524 INFO - Done: [get text: 19 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(4) .detail]]
+18:31:28.527 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail])
+18:31:28.536 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail]
+18:31:28.538 INFO - Executing: [click: 16 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail]])
+18:31:28.611 INFO - Done: [click: 16 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(3) .row .col-12:nth-of-type(1) .detail]]
+18:31:38.615 INFO - Executing: [get window handles])
+18:31:38.622 INFO - Done: [get window handles]
+18:31:38.629 INFO - Executing: [switch to window: CDwindow-FD12DE566950D5C7B9AA81D0ADED305E])
+18:31:38.638 INFO - Done: [switch to window: CDwindow-FD12DE566950D5C7B9AA81D0ADED305E]
+18:31:38.643 INFO - Executing: [find elements: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)])
+18:31:39.668 INFO - Done: [find elements: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]
+18:31:39.671 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]])
+18:31:39.695 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]]
+18:31:39.697 INFO - Executing: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)])
+18:31:39.707 INFO - Done: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]
+18:31:39.709 INFO - Executing: [get text: 20 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]])
+18:31:39.726 INFO - Done: [get text: 20 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]]
+18:31:39.728 INFO - Executing: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)])
+18:31:39.737 INFO - Done: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)]
+18:31:39.739 INFO - Executing: [get text: 21 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)]])
+18:31:39.755 INFO - Done: [get text: 21 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)]]
+18:31:39.757 INFO - Executing: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)])
+18:31:39.767 INFO - Done: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)]
+18:31:39.768 INFO - Executing: [get text: 22 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)]])
+18:31:39.784 INFO - Done: [get text: 22 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)]]
+18:31:39.786 INFO - Executing: [switch to window: CDwindow-11C9C6C0AC9F75EC2F000D088189B5AA])
+18:31:39.804 INFO - Done: [switch to window: CDwindow-11C9C6C0AC9F75EC2F000D088189B5AA]
+18:31:39.807 INFO - Executing: [find elements: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail])
+18:31:39.824 INFO - Done: [find elements: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail]
+18:31:39.827 INFO - Executing: [is displayed: 23 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail]])
+18:31:39.843 INFO - Done: [is displayed: 23 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail]]
+18:31:39.846 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail])
+18:31:39.859 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail]
+18:31:39.862 INFO - Executing: [get text: 23 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail]])
+18:31:39.880 INFO - Done: [get text: 23 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail]]
+18:31:39.882 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(2) .detail])
+18:31:39.896 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(2) .detail]
+18:31:39.897 INFO - Executing: [get text: 24 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(2) .detail]])
+18:31:39.913 INFO - Done: [get text: 24 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(2) .detail]]
+18:31:39.915 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(3) .detail])
+18:31:39.928 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(3) .detail]
+18:31:39.930 INFO - Executing: [get text: 25 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(3) .detail]])
+18:31:39.946 INFO - Done: [get text: 25 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(3) .detail]]
+18:31:39.948 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(4) .detail])
+18:31:39.962 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(4) .detail]
+18:31:39.964 INFO - Executing: [get text: 26 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(4) .detail]])
+18:31:39.980 INFO - Done: [get text: 26 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(4) .detail]]
+18:31:39.983 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail])
+18:31:39.992 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail]
+18:31:39.994 INFO - Executing: [click: 23 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail]])
+18:31:40.048 INFO - Done: [click: 23 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(4) .row .col-12:nth-of-type(1) .detail]]
+18:31:50.050 INFO - Executing: [get window handles])
+18:31:50.060 INFO - Done: [get window handles]
+18:31:50.066 INFO - Executing: [switch to window: CDwindow-FC3D387E35A42B0048B1E4BA56FB6318])
+18:31:50.075 INFO - Done: [switch to window: CDwindow-FC3D387E35A42B0048B1E4BA56FB6318]
+18:31:50.079 INFO - Executing: [find elements: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)])
+18:31:51.105 INFO - Done: [find elements: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]
+18:31:51.108 INFO - Executing: [is displayed: 27 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]])
+18:31:51.133 INFO - Done: [is displayed: 27 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]]
+18:31:51.137 INFO - Executing: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)])
+18:31:51.151 INFO - Done: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]
+18:31:51.154 INFO - Executing: [get text: 27 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]])
+18:31:51.183 INFO - Done: [get text: 27 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)]]
+18:31:51.187 INFO - Executing: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)])
+18:31:51.201 INFO - Done: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)]
+18:31:51.204 INFO - Executing: [get text: 28 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)]])
+18:31:51.233 INFO - Done: [get text: 28 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(3) a span:nth-of-type(2)]]
+18:31:51.236 INFO - Executing: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)])
+18:31:51.248 INFO - Done: [find element: By.cssSelector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)]
+18:31:51.250 INFO - Executing: [get text: 29 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)]])
+18:31:51.268 INFO - Done: [get text: 29 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .nav-pills.mr-auto li:nth-of-type(4) a span:nth-of-type(2)]]
+18:31:51.270 INFO - Executing: [switch to window: CDwindow-11C9C6C0AC9F75EC2F000D088189B5AA])
+18:31:51.281 INFO - Done: [switch to window: CDwindow-11C9C6C0AC9F75EC2F000D088189B5AA]
+18:31:51.284 INFO - Executing: [find elements: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail])
+18:31:51.343 INFO - Done: [find elements: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail]
+18:31:51.346 INFO - Executing: [is displayed: 30 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail]])
+18:31:51.381 INFO - Done: [is displayed: 30 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail]]
+18:31:51.383 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail])
+18:31:51.396 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail]
+18:31:51.398 INFO - Executing: [get text: 30 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail]])
+18:31:51.416 INFO - Done: [get text: 30 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail]]
+18:31:51.418 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(2) .detail])
+18:31:51.431 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(2) .detail]
+18:31:51.433 INFO - Executing: [get text: 31 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(2) .detail]])
+18:31:51.449 INFO - Done: [get text: 31 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(2) .detail]]
+18:31:51.451 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(3) .detail])
+18:31:51.464 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(3) .detail]
+18:31:51.466 INFO - Executing: [get text: 32 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(3) .detail]])
+18:31:51.482 INFO - Done: [get text: 32 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(3) .detail]]
+18:31:51.484 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(4) .detail])
+18:31:51.496 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(4) .detail]
+18:31:51.498 INFO - Executing: [get text: 33 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(4) .detail]])
+18:31:51.514 INFO - Done: [get text: 33 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(4) .detail]]
+18:31:51.518 INFO - Executing: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail])
+18:31:51.527 INFO - Done: [find element: By.cssSelector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail]
+18:31:51.529 INFO - Executing: [click: 30 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail]])
+18:31:51.584 INFO - Done: [click: 30 [[ChromeDriver: chrome on XP (7392296a576b31fc2db3ec9a0fb29b4a)] -> css selector: .list-container .list-items:nth-of-type(5) .row .col-12:nth-of-type(1) .detail]]
+18:31:54.726 INFO - Shutting down...
