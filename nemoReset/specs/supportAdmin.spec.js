@@ -19,20 +19,18 @@ describe('Cambridge One APP', function () {
         //Wait for the nemo launch page to appear
         //nemoLaunchPageObj.waitForGetStartedButtonToAppear();
         nemoLaunchPageObj.waitForLoginButtonToBePresent();  // changed to match alpha test
-        nemoLaunchPageObj.clickLogin();
         //Wait for login button
         //nemoLaunchPageObj.waitForLoginButtonToBePresent();
         //Create object for login page
         nemoLoginPageObj = browser.page['login.page']();
         //Wait for login page
-        nemoLoginPageObj.waitForPageLoad();
         headerPageObj = browser.page['header.page']();
          done();
     });
 
     it('Support-Admin Login and access dashboard', function (browser) {
         browser.url('https://www.cambridgeone.org?p=@cambridge.org&t=saml');
-        browser.pause(10000);
+        browser.pause(20000);
         browser.window_handles(function(result) {
             browser.switchWindow(result.value[1]);   
             nemoSupportAdminDashboardPageObj = browser.page['nemoSupportAdminDashboard.page']();
