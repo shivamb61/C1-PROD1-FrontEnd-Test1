@@ -18,7 +18,7 @@ describe('Cambridge One APP', function () {
          done();
     });
 
-    it('Support-Admin Login and Creates Excel File Of Institutes And Registered Users', function (browser) {
+    it('Support-Admin Login and  Outputs Institutes And Registered Users', function (browser) {
        browser.url('https://cambridgeone.org?p=@cambridge.org&t=saml');
        browser.pause(10000);
        var count;

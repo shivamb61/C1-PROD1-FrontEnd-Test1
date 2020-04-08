@@ -83,7 +83,7 @@ module.exports = {
                     actions.click(self,'.list-container .list-items:nth-of-type('+k+') .row .col-12:nth-of-type(1) .detail');
                     self.api.pause(10000);
                     br.window_handles(function(result) {
-                        br.switchWindow(result.value[k-1]);
+                        br.switchWindow(result.value[1]);
                         actions.waitForElementVisible(self,'.nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)',50000);
                         actions.getElementText(self,'.nav-pills.mr-auto li:nth-of-type(2) a span:nth-of-type(2)',function(student) {
                             student=student.substring(1, student.length-1);
@@ -97,6 +97,8 @@ module.exports = {
                             admin=admin.substring(1, admin.length-1);
                             str+=admin+",";
                             console.log(str);
+                            br.closeWindow();
+                            self.api.pause(1000);
                             br.switchWindow(result.value[0]);
                         });                        
                     });                  
