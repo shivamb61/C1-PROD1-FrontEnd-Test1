@@ -21,7 +21,7 @@ before_install:
   
 script:
   - grunt test --testParam="smokeTest"
-  - grunt test --testParam="selectVerify"
+  - grunt test --testParam="selectorVerify"
 
 notifications:
   email:

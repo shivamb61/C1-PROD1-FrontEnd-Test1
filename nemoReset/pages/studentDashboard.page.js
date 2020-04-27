@@ -41,7 +41,7 @@ module.exports = {
        cqapracticeextra:{
         // selector:'//*[contains(text(),"Practice Extra")]',
         // locateStrategy: 'xpath'
-        selector:".practice-image"
+        selector:".image-group .practice-image"
        },
        frameselec:{
           // selector:'.question-div .text-editor'
@@ -51,7 +51,13 @@ module.exports = {
            selector: ".courses .product-image"
        },
        analytics:{
-           selector:".analytic-box-container .analytic-content"
+           selector:".component-analytics .analytic-content"
+       },
+       myProgress: {
+           selector:".image-group .product-image"
+       },
+       collegeName: {
+           selector:".learner-analytics .user-info strong"
        }
  },
     commands: [
@@ -131,6 +137,26 @@ module.exports = {
             waitForAnalytic: function(){
                 this.api.useCss();
                 action.waitForElementVisible(this,this.elements.analytics.selector,50000);           
+            },
+            opneAnalytics:function(){
+                this.api.useCss();
+                action.click(this,this.elements.analytics.selector);
+            },
+            waitForProgressTile: function(){
+                this.api.useCss();
+                action.waitForElementVisible(this,this.elements.myProgress.selector,50000); 
+            },
+            openMyProgress: function(){
+                this.api.useCss();
+                action.click(this,this.elements.myProgress.selector);
+            },
+            waitForCollegeName: function() {
+                this.api.useCss();
+                action.waitForElementVisible(this,this.elements.collegeName.selector,50000);                
+            },
+            verifyCollegeName: function(cb) {
+                this.api.useCss();
+                action.getElementText(this,this.elements.collegeName.selector,cb);
             }
         }
 
