@@ -36,7 +36,7 @@ describe('Cambridge One APP', function () {
         // nemoLaunchPageObj.waitForLoginButtonToBePresent();
         // //Click login button
         // nemoLaunchPageObj.clickLogin();
-        //Create object for login page
+        //Create object for login page 
         nemoLoginPageObj = browser.page['login.page']();
         //Wait for login page
         //nemoLoginPageObj.waitForPageLoad();
