@@ -16,7 +16,7 @@ describe('Cambridge One APP', function () {
         nemoLaunchPageObj = browser.page['nemoLaunch.page']();
         //Launch nemo url
         nemoLaunchPageObj.navigate();
-        //Wait for the nemo launch page to appear
+        //Wait for the nemo launch page to appear 
         //nemoLaunchPageObj.waitForGetStartedButtonToAppear();
         browser.pause(3000);
         nemoLaunchPageObj.waitForLoginButtonToBePresent();  // changed to match alpha test
