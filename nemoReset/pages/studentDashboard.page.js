@@ -51,7 +51,7 @@ module.exports = {
            selector: ".courses .product-image"
        },
        analytics:{
-           selector:".component-analytics .analytic-content"
+           selector:".component-analytics .analytic-box"
        },
        myProgress: {
            selector:".image-group .product-image"
