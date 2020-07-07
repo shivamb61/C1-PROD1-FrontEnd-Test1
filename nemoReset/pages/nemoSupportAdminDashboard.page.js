@@ -35,12 +35,12 @@ module.exports = {
             waitForOktalogin:function(){
                 this.api.useCss();
                 actions.waitForElementVisible(this,this.elements.login_input.selector,50000);
-                actions.setValue(this,this.elements.login_input.selector,'anair@cambridge.org');
-                actions.setValue(this,this.elements.login_password.selector,'PrometheusNew123#');
+                actions.setValue(this,this.elements.login_input.selector,'mmehta');
+                actions.setValue(this,this.elements.login_password.selector,'4LSCudaypark#2');
                 actions.waitForElementVisible(this,this.elements.signin_submit.selector,50000);
                 actions.click(this,this.elements.signin_submit.selector);
                 actions.waitForElementVisible(this,this.elements.s_question.selector,50000);
-                actions.setValue(this,this.elements.s_question.selector,'ludlum');
+                actions.setValue(this,this.elements.s_question.selector,'bhiwani');
                 actions.waitForElementVisible(this,this.elements.verify_btn.selector,50000);
                 actions.click(this,this.elements.verify_btn.selector);
                 this.api.pause(10000);
