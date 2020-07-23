@@ -35,7 +35,7 @@ describe('Cambridge One APP', function () {
             console.log(result)
             console.log(result.value)
             console.log(result.value.length)
-            browser.switchWindow(result.value[1]);   
+            // browser.switchWindow(result.value[1]);   
             nemoSupportAdminDashboardPageObj = browser.page['nemoSupportAdminDashboard.page']();
             //Wait for okta login
             nemoSupportAdminDashboardPageObj.waitForOktalogin();       
