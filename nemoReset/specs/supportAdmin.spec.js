@@ -43,6 +43,7 @@ describe('Cambridge One APP', function () {
         //     nemoSupportAdminDashboardPageObj.waitForOktalogin();       
         // });
         browser.url('https://www.cambridgeone.org?p=@cambridge.org&t=saml');
+        browser.pause(10000);
         nemoSupportAdminDashboardPageObj.waitForSearchBox();
         // browser.window_handles(function(result) {
         //     browser.switchWindow(result.value[0]);  
