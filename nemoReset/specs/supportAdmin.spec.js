@@ -32,6 +32,9 @@ describe('Cambridge One APP', function () {
         browser.url('https://www.cambridgeone.org?p=@cambridge.org&t=saml');
         browser.pause(20000);
         browser.window_handles(function(result) {
+            console.log(result)
+            console.log(result.value)
+            console.log(result.value.length)
             browser.switchWindow(result.value[1]);   
             nemoSupportAdminDashboardPageObj = browser.page['nemoSupportAdminDashboard.page']();
             //Wait for okta login
@@ -39,6 +42,9 @@ describe('Cambridge One APP', function () {
         });
         browser.window_handles(function(result) {
             browser.switchWindow(result.value[0]);  
+            console.log(result)
+            console.log(result.value)
+            console.log(result.value.length)
             //Wait for search box
             nemoSupportAdminDashboardPageObj.waitForSearchBox();      
         });        
