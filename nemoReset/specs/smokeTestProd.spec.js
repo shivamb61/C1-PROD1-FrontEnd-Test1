@@ -74,7 +74,7 @@ describe('Cambridge One APP', function () {
 
     afterEach(function (browser, done) {
       //  take screenshot on every test completion
-        screenshots.takeScreenshot(browser);
+        // screenshots.takeScreenshot(browser);
         done();
         //Logout
         headerPageObj = browser.page['header.page']();
