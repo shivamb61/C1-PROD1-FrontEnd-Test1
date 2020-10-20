@@ -48,7 +48,7 @@ module.exports = {
           selector: "#studentAnswer-productiveSkill-input"
        },
        class2:{
-           selector: ".courses .product-image"
+           selector: "div.user-space-container > div:nth-child(3) .class-container .courses .product-image"
        },
        analytics:{
            selector:".component-analytics .analytic-box"
@@ -57,6 +57,9 @@ module.exports = {
     commands: [
         {
             waitForPageLoad: function(){
+              this.api.perform(function() {
+                  testlog.info("Waiting for Login Page to get loaded")
+              })
                 action.waitForElementVisible(this,'@welcome_msg',50000);
             },
             goToClass: function(){
@@ -114,21 +117,36 @@ module.exports = {
                 action.click(this,'@learnbtn');
             },
             waitForProductAppear: function(){
+              this.api.perform(function() {
+                  testlog.info("Waiting for Practice Extra Product to appear")
+              })
                 this.api.useCss();
                 action.waitForElementVisible(this,this.elements.cqapracticeextra.selector,50000);
             },
             practiceextraopen: function(){
+              this.api.perform(function() {
+                  testlog.info("Clicking Practice Extra")
+              })
                 action.click(this,'@cqapracticeextra');
             },
             waitForFrame: function(){
+              this.api.perform(function() {
+                  testlog.info("Waiting for PSkill page to get launched")
+              })
                 this.api.useCss();
                 action.waitForElementVisible(this,this.elements.frameselec.selector,50000);         
             },
             goToClass2: function(){
+              this.api.perform(function() {
+                  testlog.info("Moving to Class 2")
+              })
                 this.api.useCss();
                 action.click(this,this.elements.class2.selector);                
             },
             waitForAnalytic: function(){
+              this.api.perform(function() {
+                  testlog.info("Waiting for Analytics section to get launched")
+              })
                 this.api.useCss();
                 action.waitForElementVisible(this,this.elements.analytics.selector,50000);           
             }

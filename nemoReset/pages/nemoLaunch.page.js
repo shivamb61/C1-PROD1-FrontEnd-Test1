@@ -1,4 +1,5 @@
 var actions = require("./../lib/browserAction.js");
+require("./../lib/logging.js");
 
 module.exports = {
     url: function () {
@@ -29,10 +30,16 @@ module.exports = {
                 actions.click(this,this.elements.getStartedButton.selector)
             },
             waitForLoginButtonToBePresent: function(){
+                this.api.perform(function() {
+                    testlog.info("Waiting for Login button to be present")
+                })
                 this.api.useCss();
                 actions.waitForElementPresent(this,this.elements.logIn.selector,30000);
             },
             clickLogin: function(){
+                this.api.perform(function() {
+                    testlog.info("Clicking Login button")
+                })
                 this.api.useCss();
                 actions.click(this,this.elements.logIn.selector)
             }

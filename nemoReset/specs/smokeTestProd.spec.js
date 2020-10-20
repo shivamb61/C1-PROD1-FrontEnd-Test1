@@ -21,6 +21,7 @@ describe('Cambridge One APP', function () {
         browser.pause(3000);
         nemoLaunchPageObj.waitForLoginButtonToBePresent();  // changed to match alpha test
         nemoLaunchPageObj.clickLogin();
+        browser.pause(3000);
         //Wait for login button
         //nemoLaunchPageObj.waitForLoginButtonToBePresent();
         //Create object for login page
@@ -80,6 +81,7 @@ describe('Cambridge One APP', function () {
         headerPageObj.clickUserProfileDropdown();
         headerPageObj.waitForLogoutToAppear();
         headerPageObj.clickLogout();
+        browser.pause(5000);
         nemoLaunchPageObj.waitForLoginButtonToBePresent();
         done();
     });
