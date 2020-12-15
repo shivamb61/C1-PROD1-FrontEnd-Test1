@@ -45,7 +45,7 @@ module.exports = {
        },
        frameselec:{
           // selector:'.question-div .text-editor'
-          selector: "#studentAnswer-productiveSkill-input"
+          selector: "#quill-container-pskill"
        },
        class2:{
            selector: "div.user-space-container > div:nth-child(3) .class-container .courses .product-image"
