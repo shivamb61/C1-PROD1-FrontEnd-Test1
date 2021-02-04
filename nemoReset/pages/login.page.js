@@ -1,15 +1,23 @@
 var action = require('../lib/browserAction');
+require("./../lib/logging.js");
 
 var loginCommands = {
 
     waitForPageLoad: function(){
-        action.waitForElementVisible(this,'@username',25000);
+        this.api.perform(function() {
+            testlog.info("Waiting for Login Page to get loaded")
+        })
+        action.waitForElementVisible(this,this.elements.username.selector,25000);
     },
     login: function(username,password)
     {
-        action.setValue(this,'@username',username);
-        action.setValue(this,'@password',password);
-        action.click(this,'@submitButton');
+        this.api.perform(function() {
+            testlog.info("Entering login details")
+        })
+        action.waitForElementVisible(this,this.elements.username.selector,25000);
+        action.setValue(this,this.elements.username.selector,username);
+        action.setValue(this,this.elements.password.selector,password);
+        action.click(this,this.elements.submitButton.selector);
     },
     LoginWithGoogleOption: function() {
         action.waitForElementVisible(this,this.elements.googleOption.selector,50000);

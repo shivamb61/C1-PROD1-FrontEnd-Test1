@@ -1,4 +1,5 @@
 var action = require("../lib/browserAction.js");
+require("../lib/logging.js");
 var format = require("string-template");
 
 module.exports = {
@@ -170,6 +171,9 @@ module.exports = {
               //  action.waitForElementVisible(this,'@header',25000);
             },
             goback: function(){
+                this.api.perform(function() {
+                  testlog.info("Going back to previous page")
+                })
                 this.api.useCss();
                 action.click(this,this.elements.gobacksele.selector);
             },

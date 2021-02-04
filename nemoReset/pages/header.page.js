@@ -1,4 +1,5 @@
 var actions = require("./../lib/browserAction.js");
+require("./../lib/logging.js");
 
 module.exports = {
     elements: {
@@ -19,14 +20,23 @@ module.exports = {
     commands: [
         {
             clickUserProfileDropdown: function(){
+                this.api.perform(function() {
+                    testlog.info("Clicking User Profile dropdown")
+                })
                 this.api.useCss();
                 actions.click(this,this.elements.userProfileDropdown.selector);
             },
             waitForLogoutToAppear: function(){
+                this.api.perform(function() {
+                    testlog.info("Waiting for Logout button to appear")
+                })
                 this.api.useCss();
                 actions.waitForElementVisible(this,this.elements.logout.selector,30000);
             },
             clickLogout: function(){
+                this.api.perform(function() {
+                    testlog.info("Clicking Logout button")
+                })
                 this.api.useCss();
                 actions.click(this,this.elements.logout.selector);
             },
