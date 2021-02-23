@@ -41,7 +41,7 @@ describe('Cambridge One APP', function () {
         nemoLoginPageObj = browser.page['login.page']();
         //Wait for login page
         //nemoLoginPageObj.waitForPageLoad();
-        nemoLoginPageObj.login('cqastudent10@yopmail.com',password);
+        nemoLoginPageObj.login('cqa_c1healthcheck@yopmail.com',password);
         studentDashboard = browser.page['studentDashboard.page']();
         studentDashboard.waitForProductAppear();
         studentDashboard.practiceextraopen();

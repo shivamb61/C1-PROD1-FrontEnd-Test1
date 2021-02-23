@@ -48,7 +48,7 @@ module.exports = {
           selector: "#quill-container-pskill"
        },
        class2:{
-           selector: "div.user-space-container > div:nth-child(3) .class-container .courses .product-image"
+           selector: "div.user-space-container > div:nth-child(2) .class-container .courses .product-image"
        },
        analytics:{
            selector:".component-analytics .analytic-box"
