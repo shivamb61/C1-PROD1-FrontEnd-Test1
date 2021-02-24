@@ -50,7 +50,7 @@ test ={
         },
         teacher: {
             //username: "priyatest22@yopmail.com",
-            password: "Compro15",
+            password: "Compro21",
            // password_admin='#compro@1254',
             classname: "Automation Test Class1",
             percentage: '80%',
