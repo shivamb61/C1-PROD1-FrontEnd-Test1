@@ -63,7 +63,7 @@ describe('Cambridge One APP', function () {
         nemoAdminDashboardPageObj = browser.page['nemoAdminDashboard.page']();
         nemoAdminDashboardPageObj.waitForTabs();
         //count of tabs
-        browser.elements('css selector',".my-spaces .flex-wrap .flex-column",function(result){   //Need to change the selector for teacher/admin
+        browser.elements('css selector',"li.nav-item",function(result){   //Need to change the selector for teacher/admin
             if(result.value.length !=5)
             {
                 browser.assert.fail('Tabs Count do not match');
