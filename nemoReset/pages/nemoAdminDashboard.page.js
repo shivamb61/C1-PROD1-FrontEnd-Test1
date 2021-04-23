@@ -5,7 +5,7 @@ var format = require("string-template");
 module.exports = {
     elements: {
         tabsContainer:{
-            selector:'.my-spaces .flex-wrap'
+            selector:'li.nav-item'
         }
     },
     commands: [
