@@ -15,7 +15,11 @@ describe('Cambridge One APP', function () {
         //Create object of nemo launch page
         nemoLaunchPageObj = browser.page['nemoLaunch.page']();
         //Launch nemo url
+        console.log("Launching URL: " + browser.globals.test.launchUrl)
         nemoLaunchPageObj.navigate();
+        browser.perform(function() {
+            testlog.info("URL: " + browser.globals.test.launchUrl + " launched successfully")
+        })
         //Wait for the nemo launch page to appear
         //nemoLaunchPageObj.waitForGetStartedButtonToAppear();
         browser.pause(3000);

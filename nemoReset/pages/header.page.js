@@ -24,21 +24,34 @@ module.exports = {
                     testlog.info("Clicking User Profile dropdown")
                 })
                 this.api.useCss();
-                actions.click(this,this.elements.userProfileDropdown.selector);
+                this.api.click(this.elements.userProfileDropdown.selector, function(result) {
+                    this.assert.equal(result.status, 0, "User Profile dropdown button is not clickable");
+                })
+                this.api.perform(function() {
+                    testlog.info("User Profile dropdown is clicked successfully")
+                })
             },
             waitForLogoutToAppear: function(){
                 this.api.perform(function() {
                     testlog.info("Waiting for Logout button to appear")
                 })
                 this.api.useCss();
-                actions.waitForElementVisible(this,this.elements.logout.selector,30000);
+                this.api.waitForElementVisible(this.elements.logout.selector,30000,"Logout button is not visible");
+                this.api.perform(function() {
+                    testlog.info("Logout button is visible")
+                })
             },
             clickLogout: function(){
                 this.api.perform(function() {
                     testlog.info("Clicking Logout button")
                 })
                 this.api.useCss();
-                actions.click(this,this.elements.logout.selector);
+                this.api.click(this.elements.logout.selector, function(result) {
+                    this.assert.equal(result.status, 0, "Logout Button is not clickable");
+                })
+                this.api.perform(function() {
+                    testlog.info("Logout button is clicked successfully")
+                })
             },
             waitForLogoToAppear: function(){
                 this.api.useCss();

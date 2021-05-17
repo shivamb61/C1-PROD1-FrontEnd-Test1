@@ -172,10 +172,15 @@ module.exports = {
             },
             goback: function(){
                 this.api.perform(function() {
-                  testlog.info("Going back to previous page")
+                  testlog.info("Clicking on Go Back button")
                 })
                 this.api.useCss();
-                action.click(this,this.elements.gobacksele.selector);
+                this.api.click(this.elements.gobacksele.selector, function(result) {
+                    this.assert.equal(result.status, 0, "Go Back button is not clickable");
+                })
+                this.api.perform(function() {
+                  testlog.info("Go Back button is clicked successfully")
+                })
             },
             openPS: function(psskill){
                 action.click(this,'@unitsix');
@@ -274,8 +279,14 @@ module.exports = {
                 action.setValue(this,select,inputText);
             },
             waitForFrame: function(){
+                this.api.perform(function() {
+                  testlog.info("Waiting for Frame to appear on Learning Product Page")
+              })
                 this.api.useCss();
-                action.waitForElementVisible(this,this.elements.iframe1.selector,50000);
+                this.api.waitForElementVisible(this.elements.iframe1.selector,50000,"Frame is not visible on Learning Product Page");
+                this.api.perform(function() {
+                  testlog.info("Frame is visible on Learning Product Page")
+              })
             },
             waitinput1: function(){                   
                 this.api.useXpath();
