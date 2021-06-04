@@ -29,12 +29,19 @@ describe('Cambridge One APP', function () {
     });
 
     it('Support-Admin Login and access dashboard', function (browser) {
-        browser.url('https://cup.okta.com/login/login.htm?fromURI=%2Fapp%2Fcambridgeuniversitypress_gigyapressplatformlive_1%2Fexk9v6qlr1h0yk6MT1t7%2Fsso%2Fsaml%3FSAMLRequest%3DtZJBj9owEIX%252FSpQ7cZxQKBYgRcu2ZAsLBdrSXtDgOOAlsY3HYeHfN8mq7e6hvfVmjebpfW%252BehwhlYVhSuaNaiXMl0HnpZOQf5OEGUTcWeR5RiPc0gy7kA4CQcujtRQxZxjMavve9r8Ki1GrkR0HoeyliJVKFDpSrR2EUdsJ%252BJ4o3YY%252B967GoG0SDH743qY2kAtcKj84ZZITwygT65CDguiRgDOFQ7q3MDqJS8tLYuJuxAnHX4rVPU4DLtS2LemFHibieBpfeubD0GN5OvfmGuj5B1KTJ6XsftOWiDTvycyhQNMBLQKzVvycJorAN2Z1WWJXCroW9SC6%252BrGZ%252FWHOZlYGoaNCitMSNBbnUVyDx7nFL7eJpnu4fktVerWe3xT2X5%252Ftusgk%252FHfW37WfI%252B6dtuozpcnE9Tul3mkwn8PRxOjW7wRYfCBoCHH3vWhYKWdvSyK%252BsYhpQIlNQCmSOs3Uyn7Hakxmrnea68MfDZpu1RdhX%252Bn%252FL4Vdof%252Fwm4v%252BJNySvGF%252BADXusodLJUheS35qmSnB%252FZ6YBbScy6%252BTtKqsUGsFlLkVWd1gU%252BvnOCnB1r85Wda1k%252FOL69rePfwI%253D%26RelayState%3Dtk1.OQrQt_9PoFOeMFHd_AFmt87yma00SOepxlogCzHJ1sw%26SigAlg%3Dhttp%253A%252F%252Fwww.w3.org%252F2000%252F09%252Fxmldsig%2523rsa-sha1%26Signature%3DKgsu0IU6PtrJfXVRDH8vpK9SzlxY3nK7uImpA22naCoyNSBUSpTlAUDwefyo6cp2V91IPlvzbIG%252FsyGXGfIsYOsYsgeAkgHO45%252BVBrFtOvINRwCsJHI7Cz9Z1%252BkQcZZmcAEpmZyScCUU1q8NNgKoKc8%252FvRhAOmgexzF95XTtPiOsLb%252Fo9BwltcEv1TotRt0G11Wp261joPtuvsR7N6e7AJFGhnaU3Ez3jfEHr6PlWbCcEHmuR557iM5J%252F7lVGnEiGUSBV1OpoYZdsh2UdVTdbgb6n2FSNlsQw3221jYkJU2g2FQxT%252B8qgivqtk%252FpYexhj6jbCkEvhQz9Btgi%252F8w3Ww%253D%253D');
-        browser.pause(20000);
-        nemoSupportAdminDashboardPageObj = browser.page['nemoSupportAdminDashboard.page']();
-        nemoSupportAdminDashboardPageObj.waitForOktalogin();
         browser.url('https://www.cambridgeone.org?p=@cambridge.org&t=saml');
         browser.pause(20000);
+        browser.window_handles(function(result) {
+            var handle = result.value[1];
+            browser.switchWindow(handle);
+        });
+        nemoSupportAdminDashboardPageObj = browser.page['nemoSupportAdminDashboard.page']();
+        nemoSupportAdminDashboardPageObj.waitForOktalogin();
+        browser.pause(20000);
+        browser.window_handles(function(result) {
+            var handle = result.value[0];
+            browser.switchWindow(handle);
+        });
         nemoSupportAdminDashboardPageObj.waitForSearchBox();                
     }); 
 
