@@ -23,23 +23,25 @@ module.exports = function (grunt) {
                 page_objects_path : './nemoReset/pages/',   // path where page object files will be loaded from. Update the path based on your application
                 globals_path : './nemoReset/config/index.js', // path of an external globals module which will be loaded and made available to the test as a property globals on the main client instance. Update the path based on your application
                 test_runner : {
-                    type : 'mocha',
-                    options : {
-                        ui : 'bdd',
-                        reporter : 'mochawesome',
-                        reporterOptions: {
-                            reportName: 'index',
-                            reportDir: './reports'
-                        }
-                    }},
+                    type : 'mocha'
+                    // options : {
+                    //     ui : 'bdd',
+                    //     reporter : 'mochawesome',
+                    //     reporterOptions: {
+                    //         reportName: 'index',
+                    //         reportDir: './reports'
+                    //     }
+                    // }
+                },
                 test_settings : {
                     chrome: {selenium_host : '127.0.0.1',
                         selenium_port : 5554,
-                        end_session_on_fail: false,
+                        end_session_on_fail: true,
                         screenshots : {
                             enabled : true,
-                            on_failure : false,
-                            path : 'screenshots'
+                            on_failure : true,
+                            on_error : true,
+                            path : './screenshots'
                         },
 
                         desiredCapabilities : {       // specify browser name along with other capabilities
@@ -110,12 +112,13 @@ module.exports = function (grunt) {
                         }},
                         smokeTest: {selenium_host : '127.0.0.1',
                         selenium_port : 5554,
-                        end_session_on_fail: false,
+                        end_session_on_fail: true,
                         src_folders : ['./nemoReset/specs/smokeTestProd.spec.js'], // Update the path based on your application
                         screenshots : {
                             enabled : true,
-                            on_failure : false,
-                            path : 'screenshots'
+                            on_failure : true,
+                            on_error : true,
+                            path : './screenshots'
                         },
                         desiredCapabilities : {  // specify browser name along with other capabilities
                             browserName : 'chrome',
@@ -123,7 +126,7 @@ module.exports = function (grunt) {
                             acceptSslCerts : true,
                             'chromeOptions' : {
                                  //"args" : ['headless']
-                                "args" : ['start-maximized']                                
+                                "args" : ['start-maximized', 'headless', 'no-sandbox', 'disable-dev-shm-usage']                                
                             }},
                         cli_args : {
                           //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
